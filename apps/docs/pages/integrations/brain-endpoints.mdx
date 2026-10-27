@@ -1,0 +1,67 @@
+# Brain Endpoints
+
+A Brain Endpoint publishes one knowledge graph as a key-protected REST API and Model Context Protocol (MCP) server. Create and manage endpoints from the Brain Endpoints workspace panel.
+
+## Security model
+
+Each endpoint has a generated key embedded in its URL path:
+
+~~~
+https://YOUR_HOST/api/brain/BRN_KEY/ask
+https://YOUR_HOST/api/brain/BRN_KEY/mcp
+~~~
+
+Treat the key as a secret. Store it in an application secret manager, restrict it to the necessary graph, rotate it if exposed, and delete the endpoint when it is no longer needed.
+
+## REST API
+
+### Ask a natural-language question
+
+~~~bash
+curl -X POST "https://YOUR_HOST/api/brain/BRN_KEY/ask" \
+  -H "Content-Type: application/json" \
+  -d '{"question":"Which organizations are mentioned in this graph?"}'
+~~~
+
+~~~json
+{
+  "answer": "A concise answer based on the graph.",
+  "cypher": "MATCH ...",
+  "resultCount": 3
+}
+~~~
+
+The endpoint must have natural-language queries enabled. Invalid or expired keys return 401; disabled natural-language queries return 403; a missing question returns 400.
+
+### Run Cypher
+
+~~~bash
+curl -X POST "https://YOUR_HOST/api/brain/BRN_KEY/cypher" \
+  -H "Content-Type: application/json" \
+  -d '{"query":"MATCH (n) RETURN labels(n), count(*) LIMIT 20"}'
+~~~
+
+Raw Cypher is available only when the endpoint was created with Cypher passthrough enabled. Keep it disabled unless the integrating service truly requires it.
+
+### Check health and schema
+
+~~~bash
+curl "https://YOUR_HOST/api/brain/BRN_KEY/health"
+curl "https://YOUR_HOST/api/brain/BRN_KEY/schema"
+~~~
+
+Health returns the bound knowledge base, graph counts, available tools, and an empty-graph warning. Schema returns entity/relationship totals and type-count maps.
+
+## MCP
+
+Use the Streamable HTTP MCP URL:
+
+~~~
+https://YOUR_HOST/api/brain/BRN_KEY/mcp
+~~~
+
+A published endpoint exposes ask, entity_lookup, and traverse; cypher is included only when raw Cypher is allowed. The graph://schema MCP resource returns graph type and count data.
+
+The service also supports an SSE compatibility path at /api/brain/BRN_KEY/sse with messages posted to /api/brain/BRN_KEY/messages. Prefer Streamable HTTP for new MCP clients.
+
+Authenticated workspace users can list, create, update, delete, and rotate their own endpoints at /api/brain-endpoints. Those management APIs are not a public integration contract.

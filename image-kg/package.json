@@ -1,0 +1,33 @@
+{
+  "name": "image-kg",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Wtr.Vision-KG — Image-to-Knowledge-Graph service. Ingests a single image, extracts objects + relationships with GPT-5 Vision (open AI-chosen category/name + full provenance), and writes a deterministic, MERGE-based graph into the co-located wtrdb-v2 FalkorDB + Postgres so it is viewable/queryable in v2's existing UI. Does NOT modify v2.",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "ingest": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ioredis": "^5.4.2",
+    "jsonwebtoken": "^9.0.2",
+    "openai": "^4.77.3",
+    "pg": "^8.13.1",
+    "sharp": "^0.33.5",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.10.2",
+    "@types/pg": "^8.11.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

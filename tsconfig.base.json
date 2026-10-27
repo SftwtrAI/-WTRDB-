@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "incremental": true,
+    "rootDir": ".",
+    "strict": true,
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "downlevelIteration": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@wtrops/shared": ["libs/shared/src/index.ts"],
+      "@wtrops/core": ["libs/core/src/index.ts"],
+      "@/*": ["apps/client/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "tmp"]
+}

@@ -1,0 +1,2461 @@
+{
+  "common": {
+    "loading": "Laddar...",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "delete": "Ta bort",
+    "edit": "Redigera",
+    "create": "Skapa",
+    "add": "Lägg till",
+    "remove": "Ta bort",
+    "close": "Stäng",
+    "confirm": "Bekräfta",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "submit": "Skicka",
+    "search": "Sök",
+    "filter": "Filtrera",
+    "clear": "Rensa",
+    "refresh": "Uppdatera",
+    "export": "Exportera",
+    "import": "Importera",
+    "download": "Ladda ner",
+    "upload": "Ladda upp",
+    "view": "Visa",
+    "viewAll": "Visa alla",
+    "actions": "Åtgärder",
+    "status": "Status",
+    "name": "Namn",
+    "email": "E-post",
+    "password": "Lösenord",
+    "description": "Beskrivning",
+    "date": "Datum",
+    "time": "Tid",
+    "type": "Typ",
+    "total": "Totalt",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "enabled": "Aktiverad",
+    "disabled": "Inaktiverad",
+    "yes": "Ja",
+    "no": "Nej",
+    "all": "Alla",
+    "none": "Ingen",
+    "success": "Framgång",
+    "error": "Fel",
+    "warning": "Varning",
+    "info": "Information",
+    "noData": "Ingen data tillgänglig",
+    "noResults": "Inga resultat hittades",
+    "required": "Obligatorisk",
+    "optional": "Valfri",
+    "minutes": "minuter",
+    "seconds": "sekunder",
+    "hours": "timmar",
+    "days": "dagar",
+    "thisWeek": "Denna vecka",
+    "today": "Idag",
+    "yesterday": "Igår",
+    "ago": "sedan",
+    "settings": "Inställningar",
+    "help": "Hjälp",
+    "language": "Språk",
+    "selectLanguage": "Välj språk"
+  },
+  "auth": {
+    "login": "Logga in",
+    "logout": "Logga ut",
+    "register": "Registrera",
+    "signIn": "Logga in",
+    "signUp": "Registrera dig",
+    "signOut": "Logga ut",
+    "getStarted": "Kom igång",
+    "getStartedFree": "Kom igång gratis",
+    "welcomeBack": "Välkommen tillbaka!",
+    "loggedInAs": "Inloggad som {{name}}",
+    "loginFailed": "Inloggning misslyckades",
+    "registrationFailed": "Registrering misslyckades",
+    "accountCreated": "Konto skapat!",
+    "welcome": "Välkommen, {{name}}",
+    "loggingIn": "Loggar in...",
+    "fullName": "Fullständigt namn",
+    "emailPlaceholder": "din@email.se",
+    "namePlaceholder": "Erik Svensson",
+    "platform": "Wtrops samtalsplattform",
+    "accessCampaigns": "Logga in för att komma åt dina AI-samtalskampanjer",
+    "sendVerificationCode": "Fortsätt",
+    "sendingCode": "Skickar verifieringskod...",
+    "checkEmail": "Kontrollera din e-post",
+    "verificationSent": "Vi har skickat en verifieringskod till",
+    "verificationCode": "Verifieringskod",
+    "codeExpires": "Koden går ut om",
+    "verifyAndCreate": "Verifiera och skapa konto",
+    "verifying": "Verifierar...",
+    "resendCode": "Skicka igen",
+    "resendIn": "Skicka igen om {{seconds}}s",
+    "codeSent": "Verifieringskod skickad",
+    "checkEmailAt": "Kontrollera din e-post på {{email}}",
+    "codeResent": "Kod skickad igen",
+    "newCodeSent": "En ny verifieringskod har skickats till din e-post",
+    "failedToSend": "Kunde inte skicka kod",
+    "failedToResend": "Kunde inte skicka kod igen",
+    "verificationFailed": "Verifiering misslyckades",
+    "invalidCode": "Ogiltig verifieringskod"
+  },
+  "nav": {
+    "home": "Hem",
+    "dashboard": "Kontrollpanel",
+    "campaigns": "Kampanjer",
+    "agents": "Agenter",
+    "knowledgeBase": "Kunskapsbas",
+    "voices": "Röster",
+    "allContacts": "Alla kontakter",
+    "calls": "Samtal",
+    "analytics": "Analys",
+    "phoneNumbers": "Telefonnummer",
+    "incomingConnections": "Inkommande anslutningar",
+    "flowBuilder": "Flödesbyggare",
+    "executionLogs": "Körningsloggar",
+    "webhooks": "Webhooks",
+    "forms": "Formulär",
+    "appointments": "Bokningar",
+    "templates": "Mallar",
+    "upgradePlan": "Uppgradera plan",
+    "billingCredits": "Fakturering och krediter",
+    "administration": "Administration",
+    "adminDashboard": "Admin-kontrollpanel",
+    "accountSettings": "Kontoinställningar"
+  },
+  "sidebar": {
+    "build": "Bygg",
+    "evaluate": "Utvärdera",
+    "telephony": "Telefoni",
+    "flowAutomation": "Flödesautomatisering",
+    "billing": "Fakturering",
+    "credits": "Krediter",
+    "pro": "Pro",
+    "proMember": "Pro-medlem",
+    "upgrade": "Uppgradera",
+    "myWorkspace": "Min arbetsyta"
+  },
+  "dashboard": {
+    "greeting": {
+      "morning": "God morgon",
+      "afternoon": "God eftermiddag",
+      "evening": "God kväll",
+      "default": "Välkommen tillbaka"
+    },
+    "subtitle": "Här är vad som händer med dina kampanjer idag",
+    "quickActions": "Snabbåtgärder",
+    "createCampaign": "Skapa kampanj",
+    "createAgent": "Skapa agent",
+    "flowBuilder": "Flödesbyggare",
+    "totalCalls": "Totalt antal samtal",
+    "incomingCalls": "Inkommande samtal",
+    "outgoingCalls": "Utgående samtal",
+    "contacts": "Kontakter",
+    "campaignsCard": "Kampanjer",
+    "success": "framgång",
+    "avg": "Genomsn.",
+    "campaigns": "kampanjer",
+    "callActivity": "Samtalsaktivitet",
+    "allCalls": "Alla samtal",
+    "incoming": "Inkommande",
+    "outgoing": "Utgående",
+    "noCallData": "Ingen samtalsdata denna vecka",
+    "leadDistribution": "Lead-fördelning",
+    "hot": "Het",
+    "warm": "Varm",
+    "cold": "Kall",
+    "lost": "Förlorad",
+    "noLeadData": "Ingen lead-data tillgänglig",
+    "recentCalls": "Senaste samtal",
+    "unknown": "Okänd",
+    "noRecentCalls": "Inga senaste samtal",
+    "recentUsers": "Senaste användare",
+    "leadSummary": "Lead-sammanfattning",
+    "registeredAgo": "Registrerad {{time}}",
+    "noLeads": "Inga klassificerade leads ännu",
+    "startCampaign": "Starta en kampanj för att se lead-fördelning"
+  },
+  "landing": {
+    "features": "Funktioner",
+    "useCases": "Användningsfall",
+    "pricing": "Prissättning",
+    "customers": "Kunder",
+    "poweredBy": "Drivs av ElevenLabs & Twilio AI",
+    "heroTitle1": "Förstärk dina",
+    "heroTitle2": "samtalsoperationer",
+    "heroTitle3": "med röst-AI-agenter",
+    "heroSubtitle": "Upptäck det nya sättet att bygga, distribuera och övervaka produktionsklara AI-röstagenter i stor skala.",
+    "tryForFree": "Prova gratis",
+    "watchDemo": "Se demo",
+    "noCreditCard": "Inget kreditkort krävs",
+    "freePlanForever": "Gratis plan för alltid",
+    "setupMinutes": "Installation på 5 minuter",
+    "aiTechnology": "AI-driven teknik",
+    "builtForFuture": "Byggd för kommunikationens framtid",
+    "experienceTech": "Upplev banbrytande AI-teknik som förändrar hur företag kommunicerar",
+    "advancedAI": "Avancerad AI-intelligens",
+    "advancedAIDesc": "Naturlig språkförståelse driven av toppmoderna språkmodeller",
+    "humanLikeVoices": "Människoliknande röster",
+    "humanLikeVoicesDesc": "Ultrarealistisk röstsyntes som låter naturlig och engagerande",
+    "realTimeProcessing": "Realtidsbearbetning",
+    "realTimeProcessingDesc": "Omedelbara svarstider med latens under en sekund för smidiga konversationer",
+    "howItWorks": "Hur det fungerar",
+    "getStartedSteps": "Kom igång i tre enkla steg",
+    "build": "Bygg",
+    "buildDesc": "Använd vår intuitiva agentbyggare för att enkelt skapa anpassade röst-AI-uppringare med professionella mallar.",
+    "deploy": "Distribuera",
+    "deployDesc": "Distribuera enkelt dina agenter för AI-telefonsamtal, kampanjer och automatiserad uppsökning med ett klick.",
+    "monitor": "Övervaka",
+    "monitorDesc": "Spåra framgångsfrekvenser, samtalsmetriker och användarsentiment genom omfattande realtidsanalys-dashboards.",
+    "powerfulFeatures": "Kraftfulla röst-AI-agentfunktioner",
+    "everythingYouNeed": "Allt du behöver för att skapa, distribuera och hantera röst-AI-agenter",
+    "autoSyncKnowledge": "Auto-synk kunskapsbas",
+    "autoSyncKnowledgeDesc": "Dina AI-agenter håller sig uppdaterade genom att synkronisera direkt med ditt företags kunskapsbas. Inga manuella uppdateringar krävs.",
+    "callTransfer": "Kraftfull samtalsöverföringsfunktion",
+    "callTransferDesc": "Ställ enkelt in varma överföringar med överlämningsmeddelanden så att nästa agent alltid är förberedd.",
+    "easyAppointment": "Enkel bokning",
+    "easyAppointmentDesc": "Låt dina AI-telefonagenter schemalägga möten på några sekunder med enkelt, naturligt språk.",
+    "realTimeAnalytics": "Realtidsanalys",
+    "realTimeAnalyticsDesc": "Spåra samtalsmetriker, framgångsfrekvenser och kundsentiment genom omfattande dashboards.",
+    "naturalVoice": "Naturliga röstkonversationer",
+    "naturalVoiceDesc": "Människoliknande AI-röster från ElevenLabs levererar sömlösa, naturliga konversationer som kunderna älskar.",
+    "intelligentLead": "Intelligent lead-scoring",
+    "intelligentLeadDesc": "Klassificera automatiskt leads som heta, varma, kalla eller förlorade baserat på konversationsanalys och sentiment.",
+    "transformInteraction": "Transformera varje kundinteraktion",
+    "discoverUseCases": "Upptäck hur röst-AI-agenter förbättrar din affärskommunikation",
+    "receptionist": "Receptionist",
+    "receptionistDesc": "Hantera inkommande samtal, svara på vanliga frågor och dirigera samtal till rätt avdelning",
+    "appointmentSetter": "Bokningsschemaläggare",
+    "appointmentSetterDesc": "Schemalägg automatiskt möten med kvalificerade prospekt",
+    "leadQualification": "Lead-kvalificering",
+    "leadQualificationDesc": "Screena och kvalificera leads innan de skickas till ditt säljteam",
+    "survey": "Undersökning",
+    "surveyDesc": "Samla in kundfeedback och insikter i stor skala",
+    "customerService": "Kundtjänst",
+    "customerServiceDesc": "Ge support dygnet runt och lös vanliga kundproblem",
+    "navbar": {
+      "features": "Funktioner",
+      "useCases": "Användningsfall",
+      "pricing": "Prissättning",
+      "integrations": "Integrationer",
+      "blog": "Blogg",
+      "contact": "Kontakt",
+      "login": "LOGGA IN",
+      "language": "Språk"
+    },
+    "hero": {
+      "badge": "No-code AI-röstmotor",
+      "headline": "AI RÖST-AGENTER FÖR",
+      "rotatingWords": {
+        "sales": "Försäljning",
+        "support": "Support",
+        "outreach": "Uppsökning",
+        "appointments": "Bokningar"
+      },
+      "subheadline": "Skapa människoliknande AI-röstagenter för att hantera utgående och inkommande samtal, boka möten och utföra åtgärder dygnet runt.",
+      "humanLike": "Människoliknande",
+      "statsProductivity": "Produktivitet",
+      "statsScalability": "Skalbarhet",
+      "getStarted": "KOM IGÅNG",
+      "freeTrial": "14 dagars gratis provperiod",
+      "freeCredit": "Gratis $10 kredit"
+    },
+    "footer": {
+      "product": "Produkt",
+      "resources": "Resurser",
+      "contactTitle": "Kontakt",
+      "newsletter": "Prenumerera på vårt nyhetsbrev",
+      "emailPlaceholder": "Ange din e-post",
+      "thankYou": "Tack för din prenumeration!",
+      "thankYouDesc": "Du kommer att få våra senaste uppdateringar och tips.",
+      "copyright": "Alla rättigheter förbehållna.",
+      "privacy": "Integritet",
+      "terms": "Villkor",
+      "cookies": "Cookies",
+      "features": "Funktioner",
+      "useCases": "Användningsfall",
+      "pricing": "Prissättning",
+      "integrations": "Integrationer",
+      "blog": "Blogg",
+      "contact": "Kontakt",
+      "privacyPolicy": "Integritetspolicy",
+      "termsOfService": "Användarvillkor"
+    },
+    "featureSection": {
+      "title": "Bygg AI-röstassistenter som arbetar för dig dygnet runt",
+      "capabilities": {
+        "bookMeetings": "Boka möten",
+        "conductInterviews": "Genomför intervjuer",
+        "coldCallProspects": "Cold call-prospekt",
+        "offerSupport": "Erbjud support"
+      },
+      "feature1": {
+        "title": "Människoliknande röst-agenter",
+        "description": "Skapa enkelt din AI-agent genom att ge den ett namn, välja språk och accent, och ställa in den för att hantera uppgifter:",
+        "bullet1": "Träna AI-agenter direkt med din data",
+        "bullet2": "Distribuera snabbt med no-code-plattform",
+        "bullet3": "Automatisera kundinteraktioner"
+      },
+      "feature2": {
+        "title": "Låt AI hantera dina samtal",
+        "description": "Hantera utgående samtal, svara på inkommande samtal och schemalägg bokningar dygnet runt. Välj din lista eller ladda upp kontakter, ställ in ett schema och kör!",
+        "bullet1": "Utgående samtal",
+        "bullet2": "Inkommande samtal"
+      },
+      "feature3": {
+        "title": "Engagera & konvertera",
+        "description": "Anslut till kunder på det mest människoliknande sättet möjligt, automatisera uppgifter och förbättra dina uppsökningsinsatser.",
+        "bullet1": "Automatisera lead-kvalificering och uppföljningar",
+        "bullet2": "Öka evenemangsdeltagande med AI-inbjudningar",
+        "bullet3": "Tillhandahåll AI-kundsupport dygnet runt",
+        "bullet4": "Använd AI för att automatisera sökandintervjuer"
+      },
+      "mockup": {
+        "language": "Engelska (Singapore)",
+        "voice": "Röst: Brian",
+        "stability": "Stabilitet",
+        "speed": "Hastighet",
+        "diarization": "Diarization",
+        "createAgent": "Skapa agent",
+        "selectAgent": "Välj agent",
+        "outboundCall": "Utgående samtal",
+        "startDate": "Start: 2024-01-05",
+        "endDate": "Slut: 2024-05-20",
+        "selectList": "Välj lista",
+        "collectContactDetails": "Samla kontaktuppgifter",
+        "bookAppointments": "Boka möten",
+        "qualifyLeads": "Kvalificera leads"
+      },
+      "getStarted": "KOM IGÅNG",
+      "freeTrial": "14 dagars gratis provperiod",
+      "freeCredit": "Gratis $10 kredit"
+    },
+    "actionCards": {
+      "title": "Automatisera uppgifter & åtgärder",
+      "description": "Konfigurera AI-agenter för att automatisera en mängd olika uppgifter och åtgärder, som:",
+      "cards": {
+        "sms": "Skicka SMS-meddelanden till kunder direkt under telefonsamtal",
+        "transfer": "Omdirigera eller överför samtal till en levande mänsklig agent",
+        "webhooks": "Samla kunddata och automatisera åtgärder med Zapier och webhooks",
+        "email": "Skicka e-post enkelt under eller efter ett samtal",
+        "whatsapp": "Skicka WhatsApp-meddelanden till kunder under telefonsamtal",
+        "appointments": "Schemalägg bokningar och skicka kalenderinbjudningar under samtalet"
+      },
+      "getStarted": "KOM IGÅNG",
+      "freeTrial": "14 dagars gratis provperiod",
+      "freeCredit": "Gratis $10 kredit"
+    },
+    "technology": {
+      "badge": "Exceptionell teknik",
+      "title": "Oöverträffad prestanda",
+      "benefits": {
+        "cutCosts": "Minska kostnader och spara tid på att anställa säljare",
+        "millionCalls": "Starta 1 miljon samtal per minut",
+        "reduceAttrition": "Minska personalomsättning och väntetid för samtal"
+      },
+      "features": {
+        "autopilot": {
+          "title": "Sätt dina samtal på autopilot",
+          "description": "Skicka automatiskt SMS, e-post, kalenderinbjudningar och mer"
+        },
+        "voiceCustomization": {
+          "title": "Röstanpassning",
+          "description": "Anpassa enkelt talhastighet, tempo och tålamodsnivå"
+        },
+        "sentimentAnalysis": {
+          "title": "Sentimentanalys",
+          "description": "Förbättra CX med avancerad sentimentanalys och rösthantering"
+        },
+        "diarization": {
+          "title": "Diarization",
+          "description": "Hantera avbrott och upptäck konversationsslut"
+        },
+        "globalConversations": {
+          "title": "Globala konversationer",
+          "description": "Engagera med dina kunder på 30+ språk"
+        },
+        "realTimeBookings": {
+          "title": "Bokningar i realtid",
+          "description": "Bestäm tillgänglighet i realtid och schemalägg möten direkt"
+        }
+      },
+      "getStarted": "KOM IGÅNG",
+      "freeTrial": "14 dagars gratis provperiod",
+      "freeCredit": "Gratis $10 kredit"
+    },
+    "featuresShowcase": {
+      "title": "Kraftfull röstanslutning för",
+      "titleHighlight": "AI-drivna konversationer",
+      "description": "AI-agenter som ansluter till kunder globalt genom pålitliga, högkvalitativa röstinteraktioner—allt drivet av premiumsamtalsinfrastruktur.",
+      "globalReach": "Global räckvidd",
+      "reliableCalls": "Pålitliga samtal",
+      "aiAutomation": "AI & automatiseringsfunktioner",
+      "features": {
+        "seamlessInbound": {
+          "title": "Sömlösa inkommande samtal i 100+ länder",
+          "description": "Använd lokala telefonnummer i 100+ länder för att göra det enkelt för kunder att nå dig."
+        },
+        "directConnectivity": {
+          "title": "Direktanslutning utan komplexitet",
+          "description": "Ring kunder i 100+ länder och eliminera behovet av att hantera flera teleoperatörer."
+        },
+        "verifiedNumbers": {
+          "title": "Brett urval av verifierade företagsnummer",
+          "description": "Välj lokala, avgiftsfria eller mobilnummer i 100+ länder för att bygga förtroende och säkerställa sömlösa samtal."
+        },
+        "highQuality": {
+          "title": "Högkvalitativa röstsamtal med låg latens",
+          "description": "Under 500ms samtalslatens med regionala Points of Presence (PoPs) över fem kontinenter."
+        },
+        "intelligentRouting": {
+          "title": "Intelligent samtalsdirigering",
+          "description": "Realtidsdatadriven routingmotor väljer dynamiskt den bästa samtalsvägen baserat på flera faktorer, inklusive latens, jitter och MOS."
+        },
+        "directCarrier": {
+          "title": "Direktoperatörsanslutning för snabbare samtalsuppkoppling",
+          "description": "Dina röstsamtal levereras via ett-hopp, inhemskt operatörer som säkerställer minimal latens."
+        },
+        "knowledgeBase": {
+          "title": "Smart kunskapsbas (RAG)",
+          "description": "Ladda upp dokument för att ge dina AI-agenter kontextuell kunskap för mer exakta, informerade konversationer."
+        },
+        "flowBuilder": {
+          "title": "Flödesbyggare",
+          "description": "Visuell dra-och-släpp-byggare för att skapa skriptade konversationsvägar med villkorslogik."
+        },
+        "multiLanguage": {
+          "title": "Stöd för flera språk",
+          "description": "Betjäna kunder på 11 språk med automatisk detektering och sömlös växling."
+        }
+      }
+    },
+    "useCasesSection": {
+      "title": "Användningsfall",
+      "description": "Se hur globala team använder vår plattform för att driva tillväxt och produktivitet",
+      "useCaseLabel": "användningsfall",
+      "industryLabel": "Bransch",
+      "languageLabel": "Språk",
+      "functionLabel": "Funktion",
+      "cases": {
+        "saas": {
+          "title": "SaaS-företag i USA",
+          "description": "Upplev en game-changer i SaaS-branschen, när Emma sålde ett SaaS-abonnemang för $997/år till en användare i USA",
+          "industry": "SaaS",
+          "language": "Engelska (USA)",
+          "function": "Utgående försäljning"
+        },
+        "university": {
+          "title": "Universitet i Singapore",
+          "description": "Upptäck hur ett universitet i Singapore använder AI för att kvalificera och bjuda in chefer till affärsprogram",
+          "industry": "Utbildning",
+          "language": "Engelska (kinesiska)",
+          "function": "Bokningsbokning"
+        },
+        "automotive": {
+          "title": "Fordonsföretag i Brasilien",
+          "description": "Utforska hur Hugo sålde en bilspårningsenhet till sin far med AI-drivna säljassistenter på Brasiliens fordonsmarknad",
+          "industry": "Fordon",
+          "language": "Portugisiska (BR)",
+          "function": "Bokningsbokning"
+        },
+        "support": {
+          "title": "Kundsupport i Indien",
+          "description": "Se hur ett teknikföretag automatiserade sin 24/7 kundsupport med AI-röstagenter som hanterar förfrågningar på hindi och engelska",
+          "industry": "Teknik",
+          "language": "Hindi/engelska",
+          "function": "Kundsupport"
+        },
+        "ecommerce": {
+          "title": "E-handel i Storbritannien",
+          "description": "Lär dig hur ett e-handelsföretag ökade orderbekräftelser med 40% med AI-drivna utgående samtal",
+          "industry": "E-handel",
+          "language": "Engelska (UK)",
+          "function": "Orderbekräftelse"
+        },
+        "healthcare": {
+          "title": "Sjukvård i Tyskland",
+          "description": "Upptäck hur en vårdgivare automatiserade bokningspåminnelser och minskade uteblivna besök med 60%",
+          "industry": "Sjukvård",
+          "language": "Tyska",
+          "function": "Bokningspåminnelser"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Vad våra kunder säger",
+      "subtitle": "Gå med tusentals företag som använder {{appName}} för att transformera sin kundkommunikation",
+      "at": "på",
+      "quotes": {
+        "jennifer": {
+          "quote": "{{appName}} har revolutionerat vårt kundtjänstarbetsflöde. Att konvertera manuella samtal till AI brukade ta timmar.",
+          "highlight": "Nu tar det bara 30 sekunder med perfekta resultat.",
+          "author": "Jennifer Kim",
+          "role": "Marknadsföringschef",
+          "company": "TechStartup Inc"
+        },
+        "lisa": {
+          "quote": "Vårt callcenter behövde automatisering för utgående kampanjer. {{appName}} förstår våra behov perfekt.",
+          "highlight": "Rena, professionella resultat som fungerar vackert varje gång.",
+          "author": "Lisa Rodriguez",
+          "role": "Varumärkeschef",
+          "company": "Fashion Forward"
+        },
+        "mike": {
+          "quote": "Som försäljningschef sparar {{appName}} mig från att ständigt träna agenter på manus.",
+          "highlight": "Perfekt samtalskvalitet varje gång, från leads till avslut!",
+          "author": "Mike Johnson",
+          "role": "Ägare",
+          "company": "PrintPerfect Solutions"
+        },
+        "robert": {
+          "quote": "Vårt supportteam behövde AI-assistans för att hantera hög volym. {{appName}} löste detta problem helt.",
+          "highlight": "Perfekta svar på kundförfrågningar.",
+          "author": "Robert Garcia",
+          "role": "Webbutvecklare",
+          "company": "PixelPerfect"
+        },
+        "tom": {
+          "quote": "Företags-AI-samtal kräver perfekta agenter, och {{appName}} levererar varje gång. Ingen mer manuell träning.",
+          "highlight": "Tydliga konversationer och perfekt kundhantering.",
+          "author": "Tom Williams",
+          "role": "Skyltbutiksägare",
+          "company": "CustomSigns Pro"
+        },
+        "amanda": {
+          "quote": "Kundförfrågningar kommer i olika former, men vi behöver konsekventa svar för tillförlitlighet. {{appName}}:s AI är helt enkelt bäst.",
+          "highlight": "Upprätthåller tjänstekvalitet samtidigt som perfekta svar hanteras.",
+          "author": "Amanda Thompson",
+          "role": "Customer Success",
+          "company": "ServiceFirst Ltd"
+        },
+        "james": {
+          "quote": "{{appName}} ser perfekt ut på alla skärmstorlekar. Väsentlig för modern kundengagemang.",
+          "highlight": "ROI betalade sig själv första månaden.",
+          "author": "James Patterson",
+          "role": "Kreativ ledare",
+          "company": "Ad Agency Plus"
+        },
+        "maria": {
+          "quote": "Vår uppsökning behövde automatiserade samtal för leadgenerering. {{appName}} löste detta helt.",
+          "highlight": "Ökade vår konverteringsfrekvens med 80%.",
+          "author": "Maria Gonzalez",
+          "role": "Ägare",
+          "company": "Custom Apparel Co"
+        },
+        "rachel": {
+          "quote": "Att skapa produktdemos kräver perfekta AI-röster. {{appName}} gör detta enkelt för vårt team.",
+          "highlight": "Från koncept till demo på sekunder, inte timmar.",
+          "author": "Rachel Green",
+          "role": "Produktdesigner",
+          "company": "StartupFlow"
+        },
+        "carlos": {
+          "quote": "Varumärkeskonsistens över alla kanaler kräver AI-agenter. {{appName}} gör detta enkelt för vårt team.",
+          "highlight": "Professionell kvalitet på samtal för varje kampanj.",
+          "author": "Carlos Rivera",
+          "role": "Marknadsföringsdirektör",
+          "company": "BrandFirst Agency"
+        },
+        "sarah": {
+          "quote": "Som kreativ direktör letar jag alltid efter sätt att höja vår produktion. {{appName}} levererar perfekt.",
+          "highlight": "Vår produktivitet har ökat dramatiskt.",
+          "author": "Sarah Martinez",
+          "role": "Kreativ direktör",
+          "company": "BrandCraft Studio"
+        },
+        "david": {
+          "quote": "{{appName}} har sparat vårt team 10+ timmar per vecka på kundsamtal. Väsentligt för alla växande företag.",
+          "highlight": "Accelererade hela vår säljprocess.",
+          "author": "David Chen",
+          "role": "Driftschef",
+          "company": "ScaleUp Ventures"
+        }
+      }
+    },
+    "integrations": {
+      "title": "Integrationer",
+      "description": "Anslut till dina favoritverktyg och uppgradera din {{appName}}-upplevelse."
+    },
+    "pricing": {
+      "title": "Enkel,",
+      "titleHighlight": "transparent",
+      "titleEnd": "prissättning",
+      "description": "Börja gratis, uppgradera när du är redo",
+      "monthly": "Månadsvis",
+      "yearly": "Årlig",
+      "save20": "Spara 20%",
+      "popular": "Populär",
+      "free": "Gratis",
+      "perMonth": "/månad",
+      "perYear": "/år",
+      "getStarted": "Kom igång",
+      "startFreeTrial": "Starta gratis provperiod",
+      "guarantee": "Alla planer inkluderar 14 dagars pengarna-tillbaka-garanti. Inget kreditkort krävs för gratis plan.",
+      "features": {
+        "aiAgent": "{{count}} AI-agent",
+        "aiAgents": "{{count}} AI-agenter",
+        "unlimitedAgents": "Obegränsade AI-agenter",
+        "campaign": "{{count}} kampanj",
+        "campaigns": "{{count}} kampanjer",
+        "unlimitedCampaigns": "Obegränsade kampanjer",
+        "maxContacts": "Max {{count}} kontakter per kampanj",
+        "contactsPerCampaign": "{{count}} kontakter/kampanj",
+        "unlimitedContacts": "Obegränsade kontakter",
+        "flowAutomation": "{{count}} flödesautomatisering",
+        "flowAutomations": "{{count}} flödesautomatiseringar",
+        "unlimitedFlows": "Obegränsade flödesautomatiseringar",
+        "knowledgeBase": "{{count}} kunskapsbas",
+        "knowledgeBases": "{{count}} kunskapsbaser",
+        "unlimitedKnowledgeBases": "Obegränsade kunskapsbaser",
+        "webhook": "{{count}} webhook",
+        "webhooks": "{{count}} webhooks",
+        "unlimitedWebhooks": "Obegränsade webhooks",
+        "phoneNumber": "{{count}} telefonnummer",
+        "phoneNumbers": "{{count}} telefonnummer",
+        "unlimitedPhoneNumbers": "Obegränsade telefonnummer",
+        "purchaseNumbers": "Köp egna telefonnummer",
+        "systemPhone": "Systemtilldelat telefonnummer",
+        "freeCredits": "{{count}} gratis krediter",
+        "creditCalling": "Kreditbaserade samtal",
+        "prioritySupport": "Prioriterad support",
+        "chooseLlm": "Välj din LLM-modell",
+        "advancedAnalytics": "Avancerad analys"
+      }
+    },
+    "contact": {
+      "badge": "Kontakta oss",
+      "title": "Redo att transformera dina samtal?",
+      "description": "Har du frågor om {{appName}} AI-röstagenter? Vill du ha en personlig demo? Vårt team finns här för att hjälpa dig automatisera dina samtalsoperationer.",
+      "emailLabel": "Mejla oss på",
+      "trustResponseTime": "Vi svarar inom 24 timmar",
+      "trustCustomerCount": "Betrott av 2 500+ företag världen över",
+      "trustConsultation": "Gratis konsultation och personlig demo",
+      "trustNoCommitment": "Inget åtagande krävs",
+      "form": {
+        "nameLabel": "Namn *",
+        "namePlaceholder": "Ditt fullständiga namn",
+        "emailLabel": "E-post *",
+        "emailPlaceholder": "du@foretag.se",
+        "companyLabel": "Företag",
+        "companyPlaceholder": "Ditt företagsnamn (valfritt)",
+        "messageLabel": "Meddelande *",
+        "messagePlaceholder": "Berätta om dina behov...",
+        "submit": "Skicka meddelande",
+        "sending": "Skickar...",
+        "privacyNotice": "Din data är säker. Vi delar aldrig din information."
+      },
+      "toast": {
+        "successTitle": "Meddelande skickat!",
+        "successDescription": "Vi återkommer till dig inom 24 timmar.",
+        "errorTitle": "Kunde inte skicka meddelande",
+        "errorDescription": "Försök igen senare."
+      },
+      "validation": {
+        "nameMin": "Namnet måste vara minst 2 tecken",
+        "emailInvalid": "Ange en giltig e-postadress",
+        "messageMin": "Meddelandet måste vara minst 10 tecken"
+      }
+    },
+    "cta": {
+      "title": "Redo att transformera dina samtalsoperationer?",
+      "description": "Gå med tusentals företag som använder AI-röstagenter för att automatisera samtal, kvalificera leads och öka kundnöjdheten",
+      "button": "Kom igång gratis",
+      "trustMessage": "Inget kreditkort krävs • Installation på 5 minuter • Gratis plan för alltid"
+    },
+    "featuresPage": {
+      "seo": {
+        "title": "Funktioner - AI-röstagentplattform",
+        "description": "Utforska alla kraftfulla funktioner i vår AI-röstagentplattform. Flödesbyggare, stöd för flera motorer, kampanjhantering och mer."
+      },
+      "hero": {
+        "badge": "No-code AI-röstmotor",
+        "title": "AI-agenter som bara fungerar",
+        "subtitle": "Ingen kod. Inga gissningar. Bygg, distribuera och hantera AI-röstagenter som hanterar kundsamtal naturligt och intelligent.",
+        "startFreeTrial": "Starta gratis provperiod",
+        "contactSales": "Kontakta försäljning"
+      },
+      "agentTypes": {
+        "title": "Välj din AI-agenttyp",
+        "subtitle": "Bygg den perfekta röstagenten för ditt användningsfall med våra tre kraftfulla agenttyper",
+        "natural": {
+          "title": "Naturliga AI-agenter",
+          "description": "LLM-drivna öppna konversationer med konfigurerbara prompter, personlighet och intelligenta svar som anpassar sig till alla scenarier.",
+          "features": {
+            "openEnded": "Öppna konversationer",
+            "personality": "Anpassningsbar personlighet",
+            "rag": "RAG-kunskapsintegration",
+            "multiLang": "Stöd för flera språk"
+          }
+        },
+        "flow": {
+          "title": "Flödesbaserade agenter",
+          "description": "Visuella nodbaserade konversationsflöden med villkorsgrenar, perfekt för strukturerade interaktioner som undersökningar och bokningar.",
+          "features": {
+            "dragDrop": "Dra-och-släpp-byggare",
+            "conditional": "Villkorslogik",
+            "api": "API-integrationer",
+            "templates": "Mallbibliotek"
+          }
+        },
+        "incoming": {
+          "title": "Agenter för inkommande samtal",
+          "description": "Hantera inkommande samtal genom köpta telefonnummer, erbjuder 24/7 automatiserad kundsupport med människoliknande svar.",
+          "features": {
+            "availability": "24/7 tillgänglighet",
+            "routing": "Smart samtalsdirigering",
+            "queue": "Köhantering",
+            "transfer": "Alternativ för mänsklig överföring"
+          }
+        }
+      },
+      "useCases": {
+        "title": "Färdiga AI-agenter för varje behov",
+        "subtitle": "Distribuera förbyggda agenter eller anpassa dem för dina specifika arbetsflöden",
+        "leadQualification": {
+          "title": "Lead-kvalificeringsagent",
+          "description": "Fånga inkommande leads, kvalificera dem i realtid med smart förgreningslogik och dirigera högintressanta prospekt till ditt säljteam."
+        },
+        "appointmentBooking": {
+          "title": "Bokningsagent",
+          "description": "Låt kunder schemalägga möten via telefon, med realtidstillgänglighet synkad till ditt kalendersystem."
+        },
+        "customerSupport": {
+          "title": "Kundsupportagent",
+          "description": "Hantera orderstatus, leveransuppdateringar och produktfrågor dygnet runt med omedelbara, korrekta svar."
+        },
+        "surveyFeedback": {
+          "title": "Undersöknings- och feedbackagent",
+          "description": "Samla kundfeedback genom naturliga konversationer och förbättra dina CSAT-poäng kontinuerligt."
+        },
+        "paymentReminder": {
+          "title": "Betalningspåminnelseagent",
+          "description": "Automatisera betalningsinsamlingssamtal med personliga påminnelser och enkla betalningsalternativ."
+        },
+        "techSupport": {
+          "title": "Teknisk supportagent",
+          "description": "Felsök vanliga frågor med din kunskapsbas och dirigera komplexa ärenden till människor."
+        }
+      },
+      "howItWorks": {
+        "title": "Gå live med AI-agenter på minuter",
+        "subtitle": "Vår guidade installation hjälper dig att bygga, testa och lansera produktionsklara agenter utan kod",
+        "step1": {
+          "number": "01",
+          "title": "Skapa din agent",
+          "description": "Välj mellan naturliga eller flödesbaserade agenter. Konfigurera röst, personlighet och konversationsmål med vårt intuitiva gränssnitt."
+        },
+        "step2": {
+          "number": "02",
+          "title": "Lägg till din kunskap",
+          "description": "Ladda upp dokument, URL:er eller text för att träna din agent. Vårt RAG-system säkerställer korrekta, kontextmedvetna svar varje gång."
+        },
+        "step3": {
+          "number": "03",
+          "title": "Starta kampanjer",
+          "description": "Importera kontakter, schemalägg kampanjer och låt dina AI-agenter hantera tusentals samtal samtidigt med realtidsspårning."
+        }
+      },
+      "capabilities": {
+        "title": "Byggd för att hantera varje kundinteraktion",
+        "subtitle": "Företagsklassade funktioner för AI-röstautomatisering i stor skala",
+        "categories": {
+          "aiVoice": "AI & röst",
+          "telephony": "Telefoni",
+          "campaignManagement": "Kampanjhantering",
+          "integrationSecurity": "Integration & säkerhet"
+        },
+        "items": {
+          "elevenLabs": {
+            "title": "ElevenLabs-integration",
+            "desc": "Ultrarealistiska AI-röster med emotionell räckvidd"
+          },
+          "openai": {
+            "title": "OpenAI Realtime API",
+            "desc": "Konversations-AI med låg latens med GPT-4"
+          },
+          "languages": {
+            "title": "30+ språk",
+            "desc": "Global räckvidd med stöd för modersmål"
+          },
+          "personalities": {
+            "title": "Anpassade personligheter",
+            "desc": "Konfigurera ton, stil och konversationsmetod"
+          },
+          "twilio": {
+            "title": "Twilio-integration",
+            "desc": "Företagsklassad telefoniinfrastruktur"
+          },
+          "countries": {
+            "title": "100+ länder",
+            "desc": "Köp lokala nummer i 100+ länder inklusive Indien"
+          },
+          "callTransfer": {
+            "title": "Samtalsöverföring",
+            "desc": "Sömlös överlämning till mänskliga agenter vid behov"
+          },
+          "recording": {
+            "title": "Samtalsinspelning",
+            "desc": "Full transkription och konversationsanalys"
+          },
+          "bulkCampaigns": {
+            "title": "Masskampanjer",
+            "desc": "Hantera tusentals samtidiga samtal"
+          },
+          "scheduling": {
+            "title": "Smart schemaläggning",
+            "desc": "Tidszonsmedveten kampanjschemaläggning"
+          },
+          "retryLogic": {
+            "title": "Försök igen-logik",
+            "desc": "Automatiskt nytt försök för obesvarade samtal"
+          },
+          "analytics": {
+            "title": "Realtidsanalys",
+            "desc": "Spåra prestanda och konverteringar live"
+          },
+          "webhooks": {
+            "title": "Webhooks",
+            "desc": "Realtidshändelsemeddelanden till dina system"
+          },
+          "security": {
+            "title": "Företagssäkerhet",
+            "desc": "SOC2-kompatibel med krypterad data"
+          },
+          "knowledgeBase": {
+            "title": "Kunskapsbas",
+            "desc": "RAG-driven dokumentförståelse"
+          },
+          "humanHandoff": {
+            "title": "Mänsklig överlämning",
+            "desc": "Intelligent dirigering till supportteam"
+          }
+        }
+      },
+      "integrations": {
+        "title": "Anslut verktygen ditt företag använder",
+        "subtitle": "Integrera sömlöst med ditt CRM, kalender, helpdesk och mer genom webhooks och API:er",
+        "footerText": "Plus anpassade integrationer via REST API och webhooks"
+      },
+      "knowledgeBase": {
+        "badge": "Kunskapsbas",
+        "title": "Konversationer som förblir korrekta",
+        "description": "AI-agenter anpassar sig till din varumärkesröst och hämtar svar från din senaste kunskapsbas. Ladda upp PDF-filer, dokument eller URL:er och se dina agenter bli experter direkt.",
+        "features": {
+          "processing": "Automatisk dokumentbearbetning och chunkning",
+          "rag": "RAG-driven kontextinjektion under samtal",
+          "realTime": "Realtidsuppdateringar utan omträning"
+        }
+      },
+      "humanHandoff": {
+        "badge": "Människa i loopen",
+        "title": "Sömlös överlämning vid behov",
+        "description": "Dirigera enkelt konversationer till rätt supportteam när mänsklig hjälp behövs. Smart detektering säkerställer att komplexa frågor får personlig uppmärksamhet.",
+        "features": {
+          "escalation": "Intelligenta eskaleringsutlösare",
+          "context": "Full konversationskontextöverföring",
+          "routing": "Dirigera efter team, kompetens eller anpassade regler"
+        }
+      },
+      "cta": {
+        "title": "Börja bygga din AI-agent nu",
+        "subtitle": "Inga installationsavgifter, ingen kodning krävs. Kom igång på minuter.",
+        "startFreeTrial": "Starta gratis provperiod",
+        "contactSales": "Kontakta försäljning"
+      }
+    },
+    "useCasesPage": {
+      "seoTitle": "Användningsfall - AI-röstagentplattform",
+      "seoDescription": "Upptäck hur företag använder AI-röstagenter för försäljning, support, bokningar, undersökningar, indrivning, sändningar och mer.",
+      "hero": {
+        "badge": "11 kraftfulla användningsfall",
+        "title": "Transformera ditt företag med",
+        "titleHighlight": "AI-röstagenter",
+        "subtitle": "Från utgående försäljningskampanjer till nödmeddelanden, upptäck hur våra AI-röstagenter kan automatisera din kommunikation och skala dina affärsoperationer."
+      },
+      "platformFeatures": {
+        "countries": "100+ länder",
+        "countriesDesc": "Telefonnummer världen över",
+        "languages": "30+ språk",
+        "languagesDesc": "Flerspråkiga AI-röster",
+        "realTime": "Realtid",
+        "realTimeDesc": "Omedelbar samtalsbearbetning",
+        "enterprise": "Företag",
+        "enterpriseDesc": "Säkerhet & efterlevnad"
+      },
+      "industries": {
+        "saas": "SaaS & teknik",
+        "healthcare": "Sjukvård",
+        "education": "Utbildning",
+        "ecommerce": "E-handel",
+        "automotive": "Fordon",
+        "financial": "Finansiella tjänster",
+        "realEstate": "Fastigheter",
+        "hr": "HR & rekrytering"
+      },
+      "getStartedFree": "Kom igång gratis",
+      "useCases": {
+        "outboundSales": {
+          "badge": "Mest populär",
+          "subtitle": "MASSANROP",
+          "title": "Utgående försäljningskampanjer",
+          "description": "Starta storskaliga utgående kampanjer med naturliga AI-agenter som kvalificerar leads, hanterar invändningar och bokar möten automatiskt. Skala ditt säljteam oändligt.",
+          "features": {
+            "bulk": "Massanrop med samtidig samtalshantering",
+            "natural": "Naturliga AI-konversationer med personlighetsanpassning",
+            "leadQual": "Lead-kvalificering och scoring i realtid",
+            "meeting": "Automatisk mötesschemaläggning i din kalender",
+            "crm": "CRM-integration via webhooks"
+          },
+          "stats": {
+            "callsDaily": "Fler samtal dagligen",
+            "conversion": "Högre konvertering",
+            "costReduction": "Kostnadsreduktion",
+            "campaign": "Kampanj körs"
+          }
+        },
+        "appointment": {
+          "subtitle": "FLÖDESAGENTER",
+          "title": "Bokningsschemaläggning & påminnelser",
+          "description": "Distribuera flödesbaserade AI-agenter som hanterar bokningsbokning, skickar automatiserade påminnelser och minskar uteblivna besök dramatiskt med intelligenta uppföljningar.",
+          "features": {
+            "visual": "Visuell flödesbyggare för bokningskonversationer",
+            "automated": "Automatiserade bekräftelse- och påminnelsesamtal",
+            "rescheduling": "Hantering av ombokning och avbokning",
+            "timezone": "Stöd för flera tidszoner",
+            "calendar": "Kalendersynk med Google, Outlook och mer"
+          },
+          "stats": {
+            "noShows": "Färre uteblivna besök",
+            "bookingRate": "Bokningsfrekvens",
+            "automated": "Automatiserat",
+            "setupTime": "Installationstid"
+          }
+        },
+        "support": {
+          "subtitle": "INKOMMANDE AGENTER",
+          "title": "Kundsupportlinje",
+          "description": "Hantera inkommande samtal dygnet runt med AI-agenter drivna av din kunskapsbas. Lös frågor direkt, eskalera vid behov och missa aldrig ett kundsamtal.",
+          "features": {
+            "incoming": "Hantering av inkommande samtal på köpta nummer",
+            "knowledge": "Kunskapsbas-integration för korrekta svar",
+            "escalation": "Smart eskalering till mänskliga agenter",
+            "multiLang": "Stöd för flera språk (30+ språk)",
+            "transcript": "Transkription och sentimentspårning i realtid"
+          },
+          "stats": {
+            "resolution": "Lösningsgrad",
+            "waitTime": "Väntetid",
+            "languages": "Språk",
+            "uptime": "Upptid"
+          }
+        },
+        "survey": {
+          "subtitle": "STRUKTURERADE FLÖDEN",
+          "title": "Undersökning & feedbackinsamling",
+          "description": "Samla värdefull kundfeedback genom engagerande röstkonversationer. Få högre svarsfrekvenser än e-postundersökningar med naturlig, konversationsbaserad datainsamling.",
+          "features": {
+            "question": "Frågenoder med villkorsgrenar",
+            "analytics": "Realtidssvarsanalys",
+            "sentiment": "Sentimentanalys under samtal",
+            "export": "Automatisk dataexport och rapportering",
+            "types": "CSAT, NPS och anpassade undersökningstyper"
+          },
+          "stats": {
+            "responseRate": "Svarsfrekvens",
+            "completion": "Slutförande",
+            "analytics": "Analys",
+            "reporting": "Rapportering"
+          }
+        },
+        "payment": {
+          "subtitle": "FLERSPRÅKIG",
+          "title": "Betalning & indrivning",
+          "description": "Automatisera betalningspåminnelser och indrivning med professionella, regelefterlevande AI-samtal. Erbjud betalningsplaner, spåra åtaganden och förbättra återvinningsgraden.",
+          "features": {
+            "gentle": "Vänliga, professionella betalningspåminnelser",
+            "multiLang": "Stöd för flera språk för global räckvidd",
+            "negotiation": "Förhandlingsflöden för betalningsplaner",
+            "tracking": "Spårning av betalningslöften",
+            "compliance": "Inbyggd regelefterlevnad"
+          },
+          "stats": {
+            "collections": "Mer indrivning",
+            "compliant": "Regelefterlevande",
+            "costSavings": "Kostnadsbesparingar",
+            "languages": "Språk"
+          }
+        },
+        "leadQualification": {
+          "subtitle": "KAMPANJAUTOMATISERING",
+          "title": "Lead-kvalificering & vård",
+          "description": "Kvalificera leads i stor skala med AI-drivna konversationer. Vårda prospekt genom automatiserade uppföljningar och synka allt till ditt CRM via webhooks.",
+          "features": {
+            "scoring": "Intelligent lead-scoring under samtal",
+            "followUp": "Automatiserade uppföljningskampanjer",
+            "webhook": "Webhook-integration med ditt CRM",
+            "criteria": "Anpassade kvalificeringskriterier",
+            "alerts": "Varningar och notifikationer för heta leads"
+          },
+          "stats": {
+            "qualifiedLeads": "Kvalificerade leads",
+            "timeSaved": "Sparad tid",
+            "crmSync": "CRM-synk",
+            "followUps": "Uppföljningar"
+          }
+        },
+        "broadcast": {
+          "badge": "Ny funktion",
+          "subtitle": "LJUDNOD",
+          "title": "Interaktiva röstsändningar",
+          "description": "Sänd förinspelade ljudmeddelanden till tusentals kontakter, låt sedan AI hantera personliga svar och uppföljningskonversationer.",
+          "features": {
+            "audio": "Ljudnod för förinspelade meddelanden",
+            "aiPowered": "AI-driven svarshantering",
+            "mass": "Masssändningsfunktioner",
+            "personalized": "Personliga uppföljningskonversationer",
+            "tracking": "Leveransspårning och analys"
+          },
+          "stats": {
+            "callsHour": "Samtal/timme",
+            "deliveryRate": "Leveransfrekvens",
+            "audioFiles": "Ljudfiler",
+            "followUps": "Uppföljningar"
+          }
+        },
+        "training": {
+          "subtitle": "LJUD + Q&A",
+          "title": "Utbildnings- och introduktionssamtal",
+          "description": "Leverera konsekvent utbildningsinnehåll via ljuduppspelning, låt sedan AI hantera frågor och verifiera förståelse med interaktiva Q&A-sessioner.",
+          "features": {
+            "playback": "Ljuduppspelning för utbildningsinnehåll",
+            "qa": "AI-driven Q&A efter utbildning",
+            "verification": "Förståelseverifieringsflöden",
+            "progress": "Framstegsspårning och rapportering",
+            "scalable": "Skalbart till tusentals anställda"
+          },
+          "stats": {
+            "completion": "Slutförande",
+            "consistent": "Konsekvent",
+            "timeSaved": "Sparad tid",
+            "assessment": "Bedömning"
+          }
+        },
+        "announcements": {
+          "subtitle": "SÄNDNING + AI",
+          "title": "Produktmeddelanden",
+          "description": "Meddela nya produkter, funktioner eller uppdateringar med professionella ljudsändningar. AI-agenter hanterar frågor och samlar feedback i realtid.",
+          "features": {
+            "professional": "Professionella ljudmeddelanden",
+            "questions": "AI-driven frågehantering",
+            "feedback": "Feedbackinsamling i realtid",
+            "targeting": "Riktad målgruppssegmentering",
+            "analytics": "Dashboard för engagemangsanalys"
+          },
+          "stats": {
+            "listenRate": "Lyssningsfrekvens",
+            "engagement": "Engagemang",
+            "feedback": "Feedback",
+            "delivery": "Leverans"
+          }
+        },
+        "events": {
+          "subtitle": "LJUD + FLÖDE",
+          "title": "Evenemangspåminnelser & OSA",
+          "description": "Skicka personliga evenemangsinbjudningar med ljudmeddelanden och hantera OSA genom strukturerade flödesagenter. Perfekt för konferenser, webbinarier och möten.",
+          "features": {
+            "invitations": "Ljudinbjudningar med personlig touch",
+            "rsvp": "Flödesbaserad OSA-hantering",
+            "reminders": "Automatiserade påminnelsesekvenser",
+            "attendee": "Hantering av deltagarlista",
+            "calendar": "Kalenderintegration"
+          },
+          "stats": {
+            "rsvpRate": "OSA-frekvens",
+            "attendance": "Högre närvaro",
+            "reminders": "Påminnelser",
+            "calendars": "Kalendrar"
+          }
+        },
+        "emergency": {
+          "subtitle": "PRIORITETSVARNINGAR",
+          "title": "Nödmeddelanden",
+          "description": "Skicka kritiska ljudvarningar med prioriterad leverans och spåra bekräftelser i realtid. Väsentligt för säkerhet och tidskritisk kommunikation.",
+          "features": {
+            "priority": "Prioriterad ljudvarningsleverans",
+            "acknowledgment": "Bekräftelsespårning",
+            "escalation": "Eskalering för icke-svar",
+            "multichannel": "Flerkanalsfallback-alternativ",
+            "compliance": "Efterlevnad och granskningsloggning"
+          },
+          "stats": {
+            "deliveryRate": "Leveransfrekvens",
+            "alertTime": "Varningstid",
+            "tracked": "Spårat",
+            "escalation": "Eskalering"
+          }
+        }
+      },
+      "statsSection": {
+        "title": "Betrott av växande företag",
+        "subtitle": "Gå med tusentals företag som skalar sin verksamhet med AI-röstagenter",
+        "callsMade": "Genomförda samtal",
+        "businesses": "Företag",
+        "uptime": "Upptid",
+        "languages": "Språk"
+      },
+      "ctaSection": {
+        "badge": "Starta gratis idag",
+        "title": "Redo att skala din",
+        "titleHighlight": "röstverksamhet?",
+        "subtitle": "Gå med tusentals företag som använder AI-röstagenter för att automatisera samtal, förbättra kundupplevelsen och driva tillväxt.",
+        "startFreeTrial": "Starta gratis provperiod",
+        "viewPricing": "Se prissättning",
+        "trustMessage": "Inget kreditkort krävs • 14 dagars gratis provperiod • Avsluta när som helst"
+      }
+    },
+    "pricingPage": {
+      "seo": {
+        "title": "Prissättning - AI-röstagentplattform",
+        "description": "Enkel, transparent prissättning för AI-röstagenter. Börja gratis, uppgradera när du behöver mer."
+      },
+      "hero": {
+        "title": "Enkel,",
+        "titleHighlight": "transparent",
+        "titleEnd": "prissättning",
+        "subtitle": "Börja gratis, uppgradera när du är redo"
+      },
+      "billing": {
+        "monthly": "Månadsvis",
+        "yearly": "Årlig",
+        "save20": "Spara 20% med årlig fakturering",
+        "billedAnnually": "Faktureras årligen (20% besparing)",
+        "perMonth": "/månad",
+        "perYear": "/år"
+      },
+      "plans": {
+        "mostPopular": "Mest populär",
+        "free": "Gratis",
+        "forGrowingBusinesses": "För växande företag",
+        "perfectForTrying": "Perfekt för att prova plattformen",
+        "startFree": "Börja gratis",
+        "startProTrial": "Starta Pro-provperiod"
+      },
+      "features": {
+        "minutesPerMonth": "{{count}} minuter/månad",
+        "unlimitedMinutes": "Obegränsade minuter",
+        "aiAgent": "{{count}} AI-agent",
+        "aiAgents": "{{count}} AI-agenter",
+        "unlimitedAgents": "Obegränsade AI-agenter",
+        "basicVoiceSelection": "Grundläggande röstval",
+        "allPremiumVoices": "Alla premiumröster",
+        "emailSupport": "E-postsupport",
+        "prioritySupport": "Prioriterad support",
+        "analyticsDashboard": "Analysdashboard",
+        "advancedAnalytics": "Avancerad analys",
+        "flowBuilder": "Flödesbyggare",
+        "apiAccess": "API-åtkomst",
+        "webhookIntegrations": "Webhook-integrationer",
+        "customIntegrations": "Anpassade integrationer"
+      },
+      "comparison": {
+        "title": "Jämför planer",
+        "subtitle": "Se vad som ingår i varje plan",
+        "feature": "Funktion",
+        "free": "Gratis",
+        "pro": "Pro",
+        "callMinutes": "Samtalsminuter",
+        "aiAgents": "AI-agenter",
+        "phoneNumbers": "Telefonnummer",
+        "flowBuilder": "Flödesbyggare",
+        "knowledgeBase": "Kunskapsbas",
+        "webhookIntegrations": "Webhook-integrationer",
+        "apiAccess": "API-åtkomst",
+        "prioritySupport": "Prioriterad support",
+        "customVoices": "Anpassade röster",
+        "teamMembers": "Teammedlemmar",
+        "limited": "Begränsad",
+        "fullAccess": "Full åtkomst",
+        "included": "Ingår",
+        "unlimited": "Obegränsad",
+        "document": "{{count}} dokument",
+        "documents": "{{count}} dokument"
+      },
+      "faq": {
+        "title": "Vanliga frågor",
+        "subtitle": "Allt du behöver veta om vår prissättning",
+        "questions": {
+          "trial": {
+            "question": "Hur fungerar den 14 dagar långa gratis provperioden?",
+            "answer": "Du får full åtkomst till alla Pro-funktioner i 14 dagar. Inget kreditkort krävs. Efter provperioden kan du välja att fortsätta med Pro eller nedgradera till vår gratisplan."
+          },
+          "cancel": {
+            "question": "Kan jag avsluta min prenumeration när som helst?",
+            "answer": "Ja, du kan avsluta din prenumeration när som helst. Din åtkomst fortsätter till slutet av din nuvarande faktureringsperiod."
+          },
+          "payment": {
+            "question": "Vilka betalningsmetoder accepterar ni?",
+            "answer": "Vi accepterar alla större kreditkort (Visa, Mastercard, Amex), PayPal, och i utvalda regioner lokala betalningsmetoder som Razorpay (Indien), Paystack (Afrika) och MercadoPago (Latinamerika)."
+          },
+          "discount": {
+            "question": "Erbjuder ni rabatter för årlig fakturering?",
+            "answer": "Ja! Årlig fakturering kommer med 20% rabatt jämfört med månatlig fakturering. Kontakta vårt säljteam för företagsprissättning."
+          },
+          "limits": {
+            "question": "Vad händer när jag överskrider mina gratisplangränser?",
+            "answer": "Du får en notifikation när du närmar dig dina gränser. Du kan uppgradera till Pro när som helst för att fortsätta använda plattformen utan avbrott."
+          },
+          "switch": {
+            "question": "Kan jag växla mellan planer?",
+            "answer": "Ja, du kan uppgradera eller nedgradera din plan när som helst. Vid uppgradering får du omedelbar åtkomst till nya funktioner. Vid nedgradering träder ändringar i kraft vid nästa faktureringscykel."
+          }
+        }
+      },
+      "cta": {
+        "title": "Redo att komma igång?",
+        "subtitle": "Börja bygga dina AI-röstagenter idag",
+        "startFreeTrial": "Starta gratis provperiod",
+        "contactSales": "Kontakta försäljning"
+      }
+    },
+    "integrationsPage": {
+      "seo": {
+        "title": "Integrationer - AI-röstagentplattform",
+        "description": "Anslut dina AI-röstagenter med Twilio, Plivo, OpenAI, ElevenLabs, Zapier och mer."
+      },
+      "hero": {
+        "badge": "Kraftfulla integrationer",
+        "title": "Anslut med dina",
+        "titleHighlight": "favoritverktyg",
+        "subtitle": "Integrera AI-röstagenter sömlöst med din befintliga teknikstack. Från telefonileverantörer till CRM:er, vi har dig täckt."
+      },
+      "categories": {
+        "telephony": "Telefoni",
+        "aiLlm": "AI/LLM",
+        "voice": "Röst",
+        "automation": "Automatisering",
+        "developer": "Utvecklare",
+        "communication": "Kommunikation",
+        "crm": "CRM"
+      },
+      "integrations": {
+        "twilio": {
+          "name": "Twilio",
+          "description": "Global telefonileverantör för röstsamtal, SMS och telefonnummerhantering."
+        },
+        "plivo": {
+          "name": "Plivo",
+          "description": "Alternativ telefonileverantör med utmärkt täckning i Indien och internationella marknader."
+        },
+        "openai": {
+          "name": "OpenAI",
+          "description": "Avancerade AI-modeller för naturlig språkförståelse och realtidsröstkonversationer."
+        },
+        "elevenlabs": {
+          "name": "ElevenLabs",
+          "description": "Premium röstsyntes med ultrarealistiska, människoliknande röster på flera språk."
+        },
+        "zapier": {
+          "name": "Zapier",
+          "description": "Anslut med 5 000+ appar för att automatisera arbetsflöden som triggas av samtalshändelser."
+        },
+        "webhooks": {
+          "name": "Webhooks",
+          "description": "Realtidshändelsenotifikationer för samtalsstatus, transkript och anpassade åtgärder."
+        },
+        "slack": {
+          "name": "Slack",
+          "description": "Få realtidsnotifikationer och sammanfattningar av samtal direkt i dina Slack-kanaler."
+        },
+        "hubspot": {
+          "name": "HubSpot",
+          "description": "Synka samtalsdata, uppdatera kontakter och logga aktiviteter i ditt HubSpot CRM."
+        },
+        "salesforce": {
+          "name": "Salesforce",
+          "description": "Företags-CRM-integration för samtalsloggning, lead-uppdateringar och automatisering."
+        },
+        "restApi": {
+          "name": "REST API",
+          "description": "Full programmatisk åtkomst till alla plattformsfunktioner via vårt omfattande REST API."
+        }
+      },
+      "api": {
+        "badge": "Utvecklar-API",
+        "title": "Full API-åtkomst",
+        "description": "Bygg anpassade integrationer och automatisera dina arbetsflöden med vårt omfattande REST API. Fullständig dokumentation ingår.",
+        "features": {
+          "createAgents": "Skapa och hantera AI-agenter programmatiskt",
+          "launchCampaigns": "Starta och kontrollera samtalskampanjer",
+          "accessCallStatus": "Få åtkomst till samtalsstatus och transkript i realtid",
+          "manageContacts": "Hantera kontakter och telefonnummer",
+          "configureWebhooks": "Konfigurera webhooks för händelsenotifikationer",
+          "generateAnalytics": "Generera analyser och rapporter"
+        },
+        "viewDocs": "Visa API-dokumentation"
+      },
+      "webhooks": {
+        "badge": "Realtids-webhooks",
+        "title": "Händelsedriven arkitektur",
+        "description": "Ta emot realtidsnotifikationer för alla samtalshändelser. Bygg reaktiva arbetsflöden som svarar omedelbart på kundinteraktioner.",
+        "availableEvents": "Tillgängliga webhook-händelser",
+        "events": {
+          "callStarted": "call.started - När ett samtal börjar",
+          "callCompleted": "call.completed - När ett samtal avslutas med fullständig transkription",
+          "callFailed": "call.failed - När ett samtal misslyckas att ansluta",
+          "campaignStarted": "campaign.started - När en kampanj börjar",
+          "campaignCompleted": "campaign.completed - När alla samtal är avslutade",
+          "appointmentBooked": "appointment.booked - När en bokning schemaläggs"
+        },
+        "features": {
+          "hmac": "HMAC-SHA256 signaturverifiering",
+          "retry": "Automatiskt nytt försök med exponentiell backoff",
+          "logs": "Leveransloggar och felsökningsverktyg"
+        }
+      },
+      "cta": {
+        "title": "Redo att integrera?",
+        "subtitle": "Börja bygga med vårt API idag. Fullständig dokumentation ingår.",
+        "startFreeTrial": "Starta gratis provperiod",
+        "viewDocumentation": "Visa dokumentation"
+      }
+    },
+    "blogPage": {
+      "badge": "Resurser & insikter",
+      "title": "Blogg & resurser",
+      "subtitle": "Håll dig uppdaterad med de senaste AI-röstagenstrategierna, fallstudier och produktuppdateringar för att transformera din affärskommunikation.",
+      "categories": {
+        "all": "Alla",
+        "aiTechnology": "AI-teknik",
+        "caseStudies": "Fallstudier",
+        "productUpdates": "Produktuppdateringar"
+      },
+      "searchPlaceholder": "Sök artiklar...",
+      "readArticle": "Läs artikel",
+      "noArticlesFound": "Inga artiklar hittades som matchar dina kriterier.",
+      "clearFilters": "Rensa filter",
+      "newsletter": {
+        "title": "Håll dig uppdaterad",
+        "subtitle": "Få de senaste insikterna om AI-röstteknik levererade till din inkorg varje vecka.",
+        "emailPlaceholder": "Ange din e-post",
+        "subscribe": "Prenumerera",
+        "disclaimer": "Ingen spam. Avsluta prenumerationen när som helst."
+      }
+    },
+    "blogPost": {
+      "backToBlog": "Tillbaka till bloggen",
+      "shareArticle": "Dela artikel",
+      "bookmarkArticle": "Bokmärk artikel",
+      "readMore": "Läs mer",
+      "relatedArticles": {
+        "title": "Relaterade artiklar",
+        "subtitle": "Fortsätt utforska våra senaste insikter och uppdateringar"
+      },
+      "viewAllArticles": "Visa alla artiklar",
+      "notFound": {
+        "title": "Artikeln hittades inte",
+        "description": "Den begärda artikeln kunde inte hittas.",
+        "message": "Artikeln du letar efter existerar inte."
+      }
+    },
+    "contactPage": {
+      "badge": "Vi vill gärna höra från dig",
+      "title": "Kontakta oss",
+      "subtitle": "Har du frågor om våra AI-röstagenter? Vill du ha en personlig demo? Vårt team finns här för att hjälpa dig transformera dina samtalsoperationer.",
+      "form": {
+        "title": "Skicka ett meddelande till oss",
+        "subtitle": "Fyll i formuläret nedan så återkommer vi till dig inom kort.",
+        "labels": {
+          "name": "Namn *",
+          "email": "E-post *",
+          "company": "Företag",
+          "phone": "Telefon",
+          "message": "Meddelande *"
+        },
+        "placeholders": {
+          "name": "Ditt fullständiga namn",
+          "email": "du@foretag.se",
+          "company": "Ditt företagsnamn",
+          "phone": "+46 (70) 123-4567",
+          "message": "Berätta om dina behov..."
+        },
+        "submit": "Skicka meddelande",
+        "submitting": "Skickar...",
+        "privacyNotice": "Din data är säker. Vi delar aldrig din information.",
+        "successTitle": "Meddelande skickat!",
+        "successDescription": "Vi återkommer till dig inom 24 timmar."
+      },
+      "validation": {
+        "nameMinLength": "Namnet måste vara minst 2 tecken",
+        "emailInvalid": "Ange en giltig e-postadress",
+        "messageMinLength": "Meddelandet måste vara minst 10 tecken"
+      },
+      "contactInfo": {
+        "title": "Kontaktinformation",
+        "subtitle": "Nå oss direkt via någon av dessa kanaler.",
+        "labels": {
+          "email": "E-post",
+          "phone": "Telefon",
+          "address": "Adress",
+          "officeHours": "Kontorstider"
+        }
+      },
+      "mapPlaceholder": {
+        "title": "Wtrops HQ",
+        "location": "San Francisco, Kalifornien"
+      },
+      "faq": {
+        "badge": "Vanliga frågor",
+        "title": "Vanliga frågor",
+        "subtitle": "Hitta snabba svar på vanliga frågor om våra tjänster.",
+        "questions": {
+          "responseTime": {
+            "question": "Vad är den typiska svarstiden för supportförfrågningar?",
+            "answer": "Vårt supportteam svarar vanligtvis inom 24 timmar under arbetsdagar. För brådskande ärenden erbjuder vi prioriterad support för företagskunder med svarstider under 2 timmar."
+          },
+          "scheduleDemo": {
+            "question": "Kan jag boka en demo av AI-röstagenterna?",
+            "answer": "Absolut! Fyll i kontaktformuläret med dina krav så kontaktar vårt team dig för att boka en personlig demo. Du kan också börja med vår gratis provperiod för att uppleva plattformen själv."
+          },
+          "customIntegrations": {
+            "question": "Erbjuder ni anpassade integrationer för företagskunder?",
+            "answer": "Ja, vi tillhandahåller anpassade integrationslösningar för företagskunder. Vårt team kan arbeta med din befintliga infrastruktur för att säkerställa sömlös integration med ditt CRM, telefonisystem och andra affärsverktyg."
+          },
+          "paymentMethods": {
+            "question": "Vilka betalningsmetoder accepterar ni?",
+            "answer": "Vi accepterar alla större kreditkort (Visa, MasterCard, American Express), samt ACH-överföringar och banköverföringar för årliga företagsavtal. Alla betalningar behandlas säkert genom Stripe."
+          }
+        },
+        "moreQuestions": "Har du fortfarande frågor? Vi finns här för att hjälpa.",
+        "contactSupport": "Kontakta support"
+      }
+    }
+  },
+  "campaigns": {
+    "title": "Kampanjer",
+    "description": "Skapa och hantera dina AI-samtalskampanjer",
+    "createNew": "Skapa ny kampanj",
+    "activeCampaigns": "Aktiva kampanjer",
+    "deletedCampaigns": "Borttagna kampanjer",
+    "noCampaigns": "Inga kampanjer hittades",
+    "noActiveCampaigns": "Inga aktiva kampanjer ännu",
+    "getStartedCreate": "Kom igång genom att skapa din första kampanj.",
+    "noDeletedCampaigns": "Inga borttagna kampanjer",
+    "permanentlyRemoved": "Borttagna kampanjer visas här innan de tas bort permanent.",
+    "status": {
+      "pending": "Väntande",
+      "active": "Aktiv",
+      "completed": "Slutförd",
+      "paused": "Pausad",
+      "cancelled": "Avbruten",
+      "deleted": "Borttagen"
+    },
+    "details": {
+      "totalContacts": "Totalt antal kontakter",
+      "successRate": "Framgångsfrekvens",
+      "avgDuration": "Genomsn. längd",
+      "agent": "Agent",
+      "phoneNumber": "Telefonnummer",
+      "scheduled": "Schemalagd",
+      "createdAt": "Skapad"
+    },
+    "actions": {
+      "start": "Starta",
+      "pause": "Pausa",
+      "resume": "Återuppta",
+      "stop": "Stoppa",
+      "delete": "Ta bort",
+      "restore": "Återställ",
+      "viewDetails": "Visa detaljer",
+      "duplicate": "Duplicera"
+    },
+    "create": {
+      "title": "Skapa kampanj",
+      "name": "Kampanjnamn",
+      "namePlaceholder": "Ange kampanjnamn",
+      "selectAgent": "Välj agent",
+      "concurrency": "Samtidiga samtal",
+      "concurrencyTooltip": "Maximalt antal samtal som körs samtidigt. Högre värden bearbetar kontakter snabbare men använder mer resurser.",
+      "concurrencyHelper": "Antal samtidiga samtal (1-50)",
+      "selectPhone": "Välj telefonnummer",
+      "uploadContacts": "Ladda upp kontakter",
+      "scheduleCall": "Schemalägg samtal",
+      "timezone": "Tidszon"
+    }
+  },
+  "agents": {
+    "title": "AI-agenter",
+    "description": "Skapa och hantera dina röst-AI-agenter",
+    "createNew": "Skapa agent",
+    "noAgents": "Inga agenter ännu",
+    "getStarted": "Kom igång genom att skapa din första AI-agent.",
+    "syncStatus": "Synkstatus",
+    "synced": "Synkroniserad",
+    "notSynced": "Ej synkroniserad",
+    "syncNow": "Synka nu",
+    "syncing": "Synkroniserar...",
+    "lastSynced": "Senast synkad",
+    "type": {
+      "natural": "Naturlig agent",
+      "flow": "Flödesagent",
+      "incoming": "Inkommande agent"
+    },
+    "settings": {
+      "voice": "Röst",
+      "language": "Språk",
+      "model": "Modell",
+      "temperature": "Temperatur",
+      "maxDuration": "Max längd",
+      "systemPrompt": "Systemprompt",
+      "firstMessage": "Första meddelande"
+    }
+  },
+  "calls": {
+    "title": "Samtal",
+    "description": "Visa och hantera alla samtal",
+    "allCalls": "Alla samtal",
+    "transcribed": "Transkriberade",
+    "recordings": "Inspelningar",
+    "noCalls": "Inga samtal hittades",
+    "noTranscribed": "Inga transkriberade samtal ännu",
+    "noRecordings": "Inga inspelningar tillgängliga",
+    "filters": {
+      "all": "Alla",
+      "incoming": "Inkommande",
+      "outgoing": "Utgående",
+      "batch": "Batch",
+      "completed": "Slutförda",
+      "failed": "Misslyckade"
+    },
+    "details": {
+      "duration": "Längd",
+      "status": "Status",
+      "direction": "Riktning",
+      "phoneNumber": "Telefonnummer",
+      "transcript": "Transkription",
+      "summary": "Sammanfattning",
+      "classification": "Klassificering",
+      "sentiment": "Sentiment",
+      "recording": "Inspelning",
+      "playRecording": "Spela inspelning",
+      "loadingRecording": "Laddar inspelning...",
+      "noRecording": "Ingen inspelning tillgänglig"
+    },
+    "classification": {
+      "hot": "Het lead",
+      "warm": "Varm lead",
+      "cold": "Kall lead",
+      "lost": "Förlorad"
+    }
+  },
+  "voicePicker": {
+    "selectVoice": "Välj en röst...",
+    "searchPlaceholder": "Sök efter en röst...",
+    "voicesAvailable": "röster tillgängliga",
+    "accountVoices": "Dina röster",
+    "searchResults": "Sökresultat",
+    "voiceLibrary": "Röstbibliotek",
+    "noResults": "Inga röster hittades",
+    "noVoices": "Inga röster tillgängliga",
+    "preview": "Förhandsvisning",
+    "select": "Välj"
+  },
+  "contacts": {
+    "title": "Alla kontakter",
+    "description": "Hantera din kontaktdatabas",
+    "addContact": "Lägg till kontakt",
+    "importContacts": "Importera kontakter",
+    "exportContacts": "Exportera kontakter",
+    "noContacts": "Inga kontakter hittades",
+    "totalContacts": "{{count}} kontakter totalt",
+    "source": {
+      "campaign": "Kampanj",
+      "call": "Samtal",
+      "manual": "Manuell"
+    },
+    "fields": {
+      "name": "Namn",
+      "phone": "Telefon",
+      "email": "E-post",
+      "company": "Företag",
+      "source": "Källa",
+      "callCount": "Samtal",
+      "lastContact": "Senaste kontakt",
+      "createdAt": "Skapad"
+    }
+  },
+  "knowledgeBase": {
+    "title": "Kunskapsbas",
+    "description": "Hantera dina AI-agenters kunskap",
+    "addEntry": "Lägg till post",
+    "uploadFile": "Ladda upp fil",
+    "addUrl": "Lägg till URL",
+    "noEntries": "Inga kunskapsposter",
+    "getStarted": "Lägg till innehåll för att hjälpa dina AI-agenter svara exakt på frågor.",
+    "processing": "Bearbetar",
+    "processed": "Bearbetad",
+    "failed": "Misslyckad",
+    "type": {
+      "file": "Fil",
+      "url": "URL",
+      "text": "Text"
+    },
+    "fields": {
+      "title": "Titel",
+      "content": "Innehåll",
+      "type": "Typ",
+      "status": "Status",
+      "chunks": "Delar",
+      "createdAt": "Tillagd"
+    }
+  },
+  "phoneNumbers": {
+    "title": "Telefonnummer",
+    "description": "Hantera dina telefonnummer",
+    "addNumber": "Lägg till nummer",
+    "rentNumber": "Hyr nummer",
+    "noNumbers": "Inga telefonnummer",
+    "getStarted": "Lägg till ett telefonnummer för att börja ringa.",
+    "monthly": "/månad",
+    "fields": {
+      "number": "Nummer",
+      "type": "Typ",
+      "region": "Region",
+      "status": "Status",
+      "assignedAgent": "Tilldelad agent",
+      "monthlyRent": "Månadshyra"
+    },
+    "status": {
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "pending": "Väntande"
+    }
+  },
+  "flows": {
+    "title": "Flödesbyggare",
+    "description": "Skapa visuella konversationsflöden",
+    "createFlow": "Skapa flöde",
+    "noFlows": "Inga flöden ännu",
+    "getStarted": "Skapa ditt första konversationsflöde.",
+    "nodes": {
+      "message": "Meddelande",
+      "question": "Fråga",
+      "condition": "Villkor",
+      "transfer": "Överföring",
+      "delay": "Fördröjning",
+      "end": "Slut",
+      "appointment": "Bokning",
+      "form": "Formulär",
+      "webhook": "Webhook"
+    },
+    "fields": {
+      "name": "Flödesnamn",
+      "description": "Beskrivning",
+      "status": "Status",
+      "lastEdited": "Senast redigerad"
+    }
+  },
+  "webhooks": {
+    "title": "Webhooks",
+    "description": "Konfigurera webhook-prenumerationer",
+    "addWebhook": "Lägg till webhook",
+    "noWebhooks": "Inga webhooks konfigurerade",
+    "getStarted": "Lägg till webhooks för att ta emot händelsemeddelanden.",
+    "events": {
+      "callStarted": "Samtal startat",
+      "callCompleted": "Samtal slutfört",
+      "callFailed": "Samtal misslyckat",
+      "callTransferred": "Samtal överfört",
+      "campaignStarted": "Kampanj startad",
+      "campaignCompleted": "Kampanj slutförd",
+      "campaignPaused": "Kampanj pausad",
+      "appointmentBooked": "Bokning gjord",
+      "formSubmitted": "Formulär skickat"
+    },
+    "fields": {
+      "url": "Webhook-URL",
+      "events": "Händelser",
+      "secret": "Hemlighet",
+      "active": "Aktiv"
+    }
+  },
+  "billing": {
+    "title": "Fakturering och krediter",
+    "description": "Hantera din prenumeration och krediter",
+    "currentPlan": "Nuvarande plan",
+    "freePlan": "Gratis",
+    "proPlan": "Pro",
+    "credits": "Krediter",
+    "remainingCredits": "Återstående krediter",
+    "buyCredits": "Köp krediter",
+    "viewHistory": "Visa historik",
+    "upgrade": "Uppgradera",
+    "upgradeToPro": "Uppgradera till Pro",
+    "manageSubscription": "Hantera prenumeration",
+    "billingHistory": "Faktureringshistorik",
+    "perMonth": "/månad",
+    "perYear": "/år",
+    "purchase": "Köp",
+    "creditPackages": "Kreditpaket",
+    "transactionHistory": "Transaktionshistorik",
+    "features": {
+      "unlimited": "Obegränsat",
+      "included": "Inkluderat",
+      "notIncluded": "Ej inkluderat"
+    },
+    "tableHeaders": {
+      "type": "Typ",
+      "description": "Beskrivning",
+      "amount": "Belopp",
+      "date": "Datum"
+    },
+    "subscriptionCancelled": "Prenumeration avbruten",
+    "subscriptionCancelledMessage": "Din prenumeration har avbrutits framgångsrikt.",
+    "cancelFailed": "Misslyckades att avbryta prenumerationen",
+    "subscriptionPeriod": "Prenumerationsperiod",
+    "startDate": "Startdatum",
+    "renewalDate": "Förnyelsedatum",
+    "transactionSubtitle": "Visa din transaktionshistorik"
+  },
+  "payment": {
+    "subscriptionSuccess": "Prenumeration aktiverad!",
+    "creditsSuccess": "Krediter köpta!",
+    "failed": "Betalning misslyckades",
+    "cancelled": "Betalning avbruten",
+    "processing": "Behandlar betalning...",
+    "welcomeToPlan": "Välkommen till",
+    "subscriptionActive": "Din prenumeration är nu aktiv.",
+    "subscriptionActiveGeneric": "Din prenumeration har aktiverats framgångsrikt.",
+    "creditsAdded": "krediter har lagts till på ditt konto.",
+    "creditsAddedGeneric": "Dina krediter har lagts till på ditt konto.",
+    "failedDescription": "Vi kunde inte behandla din betalning. Försök igen eller använd en annan betalningsmetod.",
+    "cancelledDescription": "Du avbröt betalningen. Inga avgifter har debiterats ditt konto.",
+    "verifyingDescription": "Verifierar din betalning med betalningsleverantören...",
+    "processingDescription": "Vänligen vänta medan vi bekräftar din betalning...",
+    "paymentMethod": "Betalningsmetod",
+    "type": "Typ",
+    "subscription": "Prenumeration",
+    "creditPurchase": "Kreditköp",
+    "amount": "Belopp",
+    "credits": "Krediter",
+    "plan": "Plan",
+    "transactionId": "Transaktions-ID",
+    "returnToBilling": "Tillbaka till Fakturering",
+    "tryAgain": "Försök igen"
+  },
+  "settings": {
+    "title": "Inställningar",
+    "description": "Hantera dina kontoinställningar",
+    "profile": "Profil",
+    "security": "Säkerhet",
+    "notifications": "Aviseringar",
+    "preferences": "Preferenser",
+    "changePassword": "Ändra lösenord",
+    "updateProfile": "Uppdatera profil",
+    "currentPassword": "Nuvarande lösenord",
+    "newPassword": "Nytt lösenord",
+    "confirmPassword": "Bekräfta lösenord",
+    "profileUpdated": "Profil uppdaterad",
+    "passwordChanged": "Lösenord ändrat"
+  },
+  "admin": {
+    "settings": {
+      "title": "Inställningar",
+      "description": "Konfigurera plattformsinställningar, SEO och integrationer",
+      "tabs": {
+        "master": "Huvudinställningar",
+        "elevenlabs": "ElevenLabs",
+        "seo": "SEO-modul",
+        "analytics": "Analys",
+        "system": "System"
+      }
+    },
+    "analytics": {
+      "title": "Plattformsanalys",
+      "description": "Övervaka plattformsprestanda och tillväxtmått",
+      "scriptsTitle": "Analys- och spårningsskript",
+      "scriptsDescription": "Hantera tredjepartsanalys- och spårningsskript som injiceras på alla sidor på din webbplats.",
+      "addScript": "Lägg till skript",
+      "editScript": "Redigera skript",
+      "addScriptDesc": "Lägg till ett nytt analys- eller spårningsskript på din webbplats. Dessa skript hjälper dig att spåra besökarbeteende och konverteringar.",
+      "editScriptDesc": "Ändra konfigurationen för analysskriptet.",
+      "scriptName": "Skriptnamn",
+      "scriptNamePlaceholder": "t.ex., Google Analytics",
+      "scriptType": "Skripttyp",
+      "scriptCode": "Skriptkod",
+      "scriptCodePlaceholder": "Klistra in din spårningskod här...",
+      "scriptCodeHint": "Klistra in den kompletta spårningskoden från din analystjänst. Inkludera alla script-taggar.",
+      "placement": "Placering",
+      "placementHead": "Head-sektion",
+      "placementBody": "Body-sektion",
+      "headDesc": "Laddas före sidinnehållet - bäst för spårningsskript som behöver köras tidigt",
+      "bodyDesc": "Laddas efter sidinnehållet - bättre för skript som inte behöver köras omedelbart",
+      "placementRequired": "Välj minst en placeringsplats",
+      "loadPriority": "Laddningsprioritet",
+      "priorityHint": "Skript med högre prioritet laddas först (0-100). Använd högre värden för kritisk spårning.",
+      "scriptOptions": "Skriptalternativ",
+      "asyncOption": "Async",
+      "deferOption": "Defer",
+      "enabled": "Aktiverad",
+      "priority": "Prioritet",
+      "name": "Namn",
+      "type": "Typ",
+      "description": "Beskrivning",
+      "descriptionPlaceholder": "Valfria anteckningar om detta skript för din referens...",
+      "noScripts": "Inga analysskript konfigurerade ännu.",
+      "noScriptsHint": "Lägg till spårningsskript som Google Analytics, Facebook Pixel eller andra analysverktyg för att spåra dina webbplatsbesökare.",
+      "scriptCreated": "Skript skapat",
+      "scriptCreatedDesc": "Ditt analysskript har lagts till och börjar spåra omedelbart.",
+      "scriptUpdated": "Skript uppdaterat",
+      "scriptUpdatedDesc": "Dina ändringar i analysskriptet har sparats.",
+      "scriptDeleted": "Skript borttaget",
+      "scriptDeletedDesc": "Analysskriptet har tagits bort från din webbplats.",
+      "deleteTitle": "Ta bort skript?",
+      "deleteDesc": "Detta tar permanent bort spårningsskriptet från din webbplats. Besökarspårning för detta skript stoppas omedelbart.",
+      "scriptLabel": "Skript",
+      "nameRequired": "Ange ett namn för detta skript.",
+      "codeRequired": "Klistra in spårningskoden för detta skript.",
+      "tooltips": {
+        "name": "Ge ditt skript ett vänligt namn så att du enkelt kan identifiera det senare. Till exempel: 'Google Analytics' eller 'Facebook Ads-spårning'.",
+        "type": "Välj typ av spårningstjänst. Detta hjälper till att förifylla rätt kodmall. Välj 'Anpassat skript' om din tjänst inte finns listad.",
+        "code": "Detta är spårningskoden som tillhandahålls av din analystjänst. Du hittar den vanligtvis i din analyspanel under 'Inställning' eller 'Installation'.",
+        "placement": "Välj var skriptet ska läggas till på dina sidor. De flesta spårningsskript fungerar bäst i Head-sektionen. Vissa skript som Google Tag Manager behöver både Head och Body.",
+        "priority": "Styr vilka skript som laddas först. Högre nummer laddas först. Använd 100 för kritiska skript och 0 för mindre viktiga.",
+        "options": "Avancerade inställningar för hur skriptet laddas. De flesta användare behöver inte ändra detta.",
+        "async": "Laddar skriptet i bakgrunden utan att sakta ner din sida. Rekommenderas för de flesta spårningsskript.",
+        "defer": "Väntar tills sidan är helt laddad innan skriptet körs. Bra för icke-kritisk spårning.",
+        "enabled": "Slå på eller av spårning. När det är inaktiverat körs inte skriptet på din webbplats.",
+        "description": "Lägg till anteckningar för dig själv om detta skript, som vad det spårar eller när det lades till."
+      }
+    },
+    "title": "Admin-kontrollpanel",
+    "description": "Plattformsadministration",
+    "users": "Användare",
+    "totalUsers": "Totalt antal användare",
+    "newThisWeek": "Nya denna vecka",
+    "revenue": "Intäkter",
+    "systemHealth": "Systemhälsa",
+    "tabs": {
+      "users": "Användarhantering",
+      "analytics": "Analys",
+      "settings": "Globala inställningar",
+      "elevenLabs": "ElevenLabs-pool",
+      "phoneNumbers": "Telefonnummer",
+      "credits": "Kreditpaket",
+      "llmModels": "LLM-modeller",
+      "plans": "Planer",
+      "contacts": "Alla kontakter",
+      "batchJobs": "Batch-jobb",
+      "notifications": "Aviseringar"
+    },
+    "actions": {
+      "addUser": "Lägg till användare",
+      "editUser": "Redigera användare",
+      "deleteUser": "Ta bort användare",
+      "suspendUser": "Suspendera användare",
+      "activateUser": "Aktivera användare",
+      "resetPassword": "Återställ lösenord"
+    },
+    "userForm": {
+      "title": "Lägg till Användare",
+      "editTitle": "Redigera Användare",
+      "email": "E-post",
+      "name": "Namn",
+      "password": "Lösenord",
+      "confirmPassword": "Bekräfta Lösenord",
+      "role": "Roll",
+      "credits": "Initiala Krediter",
+      "user": "Användare"
+    },
+    "notifications": {
+      "title": "Aviseringar",
+      "subtitle": "Skicka aviseringar till alla användare på plattformen",
+      "broadcastInfo": "Broadcast-aviseringar skickas till alla användare och visas i deras aviserings-dropdown. Använd denna funktion för viktiga plattformsövergripande meddelanden.",
+      "createBroadcast": {
+        "title": "Skapa Broadcast-avisering",
+        "description": "Skriv ett meddelande att skicka till alla plattformsanvändare",
+        "titleLabel": "Titel",
+        "titlePlaceholder": "t.ex., Meddelande om ny funktion",
+        "iconLabel": "Ikon",
+        "messageLabel": "Meddelande",
+        "messagePlaceholder": "Skriv ditt meddelande här...",
+        "linkLabel": "URL/Länk",
+        "displayTypeLabel": "Visningstyp",
+        "priorityLabel": "Prioritet (1-10)",
+        "priorityHint": "Banners med högre prioritet visas först",
+        "expiresAtLabel": "Upphör",
+        "selectDate": "Välj utgångsdatum",
+        "dismissibleLabel": "Kan avfärdas",
+        "sendToAllUsers": "Denna avisering kommer att skickas till alla registrerade användare",
+        "sending": "Skickar...",
+        "sendButton": "Skicka till Alla Användare"
+      },
+      "automaticNotifications": {
+        "title": "Automatiska Aviseringar",
+        "description": "Systemet skickar automatiskt aviseringar för följande händelser",
+        "emailEnabled": "E-post aktiverat",
+        "editTemplate": "Redigera Mall",
+        "types": {
+          "welcome": {
+            "title": "Välkomstmeddelande",
+            "description": "Skickas när nya användare registrerar sig"
+          },
+          "membershipUpgrade": {
+            "title": "Medlemskapsuppgradering",
+            "description": "Skickas när användare uppgraderar till Pro"
+          },
+          "membershipCancel": {
+            "title": "Medlemskapsavbokning",
+            "description": "Skickas när prenumerationen avbokas"
+          },
+          "phoneBilling": {
+            "title": "Telefonnummerfakturering",
+            "description": "Skickas när månatlig telefonnummerfakturering lyckas eller misslyckas"
+          },
+          "lowCredits": {
+            "title": "Varning för Låga Krediter",
+            "description": "Skickas när krediter faller under 100 efter transaktioner"
+          },
+          "campaignComplete": {
+            "title": "Kampanj Slutförd",
+            "description": "Skickas när en kampanj avslutat alla samtal"
+          }
+        }
+      },
+      "emailTemplates": {
+        "title": "E-postmallar",
+        "description": "Hantera e-postmallar för systemaviseringar",
+        "addTemplate": "Lägg till Mall",
+        "addFirstTemplate": "Lägg till Första Mallen",
+        "noTemplates": "Inga e-postmallar konfigurerade ännu",
+        "createTitle": "Skapa E-postmall",
+        "editTitle": "Redigera E-postmall",
+        "createDescription": "Skapa en ny e-postmall för automatiserade aviseringar",
+        "editDescription": "Uppdatera e-postmallens innehåll och inställningar",
+        "columns": {
+          "name": "Namn",
+          "type": "Malltyp",
+          "status": "Status",
+          "lastUpdated": "Senast Uppdaterad"
+        },
+        "fields": {
+          "templateType": "Malltyp",
+          "templateTypePlaceholder": "t.ex., welcome, password_reset",
+          "templateTypeHint": "Unik identifierare som används internt (t.ex., welcome, low_credits)",
+          "name": "Visningsnamn",
+          "namePlaceholder": "t.ex., Välkomst-e-post",
+          "subject": "E-postämne",
+          "subjectPlaceholder": "t.ex., Välkommen till {{companyName}}!",
+          "body": "E-postinnehåll",
+          "htmlBodyPlaceholder": "Ange HTML-e-postinnehåll...",
+          "textBodyPlaceholder": "Ange reservinnehåll i ren text...",
+          "textBodyHint": "Rentextversion som visas när HTML inte kan visas",
+          "isActive": "Aktiv",
+          "isActiveHint": "Inaktiva mallar kommer inte att skickas"
+        },
+        "tabs": {
+          "html": "HTML-innehåll",
+          "text": "Ren Text"
+        },
+        "insertVariable": "Infoga Variabel",
+        "availableVariables": "Tillgängliga Variabler",
+        "variablesHint": "Klicka på en variabel ovan för att infoga den vid markörpositionen i innehållet eller ämnet",
+        "showPreview": "Visa Förhandsvisning",
+        "hidePreview": "Dölj Förhandsvisning",
+        "previewLabel": "HTML-förhandsvisning",
+        "errors": {
+          "templateTypeRequired": "Malltyp krävs",
+          "nameRequired": "Visningsnamn krävs",
+          "subjectRequired": "E-postämne krävs",
+          "htmlBodyRequired": "HTML-innehåll krävs"
+        },
+        "toast": {
+          "createSuccess": "Mall Skapad",
+          "createSuccessDesc": "E-postmallen skapades framgångsrikt",
+          "updateSuccess": "Mall Uppdaterad",
+          "updateSuccessDesc": "E-postmallen uppdaterades framgångsrikt",
+          "createFailed": "Kunde Inte Skapa Mall",
+          "updateFailed": "Kunde Inte Uppdatera Mall",
+          "validationError": "Valideringsfel",
+          "fixErrors": "Vänligen åtgärda felen innan du sparar"
+        }
+      },
+      "toast": {
+        "sentSuccess": "Avisering skickades framgångsrikt",
+        "sentToUsers": "Skickades till {{count}} användare",
+        "sendFailed": "Kunde inte skicka avisering",
+        "validationError": "Valideringsfel",
+        "provideTitleMessage": "Ange både titel och meddelande"
+      }
+    },
+    "branding": {
+      "title": "Plattformsvarumärke",
+      "description": "Anpassa plattformens utseende med din logotyp och ditt varumärke",
+      "configured": "Konfigurerad",
+      "notConfigured": "Ej Konfigurerad",
+      "refresh": "Uppdatera",
+      "editSettings": "Redigera Inställningar",
+      "liveData": "Livedata",
+      "applicationTitle": "Applikationstitel",
+      "tagline": "Slogan",
+      "logo": "Logotyp",
+      "logoLight": "Logotyp (Ljust Läge)",
+      "logoDark": "Logotyp (Mörkt Läge)",
+      "logoLightDescription": "Används när appen är i ljust läge",
+      "logoDarkDescription": "Används när appen är i mörkt läge",
+      "forLightMode": "För ljust läge",
+      "forDarkMode": "För mörkt läge",
+      "favicon": "Favicon",
+      "noLogo": "Ingen logotyp uppladdad",
+      "noFavicon": "Ingen favicon uppladdad",
+      "logoUploaded": "Logotyp uppladdad",
+      "logoReady": "Redo för visning",
+      "faviconUploaded": "Favicon uppladdad",
+      "faviconReady": "Redo för visning",
+      "configurationComplete": "Varumärkeskonfiguration slutförd",
+      "lastUpdated": "Senast uppdaterad",
+      "editTitle": "Redigera Varumärkesinställningar",
+      "editDescription": "Uppdatera ditt plattformsvarumärke inklusive logotyper för ljust/mörkt läge, favicon och applikationsnamn",
+      "applicationName": "Applikationsnamn",
+      "logoCurrent": "Nuvarande Logotyp",
+      "faviconCurrent": "Nuvarande Favicon",
+      "chooseFile": "Välj Fil",
+      "updateSettings": "Uppdatera Inställningar",
+      "updateSuccess": "Varumärket har uppdaterats",
+      "updateFailed": "Kunde inte uppdatera varumärket",
+      "logoDeleted": "Logotyp borttagen",
+      "faviconDeleted": "Favicon borttagen",
+      "uploadFailed": "Uppladdning misslyckades",
+      "invalidFileType": "Vänligen ladda upp en bildfil",
+      "fileTooLarge": "Filen måste vara mindre än 5MB"
+    },
+    "smtp": {
+      "title": "SMTP E-postinställningar",
+      "description": "Konfigurera SMTP-inställningar för att skicka e-post",
+      "host": "SMTP-värd",
+      "port": "SMTP-port",
+      "username": "Användarnamn",
+      "password": "Lösenord",
+      "fromEmail": "Avsändarens E-post",
+      "fromName": "Avsändarens Namn",
+      "usernamePlaceholder": "E-postkontots användarnamn",
+      "passwordPlaceholder": "E-postkontots lösenord",
+      "save": "Spara Inställningar",
+      "testConnection": "Testa Anslutning",
+      "configured": "SMTP är konfigurerad och redo att skicka e-post",
+      "updateSuccess": "SMTP-inställningar har uppdaterats",
+      "updateFailed": "Kunde inte uppdatera SMTP-inställningar",
+      "testSuccess": "Anslutningstest lyckades! E-postutskick fungerar.",
+      "testFailed": "Anslutningstest misslyckades"
+    },
+    "settings": {
+      "title": "Globala Inställningar",
+      "description": "Konfigurera plattformsinställningar, SEO och integrationer",
+      "tabs": {
+        "master": "Huvudinställningar",
+        "elevenlabs": "ElevenLabs",
+        "seo": "SEO-modul",
+        "analytics": "Analys",
+        "system": "System"
+      },
+      "autoRestart": {
+        "title": "Automatiskt Omstartssystem",
+        "description": "Konfigurera automatisk omstart när resursgränser överskrids",
+        "enabled": "Aktiverad",
+        "disabled": "Inaktiverad",
+        "enableToggle": "Aktivera Automatisk Omstart",
+        "enableToggleDesc": "Starta automatiskt om när resurströsklar överskrids",
+        "loadingStatus": "Laddar resursstatus...",
+        "statusError": "Kunde inte ladda resursstatus.",
+        "currentRam": "Aktuell RAM-användning",
+        "currentCpu": "Aktuell CPU-användning",
+        "processMemory": "Process",
+        "ramLimit": "RAM-gräns (%)",
+        "ramLimitTooltip": "Starta om när systemets RAM-användning överstiger denna procent (50-95%)",
+        "ramLimitHint": "Rekommenderat: 75-85%",
+        "cpuLimit": "CPU-gräns (%)",
+        "cpuLimitTooltip": "Starta om när CPU-användningen överstiger denna procent (20-95%)",
+        "cpuLimitHint": "Rekommenderat: 80-90%",
+        "activeMessage": "Automatisk omstart är aktiv. Systemet kommer att startas om smidigt när RAM- eller CPU-gränser överskrids under 3 på varandra följande kontroller (90 sekunder).",
+        "refreshStatus": "Uppdatera Status",
+        "refreshing": "Uppdaterar...",
+        "configuredLimits": "Konfigurerade Gränser",
+        "ramLimitValue": "RAM: {{value}}%",
+        "cpuLimitValue": "CPU: {{value}}%",
+        "watchdogStatus": "Watchdog-status",
+        "watchdogActive": "Aktiv",
+        "watchdogInactive": "Inaktiv",
+        "cores": "kärnor",
+        "loadAvg": "Belastningssnitt",
+        "envProduction": "Produktion",
+        "envDevelopment": "Utveckling",
+        "envDocsTitle": "Miljö & Begränsningar",
+        "ramMonitoringTitle": "RAM-övervakning",
+        "ramMonitoringDesc": "Använder verkliga systemminnesavläsningar via Node.js API:er. Mäter noggrant totalt och ledigt minne på servern. Fungerar tillförlitligt i alla miljöer.",
+        "cpuMonitoringTitle": "CPU-övervakning",
+        "cpuMonitoringDesc": "Kombinerar process-CPU-tid med systembelastningssnitt för mer exakta avläsningar. Visar CPU-kärnor och 1-minuts belastningssnitt. I utvecklings-/sandlådemiljöer kan avläsningar variera.",
+        "restartBehaviorTitle": "Auto-omstartsbeteende",
+        "restartBehaviorDesc": "Utlöser graciös avstängning efter 3 på varandra följande tröskelöverskridanden (90 sekunder). Kräver en processhanterare (PM2, systemd) för att starta om applikationen. I utvecklingsmiljöer kan appen bara avslutas utan omstart.",
+        "productionNote": "För bästa resultat, distribuera med PM2 eller liknande processhanterare som automatiskt startar om applikationen efter avstängning."
+      },
+      "connectionStatus": {
+        "refreshAll": "Uppdatera Alla",
+        "connected": "Ansluten",
+        "disconnected": "Frånkopplad",
+        "checking": "Kontrollerar...",
+        "verifying": "Verifierar API-anslutning...",
+        "telephony": "Röst- och SMS-telefoni",
+        "aiVoice": "AI-röstsyntes",
+        "twilioReady": "Twilio är konfigurerat och redo för samtal",
+        "twilioSetup": "Konfigurera Twilio-uppgifter nedan för att aktivera samtal",
+        "elevenLabsReady": "ElevenLabs är konfigurerat för AI-röstagenter",
+        "elevenLabsSetup": "Lägg till API-nycklar via nyckelpoolen för att aktivera AI-röster",
+        "embeddings": "Embeddings och RAG",
+        "openaiReady": "OpenAI är konfigurerat för RAG-embeddings",
+        "openaiSetup": "Konfigurera OpenAI API-nyckel för embeddings",
+        "edit": "Redigera",
+        "manageKeys": "Hantera Nycklar"
+      },
+      "apiKeys": "API-nycklar",
+      "stripeKey": "Stripe-nyckel",
+      "twilioKey": "Twilio-nyckel",
+      "elevenLabsKey": "ElevenLabs-nyckel",
+      "openaiKey": "OpenAI-nyckel",
+      "systemSettings": "Systeminställningar",
+      "maxPhoneNumbers": "Max Telefonnummer",
+      "maxAgents": "Max Agenter"
+    },
+    "seo": {
+      "title": "SEO-inställningar",
+      "settingsSaved": "SEO-inställningar sparade",
+      "settingsSavedDesc": "Dina SEO-inställningar har uppdaterats.",
+      "urlAdded": "URL tillagd",
+      "urlAddedDesc": "URL:en har lagts till i webbplatskartan.",
+      "urlRemoved": "URL borttagen",
+      "urlRemovedDesc": "URL:en har tagits bort från webbplatskartan.",
+      "save": "Spara SEO-inställningar",
+      "saving": "Sparar...",
+      "tabs": {
+        "meta": "Meta-taggar",
+        "sitemap": "Webbplatskarta",
+        "robots": "Robots",
+        "social": "Sociala Medier",
+        "structured": "Strukturerad Data"
+      },
+      "metaTags": {
+        "title": "Standard Meta-taggar",
+        "description": "Konfigurera standard meta-taggar för dina webbsidor. Dessa kan åsidosättas på enskilda sidor.",
+        "defaultTitle": "Standardtitel",
+        "defaultTitleTooltip": "Standard titel-taggen som används för sidor utan egen titel. Visas i webbläsarflikar och sökresultat.",
+        "defaultTitlePlaceholder": "Wtrops - AI-röstsamtalsplattform",
+        "defaultTitleHint": "Rekommenderat: 50-60 tecken",
+        "defaultDescription": "Standardbeskrivning",
+        "defaultDescriptionTooltip": "Meta-beskrivningen som visas i sökmotorresultat. Skriv en övertygande sammanfattning för att uppmuntra klick.",
+        "defaultDescriptionPlaceholder": "Automatisera dina utgående samtal med AI-röstagenter. Leadkvalificering, bokningsbokning och kundundersökningar på ett enkelt sätt.",
+        "defaultDescriptionHint": "Rekommenderat: 150-160 tecken",
+        "keywords": "Nyckelord",
+        "keywordsTooltip": "Meta-nyckelord är mindre viktiga för modern SEO men kan fortfarande vara användbara. Separera med kommatecken.",
+        "keywordsPlaceholder": "AI-samtal, röstagenter, leadkvalificering, utgående samtal",
+        "canonicalUrl": "Kanonisk Bas-URL",
+        "canonicalUrlTooltip": "Den primära domän-URL:en för din webbplats. Används för att generera kanoniska URL:er och webbplatskartalänkar.",
+        "canonicalUrlPlaceholder": "https://dindomän.se",
+        "googleVerification": "Google-verifiering",
+        "googleVerificationTooltip": "Google Search Console verifierings meta-tagg innehållsvärde.",
+        "googleVerificationPlaceholder": "google-site-verification=...",
+        "bingVerification": "Bing-verifiering",
+        "bingVerificationTooltip": "Bing Webmaster Tools verifierings meta-tagg innehållsvärde.",
+        "bingVerificationPlaceholder": "MSVALIDATE..."
+      },
+      "sitemap": {
+        "title": "Hantering av Webbplatskarta",
+        "description": "Lägg till anpassade URL:er till din webbplatskarta. Standardsidor inkluderas automatiskt.",
+        "viewSitemap": "Visa Webbplatskarta",
+        "urlPath": "URL-sökväg",
+        "urlPathPlaceholder": "/blogg/artikel-slug",
+        "changeFreq": "Ändringsfrekvens",
+        "priority": "Prioritet",
+        "lastModified": "Senast Ändrad",
+        "addUrl": "Lägg till URL",
+        "defaultPages": "Standardsidor som inkluderas automatiskt:",
+        "noCustomUrls": "Inga anpassade URL:er har lagts till än",
+        "changeFreqOptions": {
+          "always": "Alltid",
+          "hourly": "Varje timme",
+          "daily": "Dagligen",
+          "weekly": "Veckovis",
+          "monthly": "Månadsvis",
+          "yearly": "Årligen",
+          "never": "Aldrig"
+        },
+        "generateDefault": "Generera standard",
+        "rebuild": "Återuppbygg",
+        "generated": "Sitemap genererad",
+        "generatedDesc": "Standard-sitemap skapad",
+        "rebuilt": "Sitemap återuppbyggd",
+        "rebuiltDesc": "Alla URLs uppdaterade"
+      },
+      "robots": {
+        "title": "robots.txt-konfiguration",
+        "description": "Kontrollera hur sökmotorernas crawlers får åtkomst till din webbplats.",
+        "viewRobots": "Visa robots.txt",
+        "crawlDelay": "Crawl-fördröjning (sekunder)",
+        "crawlDelayTooltip": "Hur många sekunder crawlers ska vänta mellan förfrågningar. Ställ in på 0 för ingen fördröjning. Använd försiktigt eftersom höga värden kan sakta ner indexeringen.",
+        "defaultRules": "Standardregler (skrivskyddade):",
+        "defaultRulesNote": "Dessa regler skyddar applikationsrutter samtidigt som de tillåter indexering av offentliga sidor."
+      },
+      "social": {
+        "title": "Sociala Medier och Open Graph",
+        "description": "Konfigurera hur ditt innehåll visas när det delas på sociala medieplattformar.",
+        "ogImage": "Open Graph Bild-URL",
+        "ogImageTooltip": "Standardbilden som visas när dina sidor delas på Facebook, LinkedIn och andra plattformar. Rekommenderat: 1200x630 pixlar.",
+        "ogImagePlaceholder": "https://dindomän.se/og-image.jpg",
+        "ogImageHint": "Rekommenderad storlek: 1200 x 630 pixlar (1.91:1 förhållande)",
+        "twitterHandle": "Twitter-användarnamn",
+        "twitterHandleTooltip": "Ditt Twitter/X-användarnamn utan @-symbolen. Används för Twitter Cards-attribuering.",
+        "twitterHandlePlaceholder": "dittanvändarnamn",
+        "facebookAppId": "Facebook App-ID",
+        "facebookAppIdTooltip": "Ditt Facebook App-ID för förbättrad delningsanalys och insikter.",
+        "facebookAppIdPlaceholder": "123456789012345",
+        "uploadImage": "Ladda upp bild",
+        "chooseFile": "Välj fil",
+        "orEnterUrl": "Eller ange URL direkt",
+        "noImage": "Ingen bild uppladdad",
+        "imageUploaded": "Bild uppladdad",
+        "imageUploadedDesc": "Bilden laddades upp"
+      },
+      "structured": {
+        "title": "Strukturerad Data (Schema.org)",
+        "description": "Konfigurera strukturerad data för att hjälpa sökmotorer att bättre förstå ditt innehåll.",
+        "organization": "Organisationsschema",
+        "organizationDescription": "Definiera dina organisationsdetaljer för rika sökresultat.",
+        "organizationName": "Organisationsnamn",
+        "organizationNamePlaceholder": "Ditt Företagsnamn",
+        "organizationUrl": "Webbplats-URL",
+        "organizationUrlPlaceholder": "https://dindomän.se",
+        "organizationLogo": "Logo-URL",
+        "organizationLogoPlaceholder": "https://dindomän.se/logo.png",
+        "organizationEmail": "Kontakt-e-post",
+        "organizationEmailPlaceholder": "kontakt@dindomän.se",
+        "organizationPhone": "Telefonnummer",
+        "organizationPhonePlaceholder": "+46-8-555-555-55",
+        "faq": "FAQ-schema",
+        "faqDescription": "Lägg till vanliga frågor för att visas som rika utdrag i sökresultat.",
+        "faqQuestion": "Fråga",
+        "faqAnswer": "Svar",
+        "addFaq": "Lägg till FAQ",
+        "noFaqs": "Inga FAQ:er har lagts till än",
+        "product": "Produktschema",
+        "productDescription": "Definiera produktdetaljer för rika sökresultat (om tillämpligt).",
+        "productName": "Produktnamn",
+        "productNamePlaceholder": "Ditt Produktnamn",
+        "productDescriptionField": "Produktbeskrivning",
+        "productDescriptionPlaceholder": "En kort beskrivning av din produkt",
+        "productPrice": "Pris",
+        "productPricePlaceholder": "99,00",
+        "productCurrency": "Valuta",
+        "productCurrencyPlaceholder": "SEK"
+      }
+    },
+    "elevenLabsPool": {
+      "syncVoiceLibrary": "Synkronisera Röstbibliotek",
+      "voiceLibrarySyncStarted": "Synkronisering av Röstbibliotek Påbörjad",
+      "voiceLibrarySyncStartedDesc": "Synkroniserar alla röster från ElevenLabs. Detta kan ta några minuter.",
+      "voiceLibrarySyncFailed": "Misslyckades med att synkronisera röstbiblioteket"
+    },
+    "plans": {
+      "title": "Planhantering",
+      "description": "Konfigurera prenumerationsplaner och deras begränsningar",
+      "addNewPlan": "Lägg till Ny Plan",
+      "createNewPlan": "Skapa Ny Plan",
+      "createDescription": "Lägg till en ny prenumerationsplan för användare",
+      "planName": "Plannamn (internt)",
+      "planNamePlaceholder": "t.ex. premium",
+      "displayName": "Visningsnamn",
+      "displayNamePlaceholder": "t.ex. Premium-plan",
+      "descriptionLabel": "Beskrivning",
+      "descriptionPlaceholder": "Planbeskrivning",
+      "monthlyPrice": "Månadspris",
+      "yearlyPrice": "Årspris",
+      "maxAgents": "Max Agenter",
+      "maxCampaigns": "Max Kampanjer",
+      "maxContacts": "Max Kontakter",
+      "maxContactsPerCampaign": "Max Kontakter per Kampanj",
+      "includedCredits": "Inkluderade Krediter",
+      "canChooseLlm": "Kan Välja LLM-modell",
+      "canPurchaseNumbers": "Kan Köpa Telefonnummer",
+      "useSystemPool": "Använd Systemets Telefonpool",
+      "activeLabel": "Aktiv",
+      "createPlan": "Skapa Plan",
+      "creating": "Skapar...",
+      "editPlan": "Redigera Plan",
+      "deletePlan": "Ta Bort Plan",
+      "deletePlanConfirm": "Är du säker på att du vill ta bort planen \"{{name}}\"? Denna åtgärd kan inte ångras. Systemet kommer att kontrollera om användare för närvarande prenumererar på denna plan.",
+      "pricing": "Prissättning:",
+      "perMonth": "/månad",
+      "perYear": "/år",
+      "or": "eller",
+      "unlimited": "Obegränsad",
+      "planCreated": "Plan skapad framgångsrikt",
+      "planUpdated": "Plan uppdaterad framgångsrikt",
+      "planDeleted": "Plan borttagen framgångsrikt",
+      "createFailed": "Misslyckades med att skapa plan",
+      "updateFailed": "Misslyckades med att uppdatera plan",
+      "deleteFailed": "Misslyckades med att ta bort plan",
+      "migrationRequired": "Användarmigrering Krävs",
+      "migrationRequiredDesc": "{{count}} användare prenumererar för närvarande på \"{{plan}}\". Du måste migrera dem till en annan plan innan du kan ta bort.",
+      "selectTargetPlan": "Välj Målplan",
+      "selectPlan": "Välj en plan...",
+      "noOtherPlansAvailable": "Inga andra planer tillgängliga. Skapa först en annan plan innan du kan migrera användare.",
+      "migrateAndDelete": "Migrera och Ta Bort",
+      "migratingUsers": "Migrerar...",
+      "usersMigrated": "Användare Migrerade",
+      "usersMigratedDesc": "{{count}} användare migrerade till {{plan}}",
+      "migrationFailed": "Migrering misslyckades"
+    },
+    "payments": {
+      "title": "Betalningsinställningar",
+      "description": "Konfigurera Stripe-integration för prenumerationer och krediter",
+      "configured": "Ansluten",
+      "secretKey": "Hemlig Nyckel",
+      "secretKeyHint": "Din hemliga Stripe-nyckel (börjar med sk_test_ eller sk_live_)",
+      "publishableKey": "Publicerbar Nyckel",
+      "publishableKeyHint": "Din publicerbara Stripe-nyckel (börjar med pk_test_ eller pk_live_)",
+      "defaultCurrency": "Standardvaluta",
+      "selectCurrency": "Välj valuta...",
+      "currencyHint": "Valuta som används för nya planer och kreditpaket. Befintliga priser påverkas inte.",
+      "stripeMode": "Stripe-läge",
+      "selectMode": "Välj läge...",
+      "testMode": "För testning (inga riktiga debiteringar)",
+      "liveMode": "För produktion (riktiga betalningar)",
+      "testConnection": "Testa Anslutning",
+      "connectionSuccess": "Ansluten till Stripe framgångsrikt!",
+      "mode": "Läge",
+      "source": "Källa",
+      "updateSuccess": "Betalningsinställningar uppdaterade framgångsrikt",
+      "updateFailed": "Misslyckades med att uppdatera betalningsinställningar",
+      "testFailed": "Stripe-anslutningstestet misslyckades",
+      "currencyInfo": "Valutainformation",
+      "currencyInfoDesc": "Viktig information om valutainställningar",
+      "currencyWarning": "Att ändra standardvalutan påverkar endast nya planer och kreditpaket. Befintliga planer behåller sin ursprungliga valuta för att säkerställa konsekvens för nuvarande prenumeranter."
+    }
+  },
+  "errors": {
+    "generic": "Ett fel uppstod",
+    "networkError": "Nätverksfel. Försök igen.",
+    "unauthorized": "Du har inte behörighet att utföra denna åtgärd",
+    "notFound": "Resursen hittades inte",
+    "serverError": "Serverfel. Försök igen senare.",
+    "validationError": "Kontrollera din inmatning",
+    "sessionExpired": "Din session har gått ut. Logga in igen.",
+    "failedToLoad": "Kunde inte ladda data",
+    "failedToSave": "Kunde inte spara ändringar",
+    "failedToDelete": "Kunde inte ta bort",
+    "required": "Detta fält är obligatoriskt",
+    "invalidEmail": "Ange en giltig e-postadress",
+    "invalidPhone": "Ange ett giltigt telefonnummer",
+    "passwordMismatch": "Lösenorden matchar inte",
+    "passwordTooShort": "Lösenordet måste vara minst 6 tecken"
+  },
+  "notifications": {
+    "title": "Aviseringar",
+    "markAllRead": "Markera alla som lästa",
+    "noNotifications": "Inga aviseringar",
+    "viewAll": "Visa alla aviseringar",
+    "banner": {
+      "dismiss": "Avfärda",
+      "dismissing": "Avfärdar..."
+    }
+  },
+  "pagination": {
+    "itemsPerPage": "Objekt per sida",
+    "page": "Sida",
+    "of": "av",
+    "showing": "Visar",
+    "to": "till",
+    "entries": "poster",
+    "first": "Första",
+    "last": "Sista",
+    "previous": "Föregående",
+    "next": "Nästa"
+  },
+  "analytics": {
+    "title": "Analys",
+    "description": "Spåra dina prestandamått",
+    "overview": "Översikt",
+    "callVolume": "Samtalsvolym",
+    "successRate": "Framgångsfrekvens",
+    "avgDuration": "Genomsnittlig längd",
+    "leadConversion": "Lead-konvertering",
+    "timeRange": {
+      "today": "Idag",
+      "week": "Denna vecka",
+      "month": "Denna månad",
+      "year": "Detta år",
+      "custom": "Anpassad"
+    }
+  },
+  "voices": {
+    "title": "Röstbibliotek",
+    "subtitle": "Bläddra och förhandsvisa röster för dina agenter",
+    "subtitleLoading": "Laddar röster...",
+    "subtitleWithCount": "Bläddra och förhandsvisa {{count}} röster för dina agenter",
+    "description": "Hantera AI-röstprofiler",
+    "addVoice": "Lägg till röst",
+    "searchPlaceholder": "Sök röster efter namn, accent eller beskrivning...",
+    "preview": "Förhandsvisa",
+    "noVoices": "Inga röster konfigurerade",
+    "totalVoices": "Totalt Antal Röster",
+    "premade": "Förgjorda",
+    "noVoicesFound": "Inga röster hittades",
+    "noVoicesMatch": "Inga röster matchar dina filter. Försök justera dina sökkriterier.",
+    "noVoicesAvailable": "Inga röster tillgängliga i biblioteket",
+    "age": "Ålder",
+    "bestFor": "Bäst för",
+    "languages": "Språk",
+    "genders": "Kön",
+    "categories": "Kategorier",
+    "ages": "Åldersgrupper",
+    "clearFilters": "Rensa Filter",
+    "filterLanguage": "Språk",
+    "filterGender": "Kön",
+    "filterCategory": "Kategori",
+    "filterAccent": "Accent",
+    "filterAge": "Ålder",
+    "allLanguages": "Alla Språk",
+    "allGenders": "Alla Kön",
+    "allCategories": "Alla Kategorier",
+    "allAccents": "Alla Accenter",
+    "allAges": "Alla Åldrar",
+    "showingResults": "Visar {{from}}-{{to}} av {{total}} röster",
+    "fields": {
+      "name": "Röstnamn",
+      "provider": "Leverantör",
+      "gender": "Kön",
+      "language": "Språk",
+      "accent": "Accent"
+    }
+  },
+  "integrations": {
+    "title": "Integrationer",
+    "description": "Anslut externa tjänster",
+    "connected": "Ansluten",
+    "notConnected": "Ej ansluten",
+    "connect": "Anslut",
+    "disconnect": "Koppla från",
+    "configure": "Konfigurera"
+  },
+  "campaignDetail": {
+    "sections": {
+      "campaignDetails": "Kampanjdetaljer",
+      "recipients": "Mottagare"
+    },
+    "table": {
+      "name": "Namn",
+      "phone": "Telefon",
+      "email": "E-post",
+      "status": "Status"
+    }
+  }
+}

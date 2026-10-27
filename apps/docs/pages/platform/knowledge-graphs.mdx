@@ -1,0 +1,28 @@
+# Knowledge graphs
+
+wtrdb constructs a graph per knowledge base. Extraction identifies entities and relationships, records progress events, and routes candidate triples through governance before they become graph data.
+
+~~~mermaid
+flowchart LR
+  S[Source document] --> C[Chunks]
+  C --> X[LLM extraction]
+  X --> E[Evidence filter]
+  E --> L[Logical filter]
+  L --> I[Evolutionary-intent filter]
+  I --> G[(Knowledge graph)]
+  G --> Q[Query, visualize, export]
+~~~
+
+## Working in the graph view
+
+- Use the summary for entity and relationship counts.
+- Inspect entities, relationships, graph events, and schema types.
+- Review schema proposals and mappings before accepting inferred schema changes.
+- Use the query panel for natural-language questions or Cypher where your role permits it.
+- Use the 3D explorer for spatial graph inspection, provenance context, and temporal views.
+
+## Quality and provenance
+
+wtrdb provides quality signals around graph construction. The quality module uses cellular sheaf-theory techniques, including Laplacian spectral analysis, conflict detection, and diffusion-based resolution support. Treat these signals as decision support and review source provenance before making high-impact changes.
+
+If generation stalls, inspect extraction activity and server health. Verify the knowledge base exists, FalkorDB is reachable, and an OpenAI key is configured before retrying.

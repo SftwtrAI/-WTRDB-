@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "paths": {
+      "@wtrops/shared": ["../../libs/shared/src/index.ts"],
+      "@wtrops/core": ["../../libs/core/src/index.ts"]
+    }
+  },
+  "include": ["src/**/*"]
+}

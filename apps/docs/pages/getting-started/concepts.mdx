@@ -1,0 +1,17 @@
+# Core concepts
+
+**Knowledge base**
+
+A user-owned collection of source material and its associated graph. It is the scope used for extraction, graph queries, and Brain Endpoints.
+
+**Knowledge graph**
+
+Entities are graph nodes; relationships are typed edges. The graph is stored in FalkorDB and is distinct from relational records that manage users, settings, and metadata.
+
+**Extraction**
+
+The incremental pipeline identifies entities and relationships from document chunks. Candidate triples are governed before graph writes, and extraction events can be replayed for visibility.
+
+**Brain Endpoint**
+
+A published, API-key-protected interface to exactly one knowledge graph. It exposes REST and MCP transports without exposing the main application session API.

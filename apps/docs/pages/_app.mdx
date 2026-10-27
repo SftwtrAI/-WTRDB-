@@ -1,0 +1,61 @@
+import { useEffect, useRef } from "react";
+import { useRouter } from "next/router";
+import "nextra-theme-docs/style.css";
+import "../styles/globals.css";
+import { animatePageElements } from "../utils/animations";
+import { FeedbackWidget } from "../components/FeedbackWidget";
+
+export default function App({ Component, pageProps }) {
+    const router = useRouter()
+    const prefetchedRef = useRef(new Set())
+
+    useEffect(() => {
+        animatePageElements()
+        const handleRouteComplete = () => {
+            document.querySelectorAll('[data-animated]').forEach((el) => {
+                delete el.dataset.animated
+            })
+            animatePageElements()
+        }
+        router.events.on('routeChangeComplete', handleRouteComplete)
+        return () => router.events.off('routeChangeComplete', handleRouteComplete)
+    }, [router.events])
+
+    useEffect(() => {
+        const prefetch = () => {
+            document.querySelectorAll('.nextra-sidebar-container a[href]').forEach((link) => {
+                const href = link.getAttribute('href')
+                if (href?.startsWith('/') && !prefetchedRef.current.has(href)) {
+                    prefetchedRef.current.add(href)
+                    router.prefetch(href).catch(() => { })
+                }
+            })
+        }
+        if (typeof window !== 'undefined' && 'requestIdleCallback' in window) {
+            requestIdleCallback(prefetch, { timeout: 2000 })
+        } else {
+            setTimeout(prefetch, 1200)
+        }
+    }, [router.pathname, router])
+
+    useEffect(() => {
+        const handleMouseEnter = (e) => {
+            const href = e.currentTarget.getAttribute('href')
+            if (href?.startsWith('/') && !prefetchedRef.current.has(href)) {
+                prefetchedRef.current.add(href)
+                router.prefetch(href).catch(() => { })
+            }
+        }
+        const links = document.querySelectorAll('.nextra-sidebar-container a[href]')
+        links.forEach((link) => link.addEventListener('mouseenter', handleMouseEnter))
+        return () => links.forEach((link) => link.removeEventListener('mouseenter', handleMouseEnter))
+    }, [router.pathname, router])
+
+    return (
+        <>
+            <Component {...pageProps} />
+            <FeedbackWidget />
+        </>
+    )
+
+}

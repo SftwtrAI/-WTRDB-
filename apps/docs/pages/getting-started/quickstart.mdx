@@ -1,0 +1,63 @@
+# Quickstart
+
+This walkthrough creates a knowledge base, builds its graph, inspects the result, and publishes it as an integration endpoint.
+
+## 1. Create a knowledge base
+
+Open the workspace and create a knowledge base for a single, coherent set of source material. Give it a recognizable title.
+
+## 2. Add source material
+
+Open the **New Graph** panel and choose one of five source types:
+
+| Tab | Supported input | Limit |
+| --- | --- | --- |
+| Upload | `.txt` `.md` `.html` `.htm` `.json` `.xml` `.csv` | 20 MB |
+| Text | pasted text | 10 MB request body |
+| MongoDB | a connection URI and database name | 12 documents sampled per collection |
+| Video | any format ffmpeg reads | 2 GiB |
+| Image | any format the image pipeline decodes | 25 MiB |
+
+Video and image run through dedicated vision services, so allow a little more time for
+those than for text sources.
+
+The MongoDB tab gives you an immediate view: it samples your collections and renders the
+derived graph in the browser for exploration, where you can query it directly. Steps 3
+and 5 below apply to the other four source types.
+
+Wait for ingestion to complete. Keep source content sanitized when using a demonstration workspace.
+
+## 3. Generate the knowledge graph
+
+From the knowledge-base graph view, start graph generation. wtrdb processes document chunks, extracts entities and relationships, applies governance checks, and writes accepted triples to the graph.
+
+~~~mermaid
+sequenceDiagram
+  participant U as User
+  participant W as wtrdb
+  participant L as Extraction model
+  participant G as FalkorDB
+  U->>W: Generate graph
+  W->>L: Extract entities and relationships
+  L-->>W: Candidate triples
+  W->>W: Governance adjudication
+  W->>G: Write accepted triples
+  G-->>W: Graph summary
+  W-->>U: Progress and results
+~~~
+
+Use the activity feed and graph summary to follow progress. An empty graph normally means extraction has not run, has not completed, or source material yielded no accepted entities.
+
+## 4. Explore and query
+
+Open the graph explorer to inspect entities and relationships. Use the query interface for natural-language questions or Cypher where your role permits it. The schema view identifies observed entity and relationship types; review schema proposals before relying on new mappings.
+
+## 5. Publish a Brain Endpoint
+
+Open Brain Endpoints, select the current graph, name the endpoint, and publish it. Save the generated key in your application secret manager; it is part of the public endpoint URL and grants query access.
+
+~~~bash
+curl "https://YOUR_HOST/api/brain/BRN_KEY/health"
+~~~
+
+Continue with the [Brain Endpoint guide](/integrations/brain-endpoints) for REST and MCP setup.

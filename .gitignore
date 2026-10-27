@@ -1,0 +1,45 @@
+node_modules
+dist
+.next
+.DS_Store
+vite.config.ts.*
+*.tar.gz
+.nx/cache
+.nx/workspace-data
+
+# Local-only sandboxes & build artifacts
+resume/
+static/
+nx-project-graph.html
+*.tsbuildinfo
+
+# Ignore real env files
+.env
+.env.*
+*.env
+
+# ...but keep the templates
+!.env.example
+!**/.env.example
+
+# ---- Sidecar service runtime dirs ----
+# The data/* and logs/* rules below are anchored to the repo root, so the
+# sidecars' own runtime dirs need their own rules.
+video-kg/data/
+video-kg/logs/
+video-kg/node_modules/
+image-kg/data/
+image-kg/logs/
+image-kg/node_modules/
+
+# ---- Runtime directories (keep empty folders) ----
+data/*
+kyc/*
+logs/*
+export/*
+
+# Re-allow folders
+!data/
+!kyc/
+!logs/
+!export/

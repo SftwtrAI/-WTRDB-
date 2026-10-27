@@ -1,0 +1,22 @@
+# Access control
+
+wtrdb combines JWT-based authentication with role-based access control (RBAC), teams, scoped assignments, MFA, viewer protections, and audit records.
+
+## RBAC model
+
+Roles collect permissions. A role assignment can be scoped to a team, allowing organizations to keep graph operations inside the intended ownership boundary.
+
+- Teams organize users into a tree and provide scope for assignments.
+- Roles can be system-defined or custom to the organization.
+- Permissions are checked for the active user and context.
+- Audit records track RBAC-related actions for review.
+
+## Administrator checklist
+
+1. Create teams that match data ownership and operational responsibility.
+2. Grant the smallest viable permission set through roles.
+3. Use scoped assignments instead of broad global privileges whenever possible.
+4. Enable MFA for privileged users and review audit activity regularly.
+5. Use viewer mode only for intentionally read-only demonstrations.
+
+A Brain Endpoint key is not a user identity. It grants query access to its bound graph and belongs in an application secret store.

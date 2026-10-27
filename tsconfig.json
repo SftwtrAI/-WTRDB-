@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": ["apps/**/*", "libs/**/*"],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "**/*.test.ts",
+    "apps/docs/**/*"
+  ],
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/typescript/tsbuildinfo",
+    "jsx": "preserve",
+    "types": ["node", "vite/client"]
+  }
+}

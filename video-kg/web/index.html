@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Video → Knowledge Graph</title>
+    <script src="https://cdn.jsdelivr.net/npm/tus-js-client@4/dist/tus.min.js"></script>
+    <style>
+      :root { color-scheme: dark; }
+      body { font-family: ui-sans-serif, system-ui, sans-serif; background: #0b1014; color: #e6edf3; margin: 0; padding: 2rem; }
+      .wrap { max-width: 720px; margin: 0 auto; }
+      h1 { font-size: 1.25rem; letter-spacing: .04em; }
+      .card { background: #111a21; border: 1px solid #243645; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; }
+      input[type=file], input[type=text] { width: 100%; box-sizing: border-box; background: #0b1014; border: 1px solid #243645; color: #e6edf3; border-radius: 8px; padding: .6rem; }
+      button { background: #07a288; color: #fff; border: 0; border-radius: 8px; padding: .6rem 1rem; cursor: pointer; font-weight: 600; }
+      button:disabled { opacity: .5; cursor: default; }
+      .bar { height: 8px; background: #243645; border-radius: 999px; overflow: hidden; margin-top: .75rem; }
+      .bar > div { height: 100%; width: 0; background: #07a288; transition: width .3s; }
+      .muted { color: #8aa0b2; font-size: .85rem; }
+      a { color: #6fd; }
+      pre { white-space: pre-wrap; word-break: break-word; background:#0b1014; border:1px solid #243645; border-radius:8px; padding:.75rem; font-size:.8rem; }
+      .row { display: flex; gap: .5rem; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>VIDEO → KNOWLEDGE GRAPH</h1>
+      <p class="muted">Upload a video. It is analyzed into a temporal knowledge graph and injected into wtrdb, where you can explore and query it.</p>
+
+      <div class="card">
+        <input type="file" id="file" accept="video/*" />
+        <div class="row" style="margin-top:.75rem">
+          <button id="upload">Upload &amp; build graph</button>
+          <span id="ustate" class="muted" style="align-self:center"></span>
+        </div>
+        <div class="bar"><div id="ubar"></div></div>
+        <div class="bar"><div id="pbar"></div></div>
+        <div id="pstate" class="muted" style="margin-top:.5rem"></div>
+        <div id="links" style="margin-top:.75rem"></div>
+      </div>
+
+      <div class="card" id="qcard" style="display:none">
+        <strong>Ask a question</strong>
+        <div class="muted">Answered by wtrdb's NL→Cypher over the video graph (timestamps + evidence).</div>
+        <input type="text" id="q" placeholder="What did person 1 do between 0:30 and 1:00?" style="margin-top:.5rem" />
+        <div class="row" style="margin-top:.5rem"><button id="ask">Ask</button></div>
+        <pre id="ans" style="display:none"></pre>
+      </div>
+    </div>
+
+    <script>
+      let currentVideoId = null;
+      let currentKbId = null;
+      const $ = (id) => document.getElementById(id);
+
+      $("upload").onclick = () => {
+        const file = $("file").files[0];
+        if (!file) { $("ustate").textContent = "pick a file first"; return; }
+        $("upload").disabled = true;
+        $("ustate").textContent = "uploading…";
+        const upload = new tus.Upload(file, {
+          endpoint: "/files",
+          retryDelays: [0, 1000, 3000, 5000],
+          metadata: { filename: file.name, filetype: file.type },
+          onError: (e) => { $("ustate").textContent = "upload error: " + e; $("upload").disabled = false; },
+          onProgress: (sent, total) => { $("ubar").style.width = (100 * sent / total) + "%"; },
+          onSuccess: () => {
+            $("ustate").textContent = "uploaded — processing";
+            currentVideoId = upload.url.split("/").pop();
+            poll();
+          },
+        });
+        upload.start();
+      };
+
+      async function poll() {
+        try {
+          const r = await fetch("/videos/" + currentVideoId);
+          if (r.ok) {
+            const j = await r.json();
+            $("pbar").style.width = (j.progress || 0) + "%";
+            $("pstate").textContent = "stage: " + j.status + (j.error ? (" — " + j.error) : "");
+            if (j.status === "completed") {
+              currentKbId = j.kbId;
+              $("links").innerHTML =
+                'Graph ready: ' +
+                '<a target="_blank" href="' + j.links.reactFlow + '">2D graph</a> · ' +
+                '<a target="_blank" href="' + j.links.threeD + '">3D graph</a> · ' +
+                '<a target="_blank" href="' + j.links.constellation + '">constellation</a>' +
+                ' &nbsp; (' + j.entityCount + ' nodes, ' + j.relationshipCount + ' edges)';
+              $("qcard").style.display = "block";
+              return;
+            }
+            if (j.status === "failed") return;
+          }
+        } catch (e) { /* keep polling */ }
+        setTimeout(poll, 2000);
+      }
+
+      $("ask").onclick = async () => {
+        const question = $("q").value.trim();
+        if (!question || !currentVideoId) return;
+        $("ans").style.display = "block";
+        $("ans").textContent = "thinking…";
+        try {
+          const r = await fetch("/query", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ videoId: currentVideoId, question }),
+          });
+          const j = await r.json();
+          if (j.error) { $("ans").textContent = "error: " + j.error; return; }
+          let out = j.answer || "(no answer)";
+          if (j.evidence && j.evidence.length) {
+            out += "\n\nEvidence:";
+            for (const e of j.evidence) out += `\n• ${e.timestamp} — ${e.event}`;
+          }
+          $("ans").textContent = out;
+        } catch (e) { $("ans").textContent = "error: " + e; }
+      };
+    </script>
+  </body>
+</html>

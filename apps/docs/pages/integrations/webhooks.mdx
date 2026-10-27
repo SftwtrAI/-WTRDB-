@@ -1,0 +1,13 @@
+# Webhooks
+
+wtrdb supports user-managed outbound webhook subscriptions. Create a subscription from the application, select its events, and point it at an HTTPS endpoint you control.
+
+## Safe delivery practices
+
+- Use a dedicated receiving endpoint and verify configured authentication/signature behavior before processing payloads.
+- Acknowledge promptly, enqueue slow work, and make handlers idempotent; delivery may be retried.
+- Store credentials outside source code and rotate them following your incident process.
+- Limit subscriptions to events your integration actually needs.
+- Test endpoints before enabling critical automations and inspect failed deliveries.
+
+Subscription management is authenticated through the workspace API. Event availability can depend on enabled product modules and plan limits; the in-product selector is the source of truth.

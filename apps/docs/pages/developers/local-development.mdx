@@ -1,0 +1,36 @@
+# Local development
+
+## Prerequisites
+
+Install Node.js 20+, PostgreSQL, FalkorDB, Redis, and npm. An OpenAI API key is required to exercise AI-backed extraction and query flows.
+
+## Setup
+
+~~~bash
+npm install
+# Create an untracked .env file with the required variables.
+npm run db:push
+npm run db:seed
+~~~
+
+Run the client and API in separate terminals:
+
+~~~bash
+npm run dev:client
+npm run dev:server
+~~~
+
+Run documentation separately:
+
+~~~bash
+npm run dev:docs
+~~~
+
+## Verification
+
+- Confirm the API health endpoint responds at /health.
+- Sign in with a local/test account and create a disposable knowledge base.
+- Verify FalkorDB and PostgreSQL connectivity before testing extraction.
+- Run npm run check before submitting a documentation or code change.
+
+Do not use production credentials or customer documents in local development.

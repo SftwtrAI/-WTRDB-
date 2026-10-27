@@ -1,0 +1,2461 @@
+{
+  "common": {
+    "loading": "読み込み中...",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "create": "作成",
+    "add": "追加",
+    "remove": "削除",
+    "close": "閉じる",
+    "confirm": "確認",
+    "back": "戻る",
+    "next": "次へ",
+    "submit": "送信",
+    "search": "検索",
+    "filter": "フィルター",
+    "clear": "クリア",
+    "refresh": "更新",
+    "export": "エクスポート",
+    "import": "インポート",
+    "download": "ダウンロード",
+    "upload": "アップロード",
+    "view": "表示",
+    "viewAll": "すべて表示",
+    "actions": "アクション",
+    "status": "ステータス",
+    "name": "名前",
+    "email": "メール",
+    "password": "パスワード",
+    "description": "説明",
+    "date": "日付",
+    "time": "時間",
+    "type": "タイプ",
+    "total": "合計",
+    "active": "アクティブ",
+    "inactive": "非アクティブ",
+    "enabled": "有効",
+    "disabled": "無効",
+    "yes": "はい",
+    "no": "いいえ",
+    "all": "すべて",
+    "none": "なし",
+    "success": "成功",
+    "error": "エラー",
+    "warning": "警告",
+    "info": "情報",
+    "noData": "データがありません",
+    "noResults": "結果が見つかりません",
+    "required": "必須",
+    "optional": "任意",
+    "minutes": "分",
+    "seconds": "秒",
+    "hours": "時間",
+    "days": "日",
+    "thisWeek": "今週",
+    "today": "今日",
+    "yesterday": "昨日",
+    "ago": "前",
+    "settings": "設定",
+    "help": "ヘルプ",
+    "language": "言語",
+    "selectLanguage": "言語を選択"
+  },
+  "auth": {
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "register": "登録",
+    "signIn": "サインイン",
+    "signUp": "サインアップ",
+    "signOut": "サインアウト",
+    "getStarted": "始める",
+    "getStartedFree": "無料で始める",
+    "welcomeBack": "おかえりなさい！",
+    "loggedInAs": "{{name}}としてログイン中",
+    "loginFailed": "ログイン失敗",
+    "registrationFailed": "登録失敗",
+    "accountCreated": "アカウント作成完了！",
+    "welcome": "ようこそ、{{name}}さん",
+    "loggingIn": "ログイン中...",
+    "fullName": "氏名",
+    "emailPlaceholder": "your@email.com",
+    "namePlaceholder": "山田太郎",
+    "platform": "Wtrops コーリングプラットフォーム",
+    "accessCampaigns": "AIコーリングキャンペーンにアクセスするにはサインインしてください",
+    "sendVerificationCode": "続ける",
+    "sendingCode": "認証コードを送信中...",
+    "checkEmail": "メールを確認してください",
+    "verificationSent": "認証コードを送信しました",
+    "verificationCode": "認証コード",
+    "codeExpires": "コードの有効期限",
+    "verifyAndCreate": "認証してアカウントを作成",
+    "verifying": "認証中...",
+    "resendCode": "コードを再送信",
+    "resendIn": "{{seconds}}秒後に再送信",
+    "codeSent": "認証コードを送信しました",
+    "checkEmailAt": "{{email}}のメールを確認してください",
+    "codeResent": "コードを再送信しました",
+    "newCodeSent": "新しい認証コードがメールに送信されました",
+    "failedToSend": "コードの送信に失敗しました",
+    "failedToResend": "コードの再送信に失敗しました",
+    "verificationFailed": "認証に失敗しました",
+    "invalidCode": "無効な認証コード"
+  },
+  "nav": {
+    "home": "ホーム",
+    "dashboard": "ダッシュボード",
+    "campaigns": "キャンペーン",
+    "agents": "エージェント",
+    "knowledgeBase": "ナレッジベース",
+    "voices": "音声",
+    "allContacts": "すべての連絡先",
+    "calls": "通話",
+    "analytics": "分析",
+    "phoneNumbers": "電話番号",
+    "incomingConnections": "着信接続",
+    "flowBuilder": "フロービルダー",
+    "executionLogs": "実行ログ",
+    "webhooks": "Webhook",
+    "forms": "フォーム",
+    "appointments": "予約",
+    "templates": "テンプレート",
+    "upgradePlan": "プランをアップグレード",
+    "billingCredits": "請求とクレジット",
+    "administration": "管理",
+    "adminDashboard": "管理者ダッシュボード",
+    "accountSettings": "アカウント設定"
+  },
+  "sidebar": {
+    "build": "構築",
+    "evaluate": "評価",
+    "telephony": "テレフォニー",
+    "flowAutomation": "フロー自動化",
+    "billing": "請求",
+    "credits": "クレジット",
+    "pro": "Pro",
+    "proMember": "Proメンバー",
+    "upgrade": "アップグレード",
+    "myWorkspace": "マイワークスペース"
+  },
+  "dashboard": {
+    "greeting": {
+      "morning": "おはようございます",
+      "afternoon": "こんにちは",
+      "evening": "こんばんは",
+      "default": "おかえりなさい"
+    },
+    "subtitle": "今日のキャンペーンの状況です",
+    "quickActions": "クイックアクション",
+    "createCampaign": "キャンペーン作成",
+    "createAgent": "エージェント作成",
+    "flowBuilder": "フロービルダー",
+    "totalCalls": "総通話数",
+    "incomingCalls": "着信通話",
+    "outgoingCalls": "発信通話",
+    "contacts": "連絡先",
+    "campaignsCard": "キャンペーン",
+    "success": "成功",
+    "avg": "平均",
+    "campaigns": "キャンペーン",
+    "callActivity": "通話アクティビティ",
+    "allCalls": "すべての通話",
+    "incoming": "着信",
+    "outgoing": "発信",
+    "noCallData": "今週の通話データがありません",
+    "leadDistribution": "リード分布",
+    "hot": "ホット",
+    "warm": "ウォーム",
+    "cold": "コールド",
+    "lost": "ロスト",
+    "noLeadData": "リードデータがありません",
+    "recentCalls": "最近の通話",
+    "unknown": "不明",
+    "noRecentCalls": "最近の通話がありません",
+    "recentUsers": "最近のユーザー",
+    "leadSummary": "リードサマリー",
+    "registeredAgo": "{{time}}前に登録",
+    "noLeads": "分類されたリードがまだありません",
+    "startCampaign": "リード分布を見るにはキャンペーンを開始してください"
+  },
+  "landing": {
+    "features": "機能",
+    "useCases": "ユースケース",
+    "pricing": "料金",
+    "customers": "お客様",
+    "poweredBy": "ElevenLabs & Twilio AI搭載",
+    "heroTitle1": "あなたの",
+    "heroTitle2": "コール業務を",
+    "heroTitle3": "Voice AIエージェントでスーパーチャージ",
+    "heroSubtitle": "本番環境対応のAI音声エージェントを大規模に構築、デプロイ、監視する新しい方法を発見してください。",
+    "tryForFree": "無料で試す",
+    "watchDemo": "デモを見る",
+    "noCreditCard": "クレジットカード不要",
+    "freePlanForever": "永久無料プラン",
+    "setupMinutes": "5分でセットアップ",
+    "aiTechnology": "AI搭載テクノロジー",
+    "builtForFuture": "コミュニケーションの未来のために構築",
+    "experienceTech": "ビジネスコミュニケーションを変革する最先端AI技術を体験",
+    "advancedAI": "高度なAIインテリジェンス",
+    "advancedAIDesc": "最先端の言語モデルによる自然言語理解",
+    "humanLikeVoices": "人間のような音声",
+    "humanLikeVoicesDesc": "自然で魅力的な超リアルな音声合成",
+    "realTimeProcessing": "リアルタイム処理",
+    "realTimeProcessingDesc": "スムーズな会話のための1秒未満のレイテンシで即時応答",
+    "howItWorks": "仕組み",
+    "getStartedSteps": "3つの簡単なステップで開始",
+    "build": "構築",
+    "buildDesc": "直感的なエージェントビルダーを使用して、プロフェッショナルなテンプレートでカスタム音声AIコーラーを簡単に作成。",
+    "deploy": "デプロイ",
+    "deployDesc": "ワンクリックでAI電話、キャンペーン、自動アウトリーチ用にエージェントを簡単にデプロイ。",
+    "monitor": "監視",
+    "monitorDesc": "包括的なリアルタイム分析ダッシュボードで成功率、通話メトリクス、ユーザー感情を追跡。",
+    "powerfulFeatures": "強力なAI音声エージェント機能",
+    "everythingYouNeed": "AI音声エージェントの作成、デプロイ、管理に必要なすべて",
+    "autoSyncKnowledge": "ナレッジベース自動同期",
+    "autoSyncKnowledgeDesc": "AIエージェントは会社のナレッジベースと直接同期して常に最新の状態を維持。手動更新は不要です。",
+    "callTransfer": "強力な通話転送機能",
+    "callTransferDesc": "引き継ぎメッセージ付きのウォームトランスファーを簡単に設定。次のエージェントは常に準備万端です。",
+    "easyAppointment": "簡単な予約設定",
+    "easyAppointmentDesc": "AI電話エージェントがシンプルで自然な言葉で数秒でミーティングをスケジュール。",
+    "realTimeAnalytics": "リアルタイム分析",
+    "realTimeAnalyticsDesc": "包括的なダッシュボードで通話メトリクス、成功率、顧客感情を追跡。",
+    "naturalVoice": "自然な音声会話",
+    "naturalVoiceDesc": "ElevenLabsの人間のようなAI音声がお客様に愛されるシームレスで自然な会話を実現。",
+    "intelligentLead": "インテリジェントリードスコアリング",
+    "intelligentLeadDesc": "会話分析と感情に基づいてリードを自動的にホット、ウォーム、コールド、ロストに分類。",
+    "transformInteraction": "すべての顧客インタラクションを変革",
+    "discoverUseCases": "AI音声エージェントがビジネスコミュニケーションをどのように向上させるか発見",
+    "receptionist": "レセプショニスト",
+    "receptionistDesc": "着信通話の処理、FAQ対応、適切な部門への転送",
+    "appointmentSetter": "アポイントメントセッター",
+    "appointmentSetterDesc": "見込み客との会議を自動的にスケジュール",
+    "leadQualification": "リード資格審査",
+    "leadQualificationDesc": "営業チームに引き渡す前にリードを審査・評価",
+    "survey": "アンケート",
+    "surveyDesc": "大規模な顧客フィードバックとインサイトの収集",
+    "customerService": "カスタマーサービス",
+    "customerServiceDesc": "24時間365日のサポートを提供し、一般的な顧客の問題を解決",
+    "navbar": {
+      "features": "機能",
+      "useCases": "ユースケース",
+      "pricing": "料金",
+      "integrations": "連携",
+      "blog": "ブログ",
+      "contact": "お問い合わせ",
+      "login": "ログイン",
+      "language": "言語"
+    },
+    "hero": {
+      "badge": "ノーコードAI音声エンジン",
+      "headline": "AIボイスエージェント",
+      "rotatingWords": {
+        "sales": "営業",
+        "support": "サポート",
+        "outreach": "アウトリーチ",
+        "appointments": "予約"
+      },
+      "subheadline": "発信・着信通話を処理し、ミーティングを予約し、24時間365日アクションを実行する人間のようなAI音声エージェントを作成。",
+      "humanLike": "人間のような",
+      "statsProductivity": "生産性",
+      "statsScalability": "拡張性",
+      "getStarted": "今すぐ始める",
+      "freeTrial": "14日間無料トライアル",
+      "freeCredit": "$10無料クレジット"
+    },
+    "footer": {
+      "product": "製品",
+      "resources": "リソース",
+      "contactTitle": "お問い合わせ",
+      "newsletter": "ニュースレターを購読",
+      "emailPlaceholder": "メールアドレスを入力",
+      "thankYou": "ご登録ありがとうございます！",
+      "thankYouDesc": "最新情報とヒントをお届けします。",
+      "copyright": "全著作権所有。",
+      "privacy": "プライバシー",
+      "terms": "利用規約",
+      "cookies": "Cookie",
+      "features": "機能",
+      "useCases": "ユースケース",
+      "pricing": "料金",
+      "integrations": "連携",
+      "blog": "ブログ",
+      "contact": "お問い合わせ",
+      "privacyPolicy": "プライバシーポリシー",
+      "termsOfService": "利用規約"
+    },
+    "featureSection": {
+      "title": "24時間365日働くAI音声アシスタントを構築",
+      "capabilities": {
+        "bookMeetings": "ミーティング予約",
+        "conductInterviews": "面接実施",
+        "coldCallProspects": "コールドコール",
+        "offerSupport": "サポート提供"
+      },
+      "feature1": {
+        "title": "人間のような音声エージェント",
+        "description": "エージェントに名前を付け、言語とアクセントを選択し、タスクを処理するように設定してAIエージェントを簡単に作成：",
+        "bullet1": "データでAIエージェントを即座にトレーニング",
+        "bullet2": "ノーコードプラットフォームで迅速にデプロイ",
+        "bullet3": "顧客対応を自動化"
+      },
+      "feature2": {
+        "title": "AIに通話を任せる",
+        "description": "発信通話、着信通話の処理、24時間365日の予約スケジュール。リストを選択するか連絡先をアップロードし、スケジュールを設定して開始！",
+        "bullet1": "発信通話",
+        "bullet2": "着信通話"
+      },
+      "feature3": {
+        "title": "エンゲージ＆コンバート",
+        "description": "可能な限り人間らしい方法で顧客とつながり、タスクを自動化し、アウトリーチ活動を強化。",
+        "bullet1": "リード資格審査とフォローアップを自動化",
+        "bullet2": "AI招待でイベント参加率を向上",
+        "bullet3": "24時間365日のAIカスタマーサポートソリューションを提供",
+        "bullet4": "AIを活用して応募者面接を自動化"
+      },
+      "mockup": {
+        "language": "英語（シンガポール）",
+        "voice": "音声：Brian",
+        "stability": "安定性",
+        "speed": "スピード",
+        "diarization": "話者分離",
+        "createAgent": "エージェント作成",
+        "selectAgent": "エージェント選択",
+        "outboundCall": "発信通話",
+        "startDate": "開始：2024/1/5",
+        "endDate": "終了：2024/5/20",
+        "selectList": "リスト選択",
+        "collectContactDetails": "連絡先情報収集",
+        "bookAppointments": "予約",
+        "qualifyLeads": "リード資格審査"
+      },
+      "getStarted": "今すぐ始める",
+      "freeTrial": "14日間無料トライアル",
+      "freeCredit": "$10無料クレジット"
+    },
+    "actionCards": {
+      "title": "タスクとアクションを自動化",
+      "description": "AIエージェントを設定して、以下のような様々なタスクとアクションを自動化：",
+      "cards": {
+        "sms": "通話中に顧客にSMSメッセージを即座に送信",
+        "transfer": "通話をライブの人間エージェントにリダイレクトまたは転送",
+        "webhooks": "ZapierとWebhookを使用して顧客データを収集しアクションを自動化",
+        "email": "通話中または通話後に簡単にメールを送信",
+        "whatsapp": "通話中に顧客にWhatsAppメッセージを送信",
+        "appointments": "通話中に予約をスケジュールしカレンダー招待を送信"
+      },
+      "getStarted": "今すぐ始める",
+      "freeTrial": "14日間無料トライアル",
+      "freeCredit": "$10無料クレジット"
+    },
+    "technology": {
+      "badge": "卓越したテクノロジー",
+      "title": "比類なきパフォーマンス",
+      "benefits": {
+        "cutCosts": "営業担当者採用のコストと時間を削減",
+        "millionCalls": "1分間に100万通話を開始",
+        "reduceAttrition": "離職率と通話待ち時間を削減"
+      },
+      "features": {
+        "autopilot": {
+          "title": "通話をオートパイロットに",
+          "description": "SMS、メール、カレンダー招待などを自動送信"
+        },
+        "voiceCustomization": {
+          "title": "音声カスタマイズ",
+          "description": "話す速度、スピード、忍耐レベルを簡単にカスタマイズ"
+        },
+        "sentimentAnalysis": {
+          "title": "感情分析",
+          "description": "高度な感情分析と音声管理でCXを向上"
+        },
+        "diarization": {
+          "title": "話者分離",
+          "description": "割り込みに対応し会話の終了を検出"
+        },
+        "globalConversations": {
+          "title": "グローバル会話",
+          "description": "30以上の言語でクライアントと対話"
+        },
+        "realTimeBookings": {
+          "title": "リアルタイム予約",
+          "description": "リアルタイムの空き状況を確認し即座に予約"
+        }
+      },
+      "getStarted": "今すぐ始める",
+      "freeTrial": "14日間無料トライアル",
+      "freeCredit": "$10無料クレジット"
+    },
+    "featuresShowcase": {
+      "title": "強力な音声接続",
+      "titleHighlight": "AI搭載の会話",
+      "description": "信頼性の高い高品質な音声対話を通じて世界中の顧客とつながるAIエージェント—すべてプレミアム通話インフラで実現。",
+      "globalReach": "グローバルリーチ",
+      "reliableCalls": "信頼性の高い通話",
+      "aiAutomation": "AI＆自動化機能",
+      "features": {
+        "seamlessInbound": {
+          "title": "100か国以上でシームレスな着信通話",
+          "description": "100か国以上のローカル電話番号を使用し、顧客が簡単に連絡できるように。"
+        },
+        "directConnectivity": {
+          "title": "複雑さのない直接接続",
+          "description": "複数の通信キャリアを管理する必要なく、100か国以上の顧客に通話。"
+        },
+        "verifiedNumbers": {
+          "title": "幅広い認証済みビジネス番号",
+          "description": "100か国以上でローカル、フリーダイヤル、または携帯電話番号を選択し、信頼を構築しシームレスな通話を確保。"
+        },
+        "highQuality": {
+          "title": "低レイテンシの高品質音声通話",
+          "description": "5大陸にまたがる地域PoP（Point of Presence）で500ms未満の通話レイテンシ。"
+        },
+        "intelligentRouting": {
+          "title": "インテリジェント通話ルーティング",
+          "description": "リアルタイムデータ駆動型ルーティングエンジンが、レイテンシ、ジッター、MOSなど複数の要素に基づいて最適な通話パスを動的に選択。"
+        },
+        "directCarrier": {
+          "title": "高速通話セットアップのための直接キャリア接続",
+          "description": "音声通話は1ホップの国内キャリアを通じて配信され、最小限のレイテンシを確保。"
+        },
+        "knowledgeBase": {
+          "title": "スマートナレッジベース（RAG）",
+          "description": "ドキュメントをアップロードしてAIエージェントに文脈知識を与え、より正確で情報に基づいた会話を実現。"
+        },
+        "flowBuilder": {
+          "title": "フロービルダー",
+          "description": "条件付きロジックでスクリプト化された会話パスを作成するビジュアルドラッグ＆ドロップビルダー。"
+        },
+        "multiLanguage": {
+          "title": "多言語サポート",
+          "description": "自動検出とシームレスな切り替えで11言語の顧客に対応。"
+        }
+      }
+    },
+    "useCasesSection": {
+      "title": "ユースケース",
+      "description": "世界中のチームが成長と生産性を推進するためにプラットフォームをどのように活用しているかをご覧ください",
+      "useCaseLabel": "ユースケース",
+      "industryLabel": "業界",
+      "languageLabel": "言語",
+      "functionLabel": "機能",
+      "cases": {
+        "saas": {
+          "title": "米国のSaaS企業",
+          "description": "SaaS業界におけるゲームチェンジャーを体験。エマが米国のユーザーに年間$997のSaaSサブスクリプションを販売。",
+          "industry": "SaaS",
+          "language": "英語（米国）",
+          "function": "アウトバウンド営業"
+        },
+        "university": {
+          "title": "シンガポールの大学",
+          "description": "シンガポールの大学がAIを使用してビジネスプログラムの幹部を資格審査し招待する方法を発見。",
+          "industry": "教育",
+          "language": "英語（中国語）",
+          "function": "予約"
+        },
+        "automotive": {
+          "title": "ブラジルの自動車ビジネス",
+          "description": "ヒューゴがブラジルの自動車市場でAI駆動の営業アシスタントを使用して父親にカートラッキングデバイスを販売した方法を探索。",
+          "industry": "自動車",
+          "language": "ポルトガル語（BR）",
+          "function": "予約"
+        },
+        "support": {
+          "title": "インドのカスタマーサポート",
+          "description": "テック企業がヒンディー語と英語で問い合わせを処理するAI音声エージェントで24時間365日のカスタマーサポートを自動化した方法をご覧ください。",
+          "industry": "テクノロジー",
+          "language": "ヒンディー語/英語",
+          "function": "カスタマーサポート"
+        },
+        "ecommerce": {
+          "title": "英国のEコマース",
+          "description": "Eコマース企業がAI搭載の発信通話を使用して注文確認を40%増加させた方法を学習。",
+          "industry": "Eコマース",
+          "language": "英語（英国）",
+          "function": "注文確認"
+        },
+        "healthcare": {
+          "title": "ドイツのヘルスケア",
+          "description": "医療機関が予約リマインダーを自動化し、ノーショーを60%削減した方法を発見。",
+          "industry": "ヘルスケア",
+          "language": "ドイツ語",
+          "function": "予約リマインダー"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "お客様の声",
+      "subtitle": "{{appName}}を使用して顧客コミュニケーションを変革している何千もの企業に参加",
+      "at": "所属",
+      "quotes": {
+        "jennifer": {
+          "quote": "{{appName}}は当社のカスタマーサービスワークフローを革命的に変えました。手動通話をAIに変換するのに何時間もかかっていました。",
+          "highlight": "今では完璧な結果でわずか30秒で完了します。",
+          "author": "ジェニファー・キム",
+          "role": "マーケティングマネージャー",
+          "company": "TechStartup Inc"
+        },
+        "lisa": {
+          "quote": "当社のコールセンターはアウトバウンドキャンペーンの自動化が必要でした。{{appName}}は私たちのニーズを完璧に理解しています。",
+          "highlight": "毎回美しく機能するクリーンでプロフェッショナルな結果。",
+          "author": "リサ・ロドリゲス",
+          "role": "ブランドマネージャー",
+          "company": "Fashion Forward"
+        },
+        "mike": {
+          "quote": "営業ディレクターとして、{{appName}}はエージェントにスクリプトを常にトレーニングする手間から解放してくれます。",
+          "highlight": "リードからクロージングまで、毎回完璧な通話品質！",
+          "author": "マイク・ジョンソン",
+          "role": "オーナー",
+          "company": "PrintPerfect Solutions"
+        },
+        "robert": {
+          "quote": "当社のサポートチームは大量処理のためのAI支援が必要でした。{{appName}}はこの問題を完全に解決しました。",
+          "highlight": "顧客問い合わせに対する完璧な応答。",
+          "author": "ロバート・ガルシア",
+          "role": "ウェブ開発者",
+          "company": "PixelPerfect"
+        },
+        "tom": {
+          "quote": "エンタープライズAI通話には完璧なエージェントが必要で、{{appName}}は毎回それを提供します。手動トレーニングはもう不要。",
+          "highlight": "クリアな会話と完璧な顧客対応。",
+          "author": "トム・ウィリアムズ",
+          "role": "サインショップオーナー",
+          "company": "CustomSigns Pro"
+        },
+        "amanda": {
+          "quote": "顧客の問い合わせは様々な形式で来ますが、信頼性のために一貫した応答が必要です。{{appName}}のAIは最高です。",
+          "highlight": "完璧な応答を処理しながらサービス品質を維持。",
+          "author": "アマンダ・トンプソン",
+          "role": "カスタマーサクセス",
+          "company": "ServiceFirst Ltd"
+        },
+        "james": {
+          "quote": "{{appName}}はどんな画面サイズでも完璧に見えます。現代の顧客エンゲージメントに不可欠。",
+          "highlight": "ROIは最初の月で回収。",
+          "author": "ジェームズ・パターソン",
+          "role": "クリエイティブリード",
+          "company": "Ad Agency Plus"
+        },
+        "maria": {
+          "quote": "リード生成のためにアウトリーチの自動化通話が必要でした。{{appName}}がこれを完全に解決。",
+          "highlight": "コンバージョン率が80%向上。",
+          "author": "マリア・ゴンザレス",
+          "role": "オーナー",
+          "company": "Custom Apparel Co"
+        },
+        "rachel": {
+          "quote": "製品デモの作成には完璧なAI音声が必要です。{{appName}}はチームにとってこれを簡単にします。",
+          "highlight": "コンセプトからデモまで数秒、数時間ではなく。",
+          "author": "レイチェル・グリーン",
+          "role": "プロダクトデザイナー",
+          "company": "StartupFlow"
+        },
+        "carlos": {
+          "quote": "すべてのチャネルでのブランド一貫性にはAIエージェントが必要です。{{appName}}はチームにとってこれを簡単にします。",
+          "highlight": "すべてのキャンペーンでプロ品質の通話。",
+          "author": "カルロス・リベラ",
+          "role": "マーケティングディレクター",
+          "company": "BrandFirst Agency"
+        },
+        "sarah": {
+          "quote": "クリエイティブディレクターとして、常にアウトプットを向上させる方法を探しています。{{appName}}は完璧に提供します。",
+          "highlight": "生産性が劇的に向上しました。",
+          "author": "サラ・マルティネス",
+          "role": "クリエイティブディレクター",
+          "company": "BrandCraft Studio"
+        },
+        "david": {
+          "quote": "{{appName}}は顧客通話で週10時間以上を節約しました。成長するビジネスに不可欠。",
+          "highlight": "営業プロセス全体を加速。",
+          "author": "デビッド・チェン",
+          "role": "オペレーションマネージャー",
+          "company": "ScaleUp Ventures"
+        }
+      }
+    },
+    "integrations": {
+      "title": "連携",
+      "description": "お気に入りのツールに接続して{{appName}}体験をアップグレード。"
+    },
+    "pricing": {
+      "title": "シンプルで",
+      "titleHighlight": "透明な",
+      "titleEnd": "料金",
+      "description": "無料で始めて、準備ができたらアップグレード",
+      "monthly": "月払い",
+      "yearly": "年払い",
+      "save20": "20%節約",
+      "popular": "人気",
+      "free": "無料",
+      "perMonth": "/月",
+      "perYear": "/年",
+      "getStarted": "始める",
+      "startFreeTrial": "無料トライアル開始",
+      "guarantee": "すべてのプランに14日間の返金保証。無料プランにはクレジットカード不要。",
+      "features": {
+        "aiAgent": "AIエージェント{{count}}個",
+        "aiAgents": "AIエージェント{{count}}個",
+        "unlimitedAgents": "無制限のAIエージェント",
+        "campaign": "キャンペーン{{count}}個",
+        "campaigns": "キャンペーン{{count}}個",
+        "unlimitedCampaigns": "無制限のキャンペーン",
+        "maxContacts": "キャンペーンあたり最大{{count}}連絡先",
+        "contactsPerCampaign": "{{count}}連絡先/キャンペーン",
+        "unlimitedContacts": "無制限の連絡先",
+        "flowAutomation": "フロー自動化{{count}}個",
+        "flowAutomations": "フロー自動化{{count}}個",
+        "unlimitedFlows": "無制限のフロー自動化",
+        "knowledgeBase": "ナレッジベース{{count}}個",
+        "knowledgeBases": "ナレッジベース{{count}}個",
+        "unlimitedKnowledgeBases": "無制限のナレッジベース",
+        "webhook": "Webhook{{count}}個",
+        "webhooks": "Webhook{{count}}個",
+        "unlimitedWebhooks": "無制限のWebhook",
+        "phoneNumber": "電話番号{{count}}個",
+        "phoneNumbers": "電話番号{{count}}個",
+        "unlimitedPhoneNumbers": "無制限の電話番号",
+        "purchaseNumbers": "独自の電話番号を購入",
+        "systemPhone": "システム割り当て電話番号",
+        "freeCredits": "{{count}}無料クレジット",
+        "creditCalling": "クレジットベースの通話",
+        "prioritySupport": "優先サポート",
+        "chooseLlm": "LLMモデルを選択",
+        "advancedAnalytics": "高度な分析"
+      }
+    },
+    "contact": {
+      "badge": "お問い合わせ",
+      "title": "通話を変革する準備はできていますか？",
+      "description": "{{appName}} AI音声エージェントについてご質問がありますか？パーソナライズされたデモをご希望ですか？私たちのチームがあなたの通話業務の自動化をお手伝いします。",
+      "emailLabel": "メールでのお問い合わせ",
+      "trustResponseTime": "24時間以内に返信します",
+      "trustCustomerCount": "世界中で2,500社以上に信頼されています",
+      "trustConsultation": "無料相談とパーソナライズされたデモ",
+      "trustNoCommitment": "契約義務なし",
+      "form": {
+        "nameLabel": "お名前 *",
+        "namePlaceholder": "フルネーム",
+        "emailLabel": "メール *",
+        "emailPlaceholder": "you@company.com",
+        "companyLabel": "会社名",
+        "companyPlaceholder": "会社名（任意）",
+        "messageLabel": "メッセージ *",
+        "messagePlaceholder": "ご要望をお聞かせください...",
+        "submit": "メッセージを送信",
+        "sending": "送信中...",
+        "privacyNotice": "お客様のデータは安全です。情報を共有することはありません。"
+      },
+      "toast": {
+        "successTitle": "メッセージが正常に送信されました！",
+        "successDescription": "24時間以内にご連絡いたします。",
+        "errorTitle": "メッセージの送信に失敗しました",
+        "errorDescription": "後でもう一度お試しください。"
+      },
+      "validation": {
+        "nameMin": "名前は2文字以上である必要があります",
+        "emailInvalid": "有効なメールアドレスを入力してください",
+        "messageMin": "メッセージは10文字以上である必要があります"
+      }
+    },
+    "cta": {
+      "title": "通話業務を変革する準備はできていますか？",
+      "description": "AI音声エージェントを使用して通話を自動化し、リードを資格審査し、顧客満足度を向上させている何千もの企業に参加",
+      "button": "無料で始める",
+      "trustMessage": "クレジットカード不要 • 5分でセットアップ • 永久無料プラン"
+    },
+    "featuresPage": {
+      "seo": {
+        "title": "機能 - AI音声エージェントプラットフォーム",
+        "description": "AI音声エージェントプラットフォームのすべての強力な機能を探索。フロービルダー、マルチエンジンサポート、キャンペーン管理など。"
+      },
+      "hero": {
+        "badge": "ノーコードAI音声エンジン",
+        "title": "ただ動くAIエージェント",
+        "subtitle": "コード不要。推測不要。顧客の通話を自然にインテリジェントに処理するAI音声エージェントを構築、デプロイ、管理。",
+        "startFreeTrial": "無料トライアル開始",
+        "contactSales": "営業に連絡"
+      },
+      "agentTypes": {
+        "title": "AIエージェントタイプを選択",
+        "subtitle": "3つの強力なエージェントタイプでユースケースに完璧な音声エージェントを構築",
+        "natural": {
+          "title": "ナチュラルAIエージェント",
+          "description": "LLMを活用したオープンエンドの会話。設定可能なプロンプト、パーソナリティ、あらゆるシナリオに適応するインテリジェントな応答。",
+          "features": {
+            "openEnded": "オープンエンドの会話",
+            "personality": "カスタマイズ可能なパーソナリティ",
+            "rag": "RAGナレッジ統合",
+            "multiLang": "多言語サポート"
+          }
+        },
+        "flow": {
+          "title": "フローベースエージェント",
+          "description": "条件分岐を持つビジュアルノードベースの会話フロー。アンケートや予約などの構造化されたインタラクションに最適。",
+          "features": {
+            "dragDrop": "ドラッグ＆ドロップビルダー",
+            "conditional": "条件付きロジック",
+            "api": "API連携",
+            "templates": "テンプレートライブラリ"
+          }
+        },
+        "incoming": {
+          "title": "着信通話エージェント",
+          "description": "購入した電話番号を通じて着信通話を処理し、人間のような応答で24時間365日の自動カスタマーサポートを提供。",
+          "features": {
+            "availability": "24時間365日対応",
+            "routing": "スマート通話ルーティング",
+            "queue": "キュー管理",
+            "transfer": "人間への転送オプション"
+          }
+        }
+      },
+      "useCases": {
+        "title": "あらゆるニーズに対応するすぐに使えるAIエージェント",
+        "subtitle": "プリビルトエージェントをデプロイするか、特定のワークフロー用にカスタマイズ",
+        "leadQualification": {
+          "title": "リード資格審査エージェント",
+          "description": "インバウンドリードをキャプチャし、スマート分岐ロジックを使用してリアルタイムで資格審査し、高意図の見込み客を営業チームにルーティング。"
+        },
+        "appointmentBooking": {
+          "title": "予約エージェント",
+          "description": "カレンダーシステムにリアルタイムで同期された空き状況で、顧客が電話で予約をスケジュール。"
+        },
+        "customerSupport": {
+          "title": "カスタマーサポートエージェント",
+          "description": "注文状況、配送更新、製品問い合わせを24時間365日、即座に正確な応答で処理。"
+        },
+        "surveyFeedback": {
+          "title": "アンケート＆フィードバックエージェント",
+          "description": "自然な会話を通じて顧客フィードバックを収集し、CSATスコアを継続的に改善。"
+        },
+        "paymentReminder": {
+          "title": "支払いリマインダーエージェント",
+          "description": "パーソナライズされたリマインダーと簡単な支払いオプションで支払い催促通話を自動化。"
+        },
+        "techSupport": {
+          "title": "テクニカルサポートエージェント",
+          "description": "ナレッジベースを使用して一般的な問い合わせをトラブルシューティングし、複雑なケースは人間にルーティング。"
+        }
+      },
+      "howItWorks": {
+        "title": "数分でAIエージェントを稼働",
+        "subtitle": "ガイド付きセットアップで、コードなしで本番対応エージェントを構築、テスト、起動",
+        "step1": {
+          "number": "01",
+          "title": "エージェントを作成",
+          "description": "ナチュラルまたはフローベースのエージェントを選択。直感的なインターフェースで音声、パーソナリティ、会話目標を設定。"
+        },
+        "step2": {
+          "number": "02",
+          "title": "ナレッジを追加",
+          "description": "ドキュメント、URL、またはテキストをアップロードしてエージェントをトレーニング。RAGシステムが毎回正確でコンテキスト対応の応答を保証。"
+        },
+        "step3": {
+          "number": "03",
+          "title": "キャンペーンを開始",
+          "description": "連絡先をインポートし、キャンペーンをスケジュールし、リアルタイムトラッキングでAIエージェントに数千の通話を同時に処理させる。"
+        }
+      },
+      "capabilities": {
+        "title": "あらゆる顧客インタラクションを処理するように構築",
+        "subtitle": "大規模なAI音声自動化のためのエンタープライズグレード機能",
+        "categories": {
+          "aiVoice": "AI＆音声",
+          "telephony": "テレフォニー",
+          "campaignManagement": "キャンペーン管理",
+          "integrationSecurity": "統合＆セキュリティ"
+        },
+        "items": {
+          "elevenLabs": {
+            "title": "ElevenLabs統合",
+            "desc": "感情豊かな超リアルなAI音声"
+          },
+          "openai": {
+            "title": "OpenAI Realtime API",
+            "desc": "GPT-4による低レイテンシ会話AI"
+          },
+          "languages": {
+            "title": "30以上の言語",
+            "desc": "ネイティブ言語サポートでグローバルリーチ"
+          },
+          "personalities": {
+            "title": "カスタムパーソナリティ",
+            "desc": "トーン、スタイル、会話アプローチを設定"
+          },
+          "twilio": {
+            "title": "Twilio統合",
+            "desc": "エンタープライズグレードのテレフォニーインフラ"
+          },
+          "countries": {
+            "title": "100か国以上",
+            "desc": "インドを含む100か国以上でローカル番号を購入"
+          },
+          "callTransfer": {
+            "title": "通話転送",
+            "desc": "必要に応じて人間エージェントへのシームレスな引き継ぎ"
+          },
+          "recording": {
+            "title": "通話録音",
+            "desc": "完全な文字起こしと会話分析"
+          },
+          "bulkCampaigns": {
+            "title": "一括キャンペーン",
+            "desc": "数千の同時通話を処理"
+          },
+          "scheduling": {
+            "title": "スマートスケジューリング",
+            "desc": "タイムゾーン対応のキャンペーンスケジューリング"
+          },
+          "retryLogic": {
+            "title": "リトライロジック",
+            "desc": "未応答通話の自動リトライ"
+          },
+          "analytics": {
+            "title": "リアルタイム分析",
+            "desc": "パフォーマンスとコンバージョンをライブで追跡"
+          },
+          "webhooks": {
+            "title": "Webhook",
+            "desc": "システムへのリアルタイムイベント通知"
+          },
+          "security": {
+            "title": "エンタープライズセキュリティ",
+            "desc": "暗号化データでSOC2準拠"
+          },
+          "knowledgeBase": {
+            "title": "ナレッジベース",
+            "desc": "RAG搭載のドキュメント理解"
+          },
+          "humanHandoff": {
+            "title": "人間への引き継ぎ",
+            "desc": "サポートチームへのインテリジェントルーティング"
+          }
+        }
+      },
+      "integrations": {
+        "title": "ビジネスで使用するツールと接続",
+        "subtitle": "WebhookとAPIを通じてCRM、カレンダー、ヘルプデスクなどとシームレスに統合",
+        "footerText": "REST APIとWebhookによるカスタム統合も可能"
+      },
+      "knowledgeBase": {
+        "badge": "ナレッジベース",
+        "title": "常に正確な会話",
+        "description": "AIエージェントはブランドボイスに適応し、最新のナレッジベースから回答を引き出します。PDF、ドキュメント、URLをアップロードすると、エージェントが即座にエキスパートに。",
+        "features": {
+          "processing": "自動ドキュメント処理とチャンキング",
+          "rag": "通話中のRAG搭載コンテキスト注入",
+          "realTime": "再トレーニングなしのリアルタイム更新"
+        }
+      },
+      "humanHandoff": {
+        "badge": "ヒューマンインザループ",
+        "title": "必要な時のシームレスな引き継ぎ",
+        "description": "人間のヘルプが必要な時に適切なサポートチームに会話を簡単にルーティング。スマート検出により複雑な問い合わせに個別対応を確保。",
+        "features": {
+          "escalation": "インテリジェントエスカレーショントリガー",
+          "context": "完全な会話コンテキスト転送",
+          "routing": "チーム、スキル、カスタムルールでルーティング"
+        }
+      },
+      "cta": {
+        "title": "今すぐAIエージェントの構築を開始",
+        "subtitle": "セットアップ料金なし、コーディング不要。数分で開始できます。",
+        "startFreeTrial": "無料トライアル開始",
+        "contactSales": "営業に連絡"
+      }
+    },
+    "useCasesPage": {
+      "seoTitle": "ユースケース - AI音声エージェントプラットフォーム",
+      "seoDescription": "営業、サポート、予約、アンケート、回収、ブロードキャストなど、企業がAI音声エージェントをどのように活用しているかを発見。",
+      "hero": {
+        "badge": "11の強力なユースケース",
+        "title": "ビジネスを変革",
+        "titleHighlight": "AI音声エージェント",
+        "subtitle": "アウトバウンド営業キャンペーンから緊急通知まで、AI音声エージェントがコミュニケーションを自動化し、ビジネス運営を拡張する方法を発見。"
+      },
+      "platformFeatures": {
+        "countries": "100か国以上",
+        "countriesDesc": "世界中の電話番号",
+        "languages": "30以上の言語",
+        "languagesDesc": "多言語AI音声",
+        "realTime": "リアルタイム",
+        "realTimeDesc": "即時通話処理",
+        "enterprise": "エンタープライズ",
+        "enterpriseDesc": "セキュリティ＆コンプライアンス"
+      },
+      "industries": {
+        "saas": "SaaS＆テクノロジー",
+        "healthcare": "ヘルスケア",
+        "education": "教育",
+        "ecommerce": "Eコマース",
+        "automotive": "自動車",
+        "financial": "金融サービス",
+        "realEstate": "不動産",
+        "hr": "人事＆採用"
+      },
+      "getStartedFree": "無料で始める",
+      "useCases": {
+        "outboundSales": {
+          "badge": "最も人気",
+          "subtitle": "一括発信",
+          "title": "アウトバウンド営業キャンペーン",
+          "description": "リードを資格審査し、異議に対応し、自動的にミーティングを予約する自然なAIエージェントで大規模なアウトバウンドキャンペーンを開始。営業チームを無限に拡張。",
+          "features": {
+            "bulk": "同時通話管理による一括発信",
+            "natural": "パーソナリティカスタマイズによる自然なAI会話",
+            "leadQual": "リアルタイムのリード資格審査とスコアリング",
+            "meeting": "カレンダーへの自動ミーティングスケジューリング",
+            "crm": "WebhookによるCRM連携"
+          },
+          "stats": {
+            "callsDaily": "日次通話増加",
+            "conversion": "コンバージョン向上",
+            "costReduction": "コスト削減",
+            "campaign": "キャンペーン実行中"
+          }
+        },
+        "appointment": {
+          "subtitle": "フローエージェント",
+          "title": "予約スケジューリング＆リマインダー",
+          "description": "予約受付を処理し、自動リマインダーを送信し、インテリジェントなフォローアップでノーショーを劇的に削減するフローベースのAIエージェントをデプロイ。",
+          "features": {
+            "visual": "予約会話用のビジュアルフロービルダー",
+            "automated": "自動確認とリマインダー通話",
+            "rescheduling": "リスケジュールとキャンセル処理",
+            "timezone": "マルチタイムゾーンサポート",
+            "calendar": "Google、Outlookなどとのカレンダー同期"
+          },
+          "stats": {
+            "noShows": "ノーショー減少",
+            "bookingRate": "予約率",
+            "automated": "自動化",
+            "setupTime": "セットアップ時間"
+          }
+        },
+        "support": {
+          "subtitle": "着信エージェント",
+          "title": "カスタマーサポートホットライン",
+          "description": "ナレッジベースを活用したAIエージェントで24時間365日着信通話を処理。即座に問い合わせを解決し、必要に応じてエスカレーションし、顧客通話を逃さない。",
+          "features": {
+            "incoming": "購入した番号での着信通話処理",
+            "knowledge": "正確な回答のためのナレッジベース統合",
+            "escalation": "人間エージェントへのスマートエスカレーション",
+            "multiLang": "多言語サポート（30以上の言語）",
+            "transcript": "リアルタイム文字起こしと感情トラッキング"
+          },
+          "stats": {
+            "resolution": "解決率",
+            "waitTime": "待ち時間",
+            "languages": "言語",
+            "uptime": "稼働率"
+          }
+        },
+        "survey": {
+          "subtitle": "構造化フロー",
+          "title": "アンケート＆フィードバック収集",
+          "description": "魅力的な音声会話を通じて貴重な顧客フィードバックを収集。自然な会話によるデータ収集でメールアンケートよりも高い回答率を獲得。",
+          "features": {
+            "question": "条件分岐を持つ質問ノード",
+            "analytics": "リアルタイム回答分析",
+            "sentiment": "通話中の感情分析",
+            "export": "自動データエクスポートとレポート",
+            "types": "CSAT、NPS、カスタムアンケートタイプ"
+          },
+          "stats": {
+            "responseRate": "回答率",
+            "completion": "完了率",
+            "analytics": "分析",
+            "reporting": "レポート"
+          }
+        },
+        "payment": {
+          "subtitle": "多言語",
+          "title": "支払い＆回収",
+          "description": "プロフェッショナルでコンプライアンス準拠のAI通話で支払いリマインダーと回収を自動化。支払いプランを提案し、約束を追跡し、回収率を改善。",
+          "features": {
+            "gentle": "穏やかでプロフェッショナルな支払いリマインダー",
+            "multiLang": "グローバルリーチのための多言語サポート",
+            "negotiation": "支払いプラン交渉フロー",
+            "tracking": "支払い約束の追跡",
+            "compliance": "組み込みの規制コンプライアンス"
+          },
+          "stats": {
+            "collections": "回収増加",
+            "compliant": "コンプライアンス準拠",
+            "costSavings": "コスト削減",
+            "languages": "言語"
+          }
+        },
+        "leadQualification": {
+          "subtitle": "キャンペーン自動化",
+          "title": "リード資格審査＆ナーチャリング",
+          "description": "AI搭載の会話で大規模にリードを資格審査。自動フォローアップで見込み客をナーチャリングし、すべてをWebhook経由でCRMに同期。",
+          "features": {
+            "scoring": "通話中のインテリジェントリードスコアリング",
+            "followUp": "自動フォローアップキャンペーン",
+            "webhook": "CRMとのWebhook連携",
+            "criteria": "カスタム資格審査基準",
+            "alerts": "ホットリードアラートと通知"
+          },
+          "stats": {
+            "qualifiedLeads": "資格審査済みリード",
+            "timeSaved": "時間節約",
+            "crmSync": "CRM同期",
+            "followUps": "フォローアップ"
+          }
+        },
+        "broadcast": {
+          "badge": "新機能",
+          "subtitle": "オーディオノード",
+          "title": "インタラクティブ音声ブロードキャスト",
+          "description": "数千の連絡先に事前録音されたオーディオメッセージをブロードキャストし、AIにパーソナライズされた応答とフォローアップ会話を処理させる。",
+          "features": {
+            "audio": "事前録音メッセージ用のオーディオノード",
+            "aiPowered": "AI搭載の応答処理",
+            "mass": "大量ブロードキャスト機能",
+            "personalized": "パーソナライズされたフォローアップ会話",
+            "tracking": "配信トラッキングと分析"
+          },
+          "stats": {
+            "callsHour": "通話/時間",
+            "deliveryRate": "配信率",
+            "audioFiles": "オーディオファイル",
+            "followUps": "フォローアップ"
+          }
+        },
+        "training": {
+          "subtitle": "オーディオ＋Q&A",
+          "title": "トレーニング＆オンボーディング通話",
+          "description": "オーディオ再生で一貫したトレーニングコンテンツを配信し、AIにインタラクティブなQ&Aセッションで質問と理解確認を処理させる。",
+          "features": {
+            "playback": "トレーニングコンテンツのオーディオ再生",
+            "qa": "トレーニング後のAI搭載Q&A",
+            "verification": "理解度確認フロー",
+            "progress": "進捗トラッキングとレポート",
+            "scalable": "数千人の従業員にスケーラブル"
+          },
+          "stats": {
+            "completion": "完了率",
+            "consistent": "一貫性",
+            "timeSaved": "時間節約",
+            "assessment": "評価"
+          }
+        },
+        "announcements": {
+          "subtitle": "ブロードキャスト＋AI",
+          "title": "製品発表",
+          "description": "プロフェッショナルなオーディオブロードキャストで新製品、機能、アップデートを発表。AIエージェントがリアルタイムで質問に回答しフィードバックを収集。",
+          "features": {
+            "professional": "プロフェッショナルなオーディオ発表",
+            "questions": "AI搭載の質問対応",
+            "feedback": "リアルタイムフィードバック収集",
+            "targeting": "ターゲットオーディエンスセグメンテーション",
+            "analytics": "エンゲージメント分析ダッシュボード"
+          },
+          "stats": {
+            "listenRate": "視聴率",
+            "engagement": "エンゲージメント",
+            "feedback": "フィードバック",
+            "delivery": "配信"
+          }
+        },
+        "events": {
+          "subtitle": "オーディオ＋フロー",
+          "title": "イベントリマインダー＆RSVP",
+          "description": "オーディオメッセージでパーソナライズされたイベント招待を送信し、構造化フローエージェントでRSVPを処理。カンファレンス、ウェビナー、ミーティングに最適。",
+          "features": {
+            "invitations": "パーソナルタッチのオーディオ招待",
+            "rsvp": "フローベースのRSVP処理",
+            "reminders": "自動リマインダーシーケンス",
+            "attendee": "出席者リスト管理",
+            "calendar": "カレンダー連携"
+          },
+          "stats": {
+            "rsvpRate": "RSVP率",
+            "attendance": "出席率向上",
+            "reminders": "リマインダー",
+            "calendars": "カレンダー"
+          }
+        },
+        "emergency": {
+          "subtitle": "優先アラート",
+          "title": "緊急通知",
+          "description": "優先配信で重要なオーディオアラートを送信し、リアルタイムで確認を追跡。安全、セキュリティ、時間的制約のあるコミュニケーションに不可欠。",
+          "features": {
+            "priority": "優先オーディオアラート配信",
+            "acknowledgment": "確認トラッキング",
+            "escalation": "未応答に対するエスカレーション",
+            "multichannel": "マルチチャネルフォールバックオプション",
+            "compliance": "コンプライアンスと監査ログ"
+          },
+          "stats": {
+            "deliveryRate": "配信率",
+            "alertTime": "アラート時間",
+            "tracked": "追跡",
+            "escalation": "エスカレーション"
+          }
+        }
+      },
+      "statsSection": {
+        "title": "成長するビジネスに信頼されています",
+        "subtitle": "AI音声エージェントで運営を拡張している何千もの企業に参加",
+        "callsMade": "通話数",
+        "businesses": "企業",
+        "uptime": "稼働率",
+        "languages": "言語"
+      },
+      "ctaSection": {
+        "badge": "今日から無料で開始",
+        "title": "音声運営を拡張する準備は",
+        "titleHighlight": "できていますか？",
+        "subtitle": "AI音声エージェントを使用して通話を自動化し、顧客体験を向上させ、成長を推進している何千もの企業に参加。",
+        "startFreeTrial": "無料トライアル開始",
+        "viewPricing": "料金を見る",
+        "trustMessage": "クレジットカード不要 • 14日間無料トライアル • いつでもキャンセル可能"
+      }
+    },
+    "pricingPage": {
+      "seo": {
+        "title": "料金 - AI音声エージェントプラットフォーム",
+        "description": "AI音声エージェントのシンプルで透明な料金。無料で始めて、必要に応じてアップグレード。"
+      },
+      "hero": {
+        "title": "シンプルで",
+        "titleHighlight": "透明な",
+        "titleEnd": "料金",
+        "subtitle": "無料で始めて、準備ができたらアップグレード"
+      },
+      "billing": {
+        "monthly": "月払い",
+        "yearly": "年払い",
+        "save20": "年払いで20%節約",
+        "billedAnnually": "年払い（20%節約）",
+        "perMonth": "/月",
+        "perYear": "/年"
+      },
+      "plans": {
+        "mostPopular": "最も人気",
+        "free": "無料",
+        "forGrowingBusinesses": "成長するビジネス向け",
+        "perfectForTrying": "プラットフォームを試すのに最適",
+        "startFree": "無料で始める",
+        "startProTrial": "Proトライアルを開始"
+      },
+      "features": {
+        "minutesPerMonth": "月{{count}}分",
+        "unlimitedMinutes": "無制限の分数",
+        "aiAgent": "AIエージェント{{count}}個",
+        "aiAgents": "AIエージェント{{count}}個",
+        "unlimitedAgents": "無制限のAIエージェント",
+        "basicVoiceSelection": "基本音声選択",
+        "allPremiumVoices": "すべてのプレミアム音声",
+        "emailSupport": "メールサポート",
+        "prioritySupport": "優先サポート",
+        "analyticsDashboard": "分析ダッシュボード",
+        "advancedAnalytics": "高度な分析",
+        "flowBuilder": "フロービルダー",
+        "apiAccess": "APIアクセス",
+        "webhookIntegrations": "Webhook連携",
+        "customIntegrations": "カスタム連携"
+      },
+      "comparison": {
+        "title": "プランを比較",
+        "subtitle": "各プランに含まれる内容を確認",
+        "feature": "機能",
+        "free": "無料",
+        "pro": "Pro",
+        "callMinutes": "通話分数",
+        "aiAgents": "AIエージェント",
+        "phoneNumbers": "電話番号",
+        "flowBuilder": "フロービルダー",
+        "knowledgeBase": "ナレッジベース",
+        "webhookIntegrations": "Webhook連携",
+        "apiAccess": "APIアクセス",
+        "prioritySupport": "優先サポート",
+        "customVoices": "カスタム音声",
+        "teamMembers": "チームメンバー",
+        "limited": "制限あり",
+        "fullAccess": "フルアクセス",
+        "included": "含む",
+        "unlimited": "無制限",
+        "document": "ドキュメント{{count}}個",
+        "documents": "ドキュメント{{count}}個"
+      },
+      "faq": {
+        "title": "よくある質問",
+        "subtitle": "料金についてのすべての疑問にお答えします",
+        "questions": {
+          "trial": {
+            "question": "14日間無料トライアルはどのように機能しますか？",
+            "answer": "14日間すべてのPro機能にフルアクセスできます。クレジットカードは不要です。トライアル後、Proを継続するか無料プランにダウングレードするかを選択できます。"
+          },
+          "cancel": {
+            "question": "いつでもサブスクリプションをキャンセルできますか？",
+            "answer": "はい、いつでもサブスクリプションをキャンセルできます。現在の請求期間の終了までアクセスが継続します。"
+          },
+          "payment": {
+            "question": "どのような支払い方法を受け付けていますか？",
+            "answer": "すべての主要クレジットカード（Visa、Mastercard、Amex）、PayPal、および一部の地域ではRazorpay（インド）、Paystack（アフリカ）、MercadoPago（ラテンアメリカ）などのローカル支払い方法を受け付けています。"
+          },
+          "discount": {
+            "question": "年払いの割引はありますか？",
+            "answer": "はい！年払いは月払いと比較して20%の割引があります。エンタープライズ料金については営業チームにお問い合わせください。"
+          },
+          "limits": {
+            "question": "無料プランの制限を超えた場合はどうなりますか？",
+            "answer": "制限に近づくと通知が届きます。いつでもProにアップグレードして、中断なくプラットフォームを使い続けることができます。"
+          },
+          "switch": {
+            "question": "プラン間で切り替えることはできますか？",
+            "answer": "はい、いつでもプランをアップグレードまたはダウングレードできます。アップグレード時は新機能に即座にアクセスできます。ダウングレード時は次の請求サイクルから変更が有効になります。"
+          }
+        }
+      },
+      "cta": {
+        "title": "始める準備はできましたか？",
+        "subtitle": "今日からAI音声エージェントの構築を開始",
+        "startFreeTrial": "無料トライアル開始",
+        "contactSales": "営業に連絡"
+      }
+    },
+    "integrationsPage": {
+      "seo": {
+        "title": "連携 - AI音声エージェントプラットフォーム",
+        "description": "AI音声エージェントをTwilio、Plivo、OpenAI、ElevenLabs、Zapierなどと接続。"
+      },
+      "hero": {
+        "badge": "強力な連携",
+        "title": "お気に入りの",
+        "titleHighlight": "ツールと接続",
+        "subtitle": "AI音声エージェントを既存の技術スタックとシームレスに統合。テレフォニープロバイダーからCRMまで、すべてをカバー。"
+      },
+      "categories": {
+        "telephony": "テレフォニー",
+        "aiLlm": "AI/LLM",
+        "voice": "音声",
+        "automation": "自動化",
+        "developer": "開発者",
+        "communication": "コミュニケーション",
+        "crm": "CRM"
+      },
+      "integrations": {
+        "twilio": {
+          "name": "Twilio",
+          "description": "音声通話、SMS、電話番号管理のためのグローバルテレフォニープロバイダー。"
+        },
+        "plivo": {
+          "name": "Plivo",
+          "description": "インドと国際市場で優れたカバレッジを持つ代替テレフォニープロバイダー。"
+        },
+        "openai": {
+          "name": "OpenAI",
+          "description": "自然言語理解とリアルタイム音声会話のための高度なAIモデル。"
+        },
+        "elevenlabs": {
+          "name": "ElevenLabs",
+          "description": "複数言語での超リアルで人間のような音声を備えたプレミアム音声合成。"
+        },
+        "zapier": {
+          "name": "Zapier",
+          "description": "通話イベントでトリガーされるワークフローを自動化するために5,000以上のアプリと接続。"
+        },
+        "webhooks": {
+          "name": "Webhook",
+          "description": "通話ステータス、文字起こし、カスタムアクションのためのリアルタイムイベント通知。"
+        },
+        "slack": {
+          "name": "Slack",
+          "description": "Slackチャンネルで直接通話のリアルタイム通知と要約を取得。"
+        },
+        "hubspot": {
+          "name": "HubSpot",
+          "description": "通話データを同期し、連絡先を更新し、HubSpot CRMにアクティビティを記録。"
+        },
+        "salesforce": {
+          "name": "Salesforce",
+          "description": "通話ログ、リード更新、自動化のためのエンタープライズCRM連携。"
+        },
+        "restApi": {
+          "name": "REST API",
+          "description": "包括的なREST APIを通じてすべてのプラットフォーム機能への完全なプログラムアクセス。"
+        }
+      },
+      "api": {
+        "badge": "開発者API",
+        "title": "完全なAPIアクセス",
+        "description": "包括的なREST APIでカスタム連携を構築しワークフローを自動化。完全なドキュメント付き。",
+        "features": {
+          "createAgents": "プログラムでAIエージェントを作成・管理",
+          "launchCampaigns": "通話キャンペーンを起動・制御",
+          "accessCallStatus": "リアルタイムの通話ステータスと文字起こしにアクセス",
+          "manageContacts": "連絡先と電話番号を管理",
+          "configureWebhooks": "イベント通知用のWebhookを設定",
+          "generateAnalytics": "分析とレポートを生成"
+        },
+        "viewDocs": "APIドキュメントを見る"
+      },
+      "webhooks": {
+        "badge": "リアルタイムWebhook",
+        "title": "イベント駆動型アーキテクチャ",
+        "description": "すべての通話イベントのリアルタイム通知を受信。顧客インタラクションに即座に応答するリアクティブワークフローを構築。",
+        "availableEvents": "利用可能なWebhookイベント",
+        "events": {
+          "callStarted": "call.started - 通話開始時",
+          "callCompleted": "call.completed - 完全な文字起こし付きで通話終了時",
+          "callFailed": "call.failed - 通話接続失敗時",
+          "campaignStarted": "campaign.started - キャンペーン開始時",
+          "campaignCompleted": "campaign.completed - すべての通話完了時",
+          "appointmentBooked": "appointment.booked - 予約スケジュール時"
+        },
+        "features": {
+          "hmac": "HMAC-SHA256署名検証",
+          "retry": "指数バックオフによる自動リトライ",
+          "logs": "配信ログとデバッグツール"
+        }
+      },
+      "cta": {
+        "title": "連携する準備はできましたか？",
+        "subtitle": "今日からAPIで構築を開始。完全なドキュメント付き。",
+        "startFreeTrial": "無料トライアル開始",
+        "viewDocumentation": "ドキュメントを見る"
+      }
+    },
+    "blogPage": {
+      "badge": "リソース＆インサイト",
+      "title": "ブログ＆リソース",
+      "subtitle": "最新のAI音声エージェント戦略、ケーススタディ、製品アップデートでビジネスコミュニケーションを変革しましょう。",
+      "categories": {
+        "all": "すべて",
+        "aiTechnology": "AIテクノロジー",
+        "caseStudies": "ケーススタディ",
+        "productUpdates": "製品アップデート"
+      },
+      "searchPlaceholder": "記事を検索...",
+      "readArticle": "記事を読む",
+      "noArticlesFound": "条件に一致する記事が見つかりませんでした。",
+      "clearFilters": "フィルターをクリア",
+      "newsletter": {
+        "title": "最新情報を入手",
+        "subtitle": "AI音声技術に関する最新のインサイトを毎週お届けします。",
+        "emailPlaceholder": "メールアドレスを入力",
+        "subscribe": "購読",
+        "disclaimer": "スパムなし。いつでも登録解除可能。"
+      }
+    },
+    "blogPost": {
+      "backToBlog": "ブログに戻る",
+      "shareArticle": "記事をシェア",
+      "bookmarkArticle": "記事をブックマーク",
+      "readMore": "続きを読む",
+      "relatedArticles": {
+        "title": "関連記事",
+        "subtitle": "最新のインサイトとアップデートを探索し続ける"
+      },
+      "viewAllArticles": "すべての記事を見る",
+      "notFound": {
+        "title": "記事が見つかりません",
+        "description": "リクエストされた記事が見つかりませんでした。",
+        "message": "お探しの記事は存在しません。"
+      }
+    },
+    "contactPage": {
+      "badge": "ぜひご連絡ください",
+      "title": "お問い合わせ",
+      "subtitle": "AI音声エージェントについてご質問がありますか？パーソナライズされたデモをご希望ですか？私たちのチームがあなたの通話業務の変革をお手伝いします。",
+      "form": {
+        "title": "メッセージを送信",
+        "subtitle": "以下のフォームに記入していただければ、すぐにご連絡いたします。",
+        "labels": {
+          "name": "お名前 *",
+          "email": "メール *",
+          "company": "会社名",
+          "phone": "電話番号",
+          "message": "メッセージ *"
+        },
+        "placeholders": {
+          "name": "フルネーム",
+          "email": "you@company.com",
+          "company": "会社名",
+          "phone": "+81 (555) 123-4567",
+          "message": "ご要望をお聞かせください..."
+        },
+        "submit": "メッセージを送信",
+        "submitting": "送信中...",
+        "privacyNotice": "お客様のデータは安全です。情報を共有することはありません。",
+        "successTitle": "メッセージが正常に送信されました！",
+        "successDescription": "24時間以内にご連絡いたします。"
+      },
+      "validation": {
+        "nameMinLength": "名前は2文字以上である必要があります",
+        "emailInvalid": "有効なメールアドレスを入力してください",
+        "messageMinLength": "メッセージは10文字以上である必要があります"
+      },
+      "contactInfo": {
+        "title": "連絡先情報",
+        "subtitle": "以下のチャネルから直接お問い合わせください。",
+        "labels": {
+          "email": "メール",
+          "phone": "電話",
+          "address": "住所",
+          "officeHours": "営業時間"
+        }
+      },
+      "mapPlaceholder": {
+        "title": "Wtrops HQ",
+        "location": "カリフォルニア州サンフランシスコ"
+      },
+      "faq": {
+        "badge": "よくある質問",
+        "title": "よくある質問",
+        "subtitle": "サービスに関するよくある質問への迅速な回答を見つけてください。",
+        "questions": {
+          "responseTime": {
+            "question": "サポート問い合わせの通常の応答時間は？",
+            "answer": "サポートチームは通常、営業日24時間以内に返信します。緊急の問題については、エンタープライズのお客様向けに2時間未満の応答時間で優先サポートを提供しています。"
+          },
+          "scheduleDemo": {
+            "question": "AI音声エージェントのデモをスケジュールできますか？",
+            "answer": "もちろんです！要件を記入してお問い合わせフォームを送信していただければ、チームがパーソナライズされたデモのスケジュールについてご連絡いたします。無料トライアルで直接プラットフォームを体験することもできます。"
+          },
+          "customIntegrations": {
+            "question": "エンタープライズクライアント向けのカスタム連携を提供していますか？",
+            "answer": "はい、エンタープライズクライアント向けにカスタム連携ソリューションを提供しています。チームが既存のインフラストラクチャと協力して、CRM、テレフォニーシステム、その他のビジネスツールとのシームレスな統合を確保します。"
+          },
+          "paymentMethods": {
+            "question": "どのような支払い方法を受け付けていますか？",
+            "answer": "すべての主要クレジットカード（Visa、MasterCard、American Express）、および年間エンタープライズ契約の場合はACH送金と電信送金を受け付けています。すべての支払いはStripeを通じて安全に処理されます。"
+          }
+        },
+        "moreQuestions": "まだ質問がありますか？お手伝いします。",
+        "contactSupport": "サポートに連絡"
+      }
+    }
+  },
+  "campaigns": {
+    "title": "キャンペーン",
+    "description": "AIコーリングキャンペーンの作成と管理",
+    "createNew": "新規キャンペーン作成",
+    "activeCampaigns": "アクティブなキャンペーン",
+    "deletedCampaigns": "削除されたキャンペーン",
+    "noCampaigns": "キャンペーンが見つかりません",
+    "noActiveCampaigns": "アクティブなキャンペーンがまだありません",
+    "getStartedCreate": "最初のキャンペーンを作成して開始しましょう。",
+    "noDeletedCampaigns": "削除されたキャンペーンはありません",
+    "permanentlyRemoved": "削除されたキャンペーンは完全に削除される前にここに表示されます。",
+    "status": {
+      "pending": "保留中",
+      "active": "アクティブ",
+      "completed": "完了",
+      "paused": "一時停止",
+      "cancelled": "キャンセル",
+      "deleted": "削除済み"
+    },
+    "details": {
+      "totalContacts": "総連絡先数",
+      "successRate": "成功率",
+      "avgDuration": "平均時間",
+      "agent": "エージェント",
+      "phoneNumber": "電話番号",
+      "scheduled": "スケジュール",
+      "createdAt": "作成日"
+    },
+    "actions": {
+      "start": "開始",
+      "pause": "一時停止",
+      "resume": "再開",
+      "stop": "停止",
+      "delete": "削除",
+      "restore": "復元",
+      "viewDetails": "詳細を見る",
+      "duplicate": "複製"
+    },
+    "create": {
+      "title": "キャンペーン作成",
+      "name": "キャンペーン名",
+      "namePlaceholder": "キャンペーン名を入力",
+      "selectAgent": "エージェントを選択",
+      "concurrency": "同時通話数",
+      "concurrencyTooltip": "同時に実行される通話の最大数。値が高いほど連絡先の処理は速くなりますが、より多くのリソースを使用します。",
+      "concurrencyHelper": "同時通話数 (1-50)",
+      "selectPhone": "電話番号を選択",
+      "uploadContacts": "連絡先をアップロード",
+      "scheduleCall": "通話をスケジュール",
+      "timezone": "タイムゾーン"
+    }
+  },
+  "agents": {
+    "title": "AIエージェント",
+    "description": "AI音声エージェントの作成と管理",
+    "createNew": "エージェント作成",
+    "noAgents": "エージェントがまだありません",
+    "getStarted": "最初のAIエージェントを作成して開始しましょう。",
+    "syncStatus": "同期ステータス",
+    "synced": "同期済み",
+    "notSynced": "未同期",
+    "syncNow": "今すぐ同期",
+    "syncing": "同期中...",
+    "lastSynced": "最終同期",
+    "type": {
+      "natural": "ナチュラルエージェント",
+      "flow": "フローエージェント",
+      "incoming": "着信エージェント"
+    },
+    "settings": {
+      "voice": "音声",
+      "language": "言語",
+      "model": "モデル",
+      "temperature": "温度",
+      "maxDuration": "最大時間",
+      "systemPrompt": "システムプロンプト",
+      "firstMessage": "最初のメッセージ"
+    }
+  },
+  "calls": {
+    "title": "通話",
+    "description": "すべての通話を表示・管理",
+    "allCalls": "すべての通話",
+    "transcribed": "文字起こし済み",
+    "recordings": "録音",
+    "noCalls": "通話が見つかりません",
+    "noTranscribed": "文字起こしされた通話がまだありません",
+    "noRecordings": "利用可能な録音がありません",
+    "filters": {
+      "all": "すべて",
+      "incoming": "着信",
+      "outgoing": "発信",
+      "batch": "バッチ",
+      "completed": "完了",
+      "failed": "失敗"
+    },
+    "details": {
+      "duration": "通話時間",
+      "status": "ステータス",
+      "direction": "方向",
+      "phoneNumber": "電話番号",
+      "transcript": "文字起こし",
+      "summary": "要約",
+      "classification": "分類",
+      "sentiment": "感情",
+      "recording": "録音",
+      "playRecording": "録音を再生",
+      "loadingRecording": "録音を読み込み中...",
+      "noRecording": "利用可能な録音がありません"
+    },
+    "classification": {
+      "hot": "ホットリード",
+      "warm": "ウォームリード",
+      "cold": "コールドリード",
+      "lost": "ロスト"
+    }
+  },
+  "voicePicker": {
+    "selectVoice": "音声を選択...",
+    "searchPlaceholder": "音声を検索...",
+    "voicesAvailable": "件の音声が利用可能",
+    "accountVoices": "あなたの音声",
+    "searchResults": "検索結果",
+    "voiceLibrary": "音声ライブラリ",
+    "noResults": "音声が見つかりません",
+    "noVoices": "利用可能な音声がありません",
+    "preview": "プレビュー",
+    "select": "選択"
+  },
+  "contacts": {
+    "title": "すべての連絡先",
+    "description": "連絡先データベースの管理",
+    "addContact": "連絡先を追加",
+    "importContacts": "連絡先をインポート",
+    "exportContacts": "連絡先をエクスポート",
+    "noContacts": "連絡先が見つかりません",
+    "totalContacts": "{{count}}件の連絡先",
+    "source": {
+      "campaign": "キャンペーン",
+      "call": "通話",
+      "manual": "手動"
+    },
+    "fields": {
+      "name": "名前",
+      "phone": "電話",
+      "email": "メール",
+      "company": "会社",
+      "source": "ソース",
+      "callCount": "通話数",
+      "lastContact": "最終連絡",
+      "createdAt": "作成日"
+    }
+  },
+  "knowledgeBase": {
+    "title": "ナレッジベース",
+    "description": "AIエージェントの知識を管理",
+    "addEntry": "エントリを追加",
+    "uploadFile": "ファイルをアップロード",
+    "addUrl": "URLを追加",
+    "noEntries": "知識エントリがありません",
+    "getStarted": "AIエージェントが正確に回答できるようにコンテンツを追加してください。",
+    "processing": "処理中",
+    "processed": "処理済み",
+    "failed": "失敗",
+    "type": {
+      "file": "ファイル",
+      "url": "URL",
+      "text": "テキスト"
+    },
+    "fields": {
+      "title": "タイトル",
+      "content": "コンテンツ",
+      "type": "タイプ",
+      "status": "ステータス",
+      "chunks": "チャンク",
+      "createdAt": "追加日"
+    }
+  },
+  "phoneNumbers": {
+    "title": "電話番号",
+    "description": "電話番号の管理",
+    "addNumber": "番号を追加",
+    "rentNumber": "番号をレンタル",
+    "noNumbers": "電話番号がありません",
+    "getStarted": "通話を開始するには電話番号を追加してください。",
+    "monthly": "/月",
+    "fields": {
+      "number": "番号",
+      "type": "タイプ",
+      "region": "地域",
+      "status": "ステータス",
+      "assignedAgent": "割り当てエージェント",
+      "monthlyRent": "月額料金"
+    },
+    "status": {
+      "active": "アクティブ",
+      "inactive": "非アクティブ",
+      "pending": "保留中"
+    }
+  },
+  "flows": {
+    "title": "フロービルダー",
+    "description": "ビジュアル会話フローの作成",
+    "createFlow": "フロー作成",
+    "noFlows": "フローがまだありません",
+    "getStarted": "最初の会話フローを作成してください。",
+    "nodes": {
+      "message": "メッセージ",
+      "question": "質問",
+      "condition": "条件",
+      "transfer": "転送",
+      "delay": "遅延",
+      "end": "終了",
+      "appointment": "予約",
+      "form": "フォーム",
+      "webhook": "Webhook"
+    },
+    "fields": {
+      "name": "フロー名",
+      "description": "説明",
+      "status": "ステータス",
+      "lastEdited": "最終編集"
+    }
+  },
+  "webhooks": {
+    "title": "Webhook",
+    "description": "Webhookサブスクリプションの設定",
+    "addWebhook": "Webhookを追加",
+    "noWebhooks": "設定されたWebhookがありません",
+    "getStarted": "イベント通知を受け取るにはWebhookを追加してください。",
+    "events": {
+      "callStarted": "通話開始",
+      "callCompleted": "通話完了",
+      "callFailed": "通話失敗",
+      "callTransferred": "通話転送",
+      "campaignStarted": "キャンペーン開始",
+      "campaignCompleted": "キャンペーン完了",
+      "campaignPaused": "キャンペーン一時停止",
+      "appointmentBooked": "予約完了",
+      "formSubmitted": "フォーム送信"
+    },
+    "fields": {
+      "url": "Webhook URL",
+      "events": "イベント",
+      "secret": "シークレット",
+      "active": "アクティブ"
+    }
+  },
+  "billing": {
+    "title": "請求とクレジット",
+    "description": "サブスクリプションとクレジットの管理",
+    "currentPlan": "現在のプラン",
+    "freePlan": "無料",
+    "proPlan": "Pro",
+    "credits": "クレジット",
+    "remainingCredits": "残りクレジット",
+    "buyCredits": "クレジットを購入",
+    "viewHistory": "履歴を見る",
+    "upgrade": "アップグレード",
+    "upgradeToPro": "Proにアップグレード",
+    "manageSubscription": "サブスクリプション管理",
+    "billingHistory": "請求履歴",
+    "perMonth": "/月",
+    "perYear": "/年",
+    "purchase": "購入",
+    "creditPackages": "クレジットパッケージ",
+    "transactionHistory": "取引履歴",
+    "features": {
+      "unlimited": "無制限",
+      "included": "含む",
+      "notIncluded": "含まない"
+    },
+    "tableHeaders": {
+      "type": "種類",
+      "description": "説明",
+      "amount": "金額",
+      "date": "日付"
+    },
+    "subscriptionCancelled": "サブスクリプションがキャンセルされました",
+    "subscriptionCancelledMessage": "サブスクリプションが正常にキャンセルされました。",
+    "cancelFailed": "サブスクリプションのキャンセルに失敗しました",
+    "subscriptionPeriod": "サブスクリプション期間",
+    "startDate": "開始日",
+    "renewalDate": "更新日",
+    "transactionSubtitle": "取引履歴を表示"
+  },
+  "payment": {
+    "subscriptionSuccess": "サブスクリプションが有効になりました！",
+    "creditsSuccess": "クレジットを購入しました！",
+    "failed": "支払いに失敗しました",
+    "cancelled": "支払いがキャンセルされました",
+    "processing": "支払いを処理中...",
+    "welcomeToPlan": "ようこそ",
+    "subscriptionActive": "サブスクリプションが有効になりました。",
+    "subscriptionActiveGeneric": "サブスクリプションが正常に有効化されました。",
+    "creditsAdded": "クレジットがアカウントに追加されました。",
+    "creditsAddedGeneric": "クレジットがアカウントに追加されました。",
+    "failedDescription": "お支払いを処理できませんでした。もう一度お試しいただくか、別の支払い方法をご利用ください。",
+    "cancelledDescription": "お支払いをキャンセルしました。アカウントへの請求は行われていません。",
+    "verifyingDescription": "決済プロバイダーでお支払いを確認中...",
+    "processingDescription": "お支払いを確認中です。しばらくお待ちください...",
+    "paymentMethod": "支払い方法",
+    "type": "種類",
+    "subscription": "サブスクリプション",
+    "creditPurchase": "クレジット購入",
+    "amount": "金額",
+    "credits": "クレジット",
+    "plan": "プラン",
+    "transactionId": "取引ID",
+    "returnToBilling": "請求に戻る",
+    "tryAgain": "再試行"
+  },
+  "settings": {
+    "title": "設定",
+    "description": "アカウント設定の管理",
+    "profile": "プロフィール",
+    "security": "セキュリティ",
+    "notifications": "通知",
+    "preferences": "設定",
+    "changePassword": "パスワード変更",
+    "updateProfile": "プロフィール更新",
+    "currentPassword": "現在のパスワード",
+    "newPassword": "新しいパスワード",
+    "confirmPassword": "パスワード確認",
+    "profileUpdated": "プロフィールが更新されました",
+    "passwordChanged": "パスワードが変更されました"
+  },
+  "admin": {
+    "settings": {
+      "title": "設定",
+      "description": "プラットフォーム設定、SEO、統合を構成",
+      "tabs": {
+        "master": "マスター設定",
+        "elevenlabs": "ElevenLabs",
+        "seo": "SEOモジュール",
+        "analytics": "分析",
+        "system": "システム"
+      }
+    },
+    "analytics": {
+      "title": "プラットフォーム分析",
+      "description": "プラットフォームのパフォーマンスと成長指標を監視",
+      "scriptsTitle": "分析・トラッキングスクリプト",
+      "scriptsDescription": "ウェブサイトのすべてのページに挿入されるサードパーティの分析・トラッキングスクリプトを管理します。",
+      "addScript": "スクリプトを追加",
+      "editScript": "スクリプトを編集",
+      "addScriptDesc": "ウェブサイトに新しい分析またはトラッキングスクリプトを追加します。これらのスクリプトは訪問者の行動とコンバージョンの追跡に役立ちます。",
+      "editScriptDesc": "分析スクリプトの設定を変更します。",
+      "scriptName": "スクリプト名",
+      "scriptNamePlaceholder": "例: Google Analytics",
+      "scriptType": "スクリプトタイプ",
+      "scriptCode": "スクリプトコード",
+      "scriptCodePlaceholder": "トラッキングコードをここに貼り付け...",
+      "scriptCodeHint": "分析サービスから提供された完全なトラッキングコードを貼り付けてください。すべてのスクリプトタグを含めてください。",
+      "placement": "配置場所",
+      "placementHead": "Headセクション",
+      "placementBody": "Bodyセクション",
+      "headDesc": "ページコンテンツの前に読み込まれます - 早期に実行が必要なトラッキングスクリプトに最適",
+      "bodyDesc": "ページコンテンツの後に読み込まれます - すぐに実行する必要のないスクリプトに適しています",
+      "placementRequired": "少なくとも1つの配置場所を選択してください",
+      "loadPriority": "読み込み優先度",
+      "priorityHint": "優先度の高いスクリプトが先に読み込まれます（0-100）。重要なトラッキングには高い値を使用してください。",
+      "scriptOptions": "スクリプトオプション",
+      "asyncOption": "Async",
+      "deferOption": "Defer",
+      "enabled": "有効",
+      "priority": "優先度",
+      "name": "名前",
+      "type": "タイプ",
+      "description": "説明",
+      "descriptionPlaceholder": "このスクリプトに関するオプションのメモ...",
+      "noScripts": "分析スクリプトはまだ設定されていません。",
+      "noScriptsHint": "Google Analytics、Facebook Pixelなどのトラッキングスクリプトを追加して、ウェブサイト訪問者を追跡しましょう。",
+      "scriptCreated": "スクリプトが作成されました",
+      "scriptCreatedDesc": "分析スクリプトが追加され、すぐにトラッキングを開始します。",
+      "scriptUpdated": "スクリプトが更新されました",
+      "scriptUpdatedDesc": "分析スクリプトの変更が保存されました。",
+      "scriptDeleted": "スクリプトが削除されました",
+      "scriptDeletedDesc": "分析スクリプトがウェブサイトから削除されました。",
+      "deleteTitle": "スクリプトを削除しますか？",
+      "deleteDesc": "これによりトラッキングスクリプトがウェブサイトから完全に削除されます。このスクリプトの訪問者トラッキングは直ちに停止します。",
+      "scriptLabel": "スクリプト",
+      "nameRequired": "このスクリプトの名前を入力してください。",
+      "codeRequired": "このスクリプトのトラッキングコードを貼り付けてください。",
+      "tooltips": {
+        "name": "後で識別しやすいように、スクリプトにわかりやすい名前を付けてください。例：「Google Analytics」や「Facebook広告トラッキング」。",
+        "type": "トラッキングサービスのタイプを選択してください。これにより正しいコードテンプレートが事前入力されます。サービスがリストにない場合は「カスタムスクリプト」を選択してください。",
+        "code": "これは分析サービスから提供されたトラッキングコードです。通常、分析ダッシュボードの「セットアップ」または「インストール」で見つけることができます。",
+        "placement": "ページのどこにスクリプトを追加するかを選択してください。ほとんどのトラッキングスクリプトはHeadセクションで最も効果的に機能します。Google Tag Managerなど一部のスクリプトはHeadとBodyの両方が必要です。",
+        "priority": "どのスクリプトが先に読み込まれるかを制御します。大きい数字が先に読み込まれます。重要なスクリプトには100、それほど重要でないものには0を使用してください。",
+        "options": "スクリプトの読み込み方法に関する詳細設定です。ほとんどのユーザーはこれを変更する必要はありません。",
+        "async": "ページを遅くすることなくバックグラウンドでスクリプトを読み込みます。ほとんどのトラッキングスクリプトに推奨されます。",
+        "defer": "ページが完全に読み込まれるまでスクリプトの実行を待ちます。重要でないトラッキングに適しています。",
+        "enabled": "トラッキングのオン・オフを切り替えます。無効にすると、スクリプトはウェブサイトで実行されません。",
+        "description": "このスクリプトについてのメモを追加してください。何をトラッキングするか、いつ追加されたかなど。"
+      }
+    },
+    "title": "管理者ダッシュボード",
+    "description": "プラットフォーム管理",
+    "users": "ユーザー",
+    "totalUsers": "総ユーザー数",
+    "newThisWeek": "今週の新規",
+    "revenue": "収益",
+    "systemHealth": "システム状態",
+    "tabs": {
+      "users": "ユーザー管理",
+      "analytics": "分析",
+      "settings": "グローバル設定",
+      "elevenLabs": "ElevenLabsプール",
+      "phoneNumbers": "電話番号",
+      "credits": "クレジットパッケージ",
+      "llmModels": "LLMモデル",
+      "plans": "プラン",
+      "contacts": "すべての連絡先",
+      "batchJobs": "バッチジョブ",
+      "notifications": "通知"
+    },
+    "actions": {
+      "addUser": "ユーザー追加",
+      "editUser": "ユーザー編集",
+      "deleteUser": "ユーザー削除",
+      "suspendUser": "ユーザー停止",
+      "activateUser": "ユーザー有効化",
+      "resetPassword": "パスワードリセット"
+    },
+    "userForm": {
+      "title": "ユーザー追加",
+      "editTitle": "ユーザー編集",
+      "email": "メールアドレス",
+      "name": "名前",
+      "password": "パスワード",
+      "confirmPassword": "パスワード確認",
+      "role": "役割",
+      "credits": "初期クレジット",
+      "user": "ユーザー"
+    },
+    "notifications": {
+      "title": "通知",
+      "subtitle": "プラットフォームのすべてのユーザーに通知を送信",
+      "broadcastInfo": "ブロードキャスト通知はすべてのユーザーに送信され、通知ドロップダウンに表示されます。この機能は、プラットフォーム全体の重要なお知らせに使用してください。",
+      "createBroadcast": {
+        "title": "ブロードキャスト通知を作成",
+        "description": "すべてのプラットフォームユーザーに送信するメッセージを作成",
+        "titleLabel": "タイトル",
+        "titlePlaceholder": "例：新機能のお知らせ",
+        "iconLabel": "アイコン",
+        "messageLabel": "メッセージ",
+        "messagePlaceholder": "ここにメッセージを入力...",
+        "linkLabel": "URL/リンク",
+        "displayTypeLabel": "表示タイプ",
+        "priorityLabel": "優先度 (1-10)",
+        "priorityHint": "優先度の高いバナーが先に表示されます",
+        "expiresAtLabel": "有効期限",
+        "selectDate": "有効期限を選択",
+        "dismissibleLabel": "非表示可能",
+        "sendToAllUsers": "この通知はすべての登録ユーザーに送信されます",
+        "sending": "送信中...",
+        "sendButton": "すべてのユーザーに送信"
+      },
+      "automaticNotifications": {
+        "title": "自動通知",
+        "description": "システムは以下のイベントに対して自動的に通知を送信します",
+        "emailEnabled": "メール有効",
+        "editTemplate": "テンプレートを編集",
+        "types": {
+          "welcome": {
+            "title": "ウェルカムメッセージ",
+            "description": "新規ユーザー登録時に送信"
+          },
+          "membershipUpgrade": {
+            "title": "メンバーシップアップグレード",
+            "description": "ユーザーがProにアップグレード時に送信"
+          },
+          "membershipCancel": {
+            "title": "メンバーシップキャンセル",
+            "description": "サブスクリプションがキャンセルされた時に送信"
+          },
+          "phoneBilling": {
+            "title": "電話番号請求",
+            "description": "毎月の電話番号請求が成功または失敗した時に送信"
+          },
+          "lowCredits": {
+            "title": "クレジット残高警告",
+            "description": "取引後にクレジットが100を下回った時に送信"
+          },
+          "campaignComplete": {
+            "title": "キャンペーン完了",
+            "description": "キャンペーンがすべての通話を完了した時に送信"
+          }
+        }
+      },
+      "emailTemplates": {
+        "title": "メールテンプレート",
+        "description": "システム通知用のメールテンプレートを管理",
+        "addTemplate": "テンプレートを追加",
+        "addFirstTemplate": "最初のテンプレートを追加",
+        "noTemplates": "まだメールテンプレートが設定されていません",
+        "createTitle": "メールテンプレートを作成",
+        "editTitle": "メールテンプレートを編集",
+        "createDescription": "自動通知用の新しいメールテンプレートを作成",
+        "editDescription": "メールテンプレートの内容と設定を更新",
+        "columns": {
+          "name": "名前",
+          "type": "テンプレートタイプ",
+          "status": "ステータス",
+          "lastUpdated": "最終更新"
+        },
+        "fields": {
+          "templateType": "テンプレートタイプ",
+          "templateTypePlaceholder": "例：welcome, password_reset",
+          "templateTypeHint": "内部で使用される一意の識別子（例：welcome, low_credits）",
+          "name": "表示名",
+          "namePlaceholder": "例：ウェルカムメール",
+          "subject": "メール件名",
+          "subjectPlaceholder": "例：{{companyName}}へようこそ！",
+          "body": "メール本文",
+          "htmlBodyPlaceholder": "HTMLメールコンテンツを入力...",
+          "textBodyPlaceholder": "プレーンテキストフォールバックコンテンツを入力...",
+          "textBodyHint": "HTMLが表示できない場合に表示されるプレーンテキスト版",
+          "isActive": "有効",
+          "isActiveHint": "無効なテンプレートは送信されません"
+        },
+        "tabs": {
+          "html": "HTML本文",
+          "text": "プレーンテキスト"
+        },
+        "insertVariable": "変数を挿入",
+        "availableVariables": "利用可能な変数",
+        "variablesHint": "上の変数をクリックして、本文または件名のカーソル位置に挿入",
+        "showPreview": "プレビューを表示",
+        "hidePreview": "プレビューを非表示",
+        "previewLabel": "HTMLプレビュー",
+        "errors": {
+          "templateTypeRequired": "テンプレートタイプは必須です",
+          "nameRequired": "表示名は必須です",
+          "subjectRequired": "メール件名は必須です",
+          "htmlBodyRequired": "HTML本文コンテンツは必須です"
+        },
+        "toast": {
+          "createSuccess": "テンプレート作成完了",
+          "createSuccessDesc": "メールテンプレートが正常に作成されました",
+          "updateSuccess": "テンプレート更新完了",
+          "updateSuccessDesc": "メールテンプレートが正常に更新されました",
+          "createFailed": "テンプレートの作成に失敗",
+          "updateFailed": "テンプレートの更新に失敗",
+          "validationError": "検証エラー",
+          "fixErrors": "保存前にエラーを修正してください"
+        }
+      },
+      "toast": {
+        "sentSuccess": "通知が正常に送信されました",
+        "sentToUsers": "{{count}}人のユーザーに送信済み",
+        "sendFailed": "通知の送信に失敗しました",
+        "validationError": "検証エラー",
+        "provideTitleMessage": "タイトルとメッセージの両方を入力してください"
+      }
+    },
+    "branding": {
+      "title": "プラットフォームブランディング",
+      "description": "ロゴとブランディングでプラットフォームの外観をカスタマイズ",
+      "configured": "設定済み",
+      "notConfigured": "未設定",
+      "refresh": "更新",
+      "editSettings": "設定を編集",
+      "liveData": "ライブデータ",
+      "applicationTitle": "アプリケーションタイトル",
+      "tagline": "タグライン",
+      "logo": "ロゴ",
+      "logoLight": "ロゴ（ライトモード）",
+      "logoDark": "ロゴ（ダークモード）",
+      "logoLightDescription": "ライトモードで使用されます",
+      "logoDarkDescription": "ダークモードで使用されます",
+      "forLightMode": "ライトモード用",
+      "forDarkMode": "ダークモード用",
+      "favicon": "ファビコン",
+      "noLogo": "ロゴがアップロードされていません",
+      "noFavicon": "ファビコンがアップロードされていません",
+      "logoUploaded": "ロゴがアップロードされました",
+      "logoReady": "表示準備完了",
+      "faviconUploaded": "ファビコンがアップロードされました",
+      "faviconReady": "表示準備完了",
+      "configurationComplete": "ブランディング設定完了",
+      "lastUpdated": "最終更新",
+      "editTitle": "ブランディング設定を編集",
+      "editDescription": "ライト/ダークモードのロゴ、ファビコン、アプリケーション名を含むプラットフォームブランディングを更新",
+      "applicationName": "アプリケーション名",
+      "logoCurrent": "現在のロゴ",
+      "faviconCurrent": "現在のファビコン",
+      "chooseFile": "ファイルを選択",
+      "updateSettings": "設定を更新",
+      "updateSuccess": "ブランディングが正常に更新されました",
+      "updateFailed": "ブランディングの更新に失敗しました",
+      "logoDeleted": "ロゴが削除されました",
+      "faviconDeleted": "ファビコンが削除されました",
+      "uploadFailed": "アップロードに失敗しました",
+      "invalidFileType": "画像ファイルをアップロードしてください",
+      "fileTooLarge": "ファイルは5MB未満にしてください"
+    },
+    "smtp": {
+      "title": "SMTPメール設定",
+      "description": "メール送信用のSMTP設定を構成",
+      "host": "SMTPホスト",
+      "port": "SMTPポート",
+      "username": "ユーザー名",
+      "password": "パスワード",
+      "fromEmail": "送信元メール",
+      "fromName": "送信者名",
+      "usernamePlaceholder": "メールアカウントのユーザー名",
+      "passwordPlaceholder": "メールアカウントのパスワード",
+      "save": "設定を保存",
+      "testConnection": "接続をテスト",
+      "configured": "SMTPは設定済みで、メール送信の準備ができています",
+      "updateSuccess": "SMTP設定が正常に更新されました",
+      "updateFailed": "SMTP設定の更新に失敗しました",
+      "testSuccess": "接続テスト成功！メール送信が機能しています。",
+      "testFailed": "接続テストに失敗しました"
+    },
+    "settings": {
+      "title": "グローバル設定",
+      "description": "プラットフォーム設定、SEO、統合を構成",
+      "tabs": {
+        "master": "マスター設定",
+        "elevenlabs": "ElevenLabs",
+        "seo": "SEOモジュール",
+        "analytics": "アナリティクス",
+        "system": "システム"
+      },
+      "autoRestart": {
+        "title": "自動再起動システム",
+        "description": "リソース制限を超えた場合の自動再起動を設定",
+        "enabled": "有効",
+        "disabled": "無効",
+        "enableToggle": "自動再起動を有効にする",
+        "enableToggleDesc": "リソースしきい値を超えた場合に自動的に再起動",
+        "loadingStatus": "リソース状態を読み込み中...",
+        "statusError": "リソース状態の読み込みに失敗しました。",
+        "currentRam": "現在のRAM使用量",
+        "currentCpu": "現在のCPU使用量",
+        "processMemory": "プロセス",
+        "ramLimit": "RAM制限 (%)",
+        "ramLimitTooltip": "システムRAM使用量がこのパーセンテージを超えた場合に再起動 (50-95%)",
+        "ramLimitHint": "推奨: 75-85%",
+        "cpuLimit": "CPU制限 (%)",
+        "cpuLimitTooltip": "CPU使用量がこのパーセンテージを超えた場合に再起動 (20-95%)",
+        "cpuLimitHint": "推奨: 80-90%",
+        "activeMessage": "自動再起動が有効です。RAMまたはCPU制限が3回連続のチェック（90秒）で超過した場合、システムは正常に再起動します。",
+        "refreshStatus": "ステータスを更新",
+        "refreshing": "更新中...",
+        "configuredLimits": "設定された制限",
+        "ramLimitValue": "RAM: {{value}}%",
+        "cpuLimitValue": "CPU: {{value}}%",
+        "watchdogStatus": "ウォッチドッグステータス",
+        "watchdogActive": "アクティブ",
+        "watchdogInactive": "非アクティブ",
+        "cores": "コア",
+        "loadAvg": "負荷平均",
+        "envProduction": "本番環境",
+        "envDevelopment": "開発環境",
+        "envDocsTitle": "環境と制限事項",
+        "ramMonitoringTitle": "RAMモニタリング",
+        "ramMonitoringDesc": "Node.js APIを通じて実際のシステムメモリ読み取りを使用します。サーバーの合計メモリと空きメモリを正確に測定します。すべての環境で確実に動作します。",
+        "cpuMonitoringTitle": "CPUモニタリング",
+        "cpuMonitoringDesc": "より正確な読み取りのために、プロセスCPU時間とシステム負荷平均を組み合わせます。CPUコアと1分間の負荷平均を表示します。開発/サンドボックス環境では、読み取り値が異なる場合があります。",
+        "restartBehaviorTitle": "自動再起動の動作",
+        "restartBehaviorDesc": "3回連続でしきい値を超えた後、グレースフルシャットダウンをトリガーします（90秒）。アプリケーションを再起動するにはプロセスマネージャー（PM2、systemd）が必要です。開発環境では、アプリは再起動せずに終了する場合があります。",
+        "productionNote": "最良の結果を得るには、シャットダウン後に自動的にアプリケーションを再起動するPM2または同様のプロセスマネージャーでデプロイしてください。"
+      },
+      "connectionStatus": {
+        "refreshAll": "すべて更新",
+        "connected": "接続済み",
+        "disconnected": "切断",
+        "checking": "確認中...",
+        "verifying": "API接続を確認中...",
+        "telephony": "音声とSMSテレフォニー",
+        "aiVoice": "AI音声合成",
+        "twilioReady": "Twilioは設定済みで通話可能です",
+        "twilioSetup": "通話を有効にするには、下のTwilio認証情報を設定してください",
+        "elevenLabsReady": "ElevenLabsはAI音声エージェント用に設定済みです",
+        "elevenLabsSetup": "AI音声を有効にするには、キープールからAPIキーを追加してください",
+        "embeddings": "埋め込みとRAG",
+        "openaiReady": "OpenAIはRAG埋め込み用に設定済みです",
+        "openaiSetup": "埋め込み用のOpenAI APIキーを設定してください",
+        "edit": "編集",
+        "manageKeys": "キーを管理"
+      },
+      "apiKeys": "APIキー",
+      "stripeKey": "Stripeキー",
+      "twilioKey": "Twilioキー",
+      "elevenLabsKey": "ElevenLabsキー",
+      "openaiKey": "OpenAIキー",
+      "systemSettings": "システム設定",
+      "maxPhoneNumbers": "最大電話番号数",
+      "maxAgents": "最大エージェント数"
+    },
+    "seo": {
+      "title": "SEO設定",
+      "settingsSaved": "SEO設定を保存しました",
+      "settingsSavedDesc": "SEO設定が正常に更新されました。",
+      "urlAdded": "URLを追加しました",
+      "urlAddedDesc": "URLがサイトマップに追加されました。",
+      "urlRemoved": "URLを削除しました",
+      "urlRemovedDesc": "URLがサイトマップから削除されました。",
+      "save": "SEO設定を保存",
+      "saving": "保存中...",
+      "tabs": {
+        "meta": "メタタグ",
+        "sitemap": "サイトマップ",
+        "robots": "Robots",
+        "social": "ソーシャルメディア",
+        "structured": "構造化データ"
+      },
+      "metaTags": {
+        "title": "デフォルトメタタグ",
+        "description": "ウェブサイトページのデフォルトメタタグを設定します。個々のページで上書きできます。",
+        "defaultTitle": "デフォルトタイトル",
+        "defaultTitleTooltip": "独自のタイトルを持たないページに使用されるデフォルトのタイトルタグ。ブラウザのタブと検索結果に表示されます。",
+        "defaultTitlePlaceholder": "Wtrops - AI音声通話プラットフォーム",
+        "defaultTitleHint": "推奨：50〜60文字",
+        "defaultDescription": "デフォルト説明",
+        "defaultDescriptionTooltip": "検索エンジンの結果に表示されるメタ説明。クリックを促す魅力的な要約を書いてください。",
+        "defaultDescriptionPlaceholder": "AI音声エージェントでアウトバウンドコールを自動化。リード認定、予約受付、顧客アンケートが簡単に。",
+        "defaultDescriptionHint": "推奨：150〜160文字",
+        "keywords": "キーワード",
+        "keywordsTooltip": "メタキーワードは現代のSEOでは重要性が低いですが、まだ役立つことがあります。カンマで区切ってください。",
+        "keywordsPlaceholder": "AI通話、音声エージェント、リード認定、アウトバウンドコール",
+        "canonicalUrl": "正規ベースURL",
+        "canonicalUrlTooltip": "サイトのプライマリドメインURL。正規URLとサイトマップリンクの生成に使用されます。",
+        "canonicalUrlPlaceholder": "https://yourdomain.com",
+        "googleVerification": "Google認証",
+        "googleVerificationTooltip": "Google Search Console認証メタタグのコンテンツ値。",
+        "googleVerificationPlaceholder": "google-site-verification=...",
+        "bingVerification": "Bing認証",
+        "bingVerificationTooltip": "Bing Webmaster Tools認証メタタグのコンテンツ値。",
+        "bingVerificationPlaceholder": "MSVALIDATE..."
+      },
+      "sitemap": {
+        "title": "サイトマップ管理",
+        "description": "サイトマップにカスタムURLを追加します。デフォルトページは自動的に含まれます。",
+        "viewSitemap": "サイトマップを表示",
+        "urlPath": "URLパス",
+        "urlPathPlaceholder": "/blog/article-slug",
+        "changeFreq": "更新頻度",
+        "priority": "優先度",
+        "lastModified": "最終更新",
+        "addUrl": "URL追加",
+        "defaultPages": "自動的に含まれるデフォルトページ：",
+        "noCustomUrls": "カスタムURLはまだ追加されていません",
+        "changeFreqOptions": {
+          "always": "常時",
+          "hourly": "毎時",
+          "daily": "毎日",
+          "weekly": "毎週",
+          "monthly": "毎月",
+          "yearly": "毎年",
+          "never": "なし"
+        },
+        "generateDefault": "デフォルト生成",
+        "rebuild": "再構築",
+        "generated": "サイトマップ生成完了",
+        "generatedDesc": "標準URLでサイトマップを作成しました",
+        "rebuilt": "サイトマップ再構築完了",
+        "rebuiltDesc": "すべてのURLを更新しました"
+      },
+      "robots": {
+        "title": "robots.txt設定",
+        "description": "検索エンジンクローラーがウェブサイトにアクセスする方法を制御します。",
+        "viewRobots": "robots.txtを表示",
+        "crawlDelay": "クロール遅延（秒）",
+        "crawlDelayTooltip": "クローラーがリクエスト間で待機する秒数。遅延なしには0を設定。高い値はインデックス作成を遅らせる可能性があるため、慎重に使用してください。",
+        "defaultRules": "デフォルトルール（読み取り専用）：",
+        "defaultRulesNote": "これらのルールはアプリケーションルートを保護しながら、公開ページのインデックス作成を許可します。"
+      },
+      "social": {
+        "title": "ソーシャルメディアとOpen Graph",
+        "description": "ソーシャルメディアプラットフォームで共有されたときのコンテンツの表示方法を設定します。",
+        "ogImage": "Open Graph画像URL",
+        "ogImageTooltip": "Facebook、LinkedIn、その他のプラットフォームでページが共有されたときに表示されるデフォルト画像。推奨：1200x630ピクセル。",
+        "ogImagePlaceholder": "https://yourdomain.com/og-image.jpg",
+        "ogImageHint": "推奨サイズ：1200 x 630ピクセル（比率1.91:1）",
+        "twitterHandle": "Twitterハンドル",
+        "twitterHandleTooltip": "@記号なしのTwitter/Xユーザー名。Twitter Cards帰属に使用されます。",
+        "twitterHandlePlaceholder": "yourusername",
+        "facebookAppId": "Facebook App ID",
+        "facebookAppIdTooltip": "強化されたソーシャル共有インサイトと分析のためのFacebook App ID。",
+        "facebookAppIdPlaceholder": "123456789012345",
+        "uploadImage": "画像をアップロード",
+        "chooseFile": "ファイルを選択",
+        "orEnterUrl": "またはURLを直接入力",
+        "noImage": "画像がアップロードされていません",
+        "imageUploaded": "画像がアップロードされました",
+        "imageUploadedDesc": "画像が正常にアップロードされました"
+      },
+      "structured": {
+        "title": "構造化データ（Schema.org）",
+        "description": "検索エンジンがコンテンツをより良く理解できるように構造化データを設定します。",
+        "organization": "組織スキーマ",
+        "organizationDescription": "リッチ検索結果のために組織の詳細を定義します。",
+        "organizationName": "組織名",
+        "organizationNamePlaceholder": "あなたの会社名",
+        "organizationUrl": "ウェブサイトURL",
+        "organizationUrlPlaceholder": "https://yourdomain.com",
+        "organizationLogo": "ロゴURL",
+        "organizationLogoPlaceholder": "https://yourdomain.com/logo.png",
+        "organizationEmail": "連絡先メール",
+        "organizationEmailPlaceholder": "contact@yourdomain.com",
+        "organizationPhone": "電話番号",
+        "organizationPhonePlaceholder": "+81-3-5555-5555",
+        "faq": "FAQスキーマ",
+        "faqDescription": "検索結果でリッチスニペットとして表示されるよくある質問を追加します。",
+        "faqQuestion": "質問",
+        "faqAnswer": "回答",
+        "addFaq": "FAQを追加",
+        "noFaqs": "FAQはまだ追加されていません",
+        "product": "製品スキーマ",
+        "productDescription": "リッチ検索結果のために製品の詳細を定義します（該当する場合）。",
+        "productName": "製品名",
+        "productNamePlaceholder": "あなたの製品名",
+        "productDescriptionField": "製品説明",
+        "productDescriptionPlaceholder": "製品の簡単な説明",
+        "productPrice": "価格",
+        "productPricePlaceholder": "9900",
+        "productCurrency": "通貨",
+        "productCurrencyPlaceholder": "JPY"
+      }
+    },
+    "elevenLabsPool": {
+      "syncVoiceLibrary": "ボイスライブラリを同期",
+      "voiceLibrarySyncStarted": "ボイスライブラリの同期を開始しました",
+      "voiceLibrarySyncStartedDesc": "ElevenLabsからすべての音声を同期しています。数分かかる場合があります。",
+      "voiceLibrarySyncFailed": "ボイスライブラリの同期に失敗しました"
+    },
+    "plans": {
+      "title": "プラン管理",
+      "description": "サブスクリプションプランとその制限を設定",
+      "addNewPlan": "新しいプランを追加",
+      "createNewPlan": "新しいプランを作成",
+      "createDescription": "ユーザー向けの新しいサブスクリプションプランを追加",
+      "planName": "プラン名（内部用）",
+      "planNamePlaceholder": "例：premium",
+      "displayName": "表示名",
+      "displayNamePlaceholder": "例：プレミアムプラン",
+      "descriptionLabel": "説明",
+      "descriptionPlaceholder": "プランの説明",
+      "monthlyPrice": "月額料金",
+      "yearlyPrice": "年額料金",
+      "maxAgents": "最大エージェント数",
+      "maxCampaigns": "最大キャンペーン数",
+      "maxContacts": "最大連絡先数",
+      "maxContactsPerCampaign": "キャンペーンあたりの最大連絡先数",
+      "includedCredits": "含まれるクレジット",
+      "canChooseLlm": "LLMモデルを選択可能",
+      "canPurchaseNumbers": "電話番号を購入可能",
+      "useSystemPool": "システム電話プールを使用",
+      "activeLabel": "有効",
+      "createPlan": "プランを作成",
+      "creating": "作成中...",
+      "editPlan": "プランを編集",
+      "deletePlan": "プランを削除",
+      "deletePlanConfirm": "プラン「{{name}}」を削除してもよろしいですか？この操作は元に戻せません。システムは現在このプランに加入しているユーザーがいるかどうかを確認します。",
+      "pricing": "料金：",
+      "perMonth": "/月",
+      "perYear": "/年",
+      "or": "または",
+      "unlimited": "無制限",
+      "planCreated": "プランが正常に作成されました",
+      "planUpdated": "プランが正常に更新されました",
+      "planDeleted": "プランが正常に削除されました",
+      "createFailed": "プランの作成に失敗しました",
+      "updateFailed": "プランの更新に失敗しました",
+      "deleteFailed": "プランの削除に失敗しました",
+      "migrationRequired": "ユーザー移行が必要です",
+      "migrationRequiredDesc": "{{count}}人のユーザーが現在「{{plan}}」に加入しています。削除する前に別のプランに移行する必要があります。",
+      "selectTargetPlan": "移行先プランを選択",
+      "selectPlan": "プランを選択...",
+      "noOtherPlansAvailable": "他のプランがありません。ユーザーを移行する前に、まず別のプランを作成してください。",
+      "migrateAndDelete": "移行して削除",
+      "migratingUsers": "移行中...",
+      "usersMigrated": "ユーザーが移行されました",
+      "usersMigratedDesc": "{{count}}人のユーザーが{{plan}}に移行されました",
+      "migrationFailed": "移行に失敗しました"
+    },
+    "payments": {
+      "title": "支払い設定",
+      "description": "サブスクリプションとクレジット用のStripe連携を設定",
+      "configured": "接続済み",
+      "secretKey": "シークレットキー",
+      "secretKeyHint": "Stripeのシークレットキー（sk_test_またはsk_live_で始まります）",
+      "publishableKey": "公開キー",
+      "publishableKeyHint": "Stripeの公開キー（pk_test_またはpk_live_で始まります）",
+      "defaultCurrency": "デフォルト通貨",
+      "selectCurrency": "通貨を選択...",
+      "currencyHint": "新しいプランとクレジットパッケージに使用される通貨。既存の価格には影響しません。",
+      "stripeMode": "Stripeモード",
+      "selectMode": "モードを選択...",
+      "testMode": "テスト用（実際の請求なし）",
+      "liveMode": "本番用（実際の支払い）",
+      "testConnection": "接続をテスト",
+      "connectionSuccess": "Stripeへの接続に成功しました！",
+      "mode": "モード",
+      "source": "ソース",
+      "updateSuccess": "支払い設定が正常に更新されました",
+      "updateFailed": "支払い設定の更新に失敗しました",
+      "testFailed": "Stripe接続のテストに失敗しました",
+      "currencyInfo": "通貨情報",
+      "currencyInfoDesc": "通貨設定に関する重要な情報",
+      "currencyWarning": "デフォルト通貨の変更は、新しいプランとクレジットパッケージにのみ影響します。既存のプランは、現在の加入者の一貫性を確保するために元の通貨を維持します。"
+    }
+  },
+  "errors": {
+    "generic": "エラーが発生しました",
+    "networkError": "ネットワークエラー。もう一度お試しください。",
+    "unauthorized": "この操作を実行する権限がありません",
+    "notFound": "リソースが見つかりません",
+    "serverError": "サーバーエラー。後でもう一度お試しください。",
+    "validationError": "入力内容を確認してください",
+    "sessionExpired": "セッションが期限切れです。再度ログインしてください。",
+    "failedToLoad": "データの読み込みに失敗しました",
+    "failedToSave": "変更の保存に失敗しました",
+    "failedToDelete": "削除に失敗しました",
+    "required": "この項目は必須です",
+    "invalidEmail": "有効なメールアドレスを入力してください",
+    "invalidPhone": "有効な電話番号を入力してください",
+    "passwordMismatch": "パスワードが一致しません",
+    "passwordTooShort": "パスワードは6文字以上必要です"
+  },
+  "notifications": {
+    "title": "通知",
+    "markAllRead": "すべて既読にする",
+    "noNotifications": "通知はありません",
+    "viewAll": "すべての通知を見る",
+    "banner": {
+      "dismiss": "閉じる",
+      "dismissing": "閉じています..."
+    }
+  },
+  "pagination": {
+    "itemsPerPage": "1ページあたりの項目数",
+    "page": "ページ",
+    "of": "/",
+    "showing": "表示中",
+    "to": "〜",
+    "entries": "件",
+    "first": "最初",
+    "last": "最後",
+    "previous": "前へ",
+    "next": "次へ"
+  },
+  "analytics": {
+    "title": "分析",
+    "description": "パフォーマンス指標の追跡",
+    "overview": "概要",
+    "callVolume": "通話量",
+    "successRate": "成功率",
+    "avgDuration": "平均時間",
+    "leadConversion": "リード転換率",
+    "timeRange": {
+      "today": "今日",
+      "week": "今週",
+      "month": "今月",
+      "year": "今年",
+      "custom": "カスタム"
+    }
+  },
+  "voices": {
+    "title": "ボイスライブラリ",
+    "subtitle": "エージェント用の音声をブラウズしてプレビュー",
+    "subtitleLoading": "音声を読み込み中...",
+    "subtitleWithCount": "エージェント用の{{count}}の音声をブラウズしてプレビュー",
+    "description": "AI音声プロファイルの管理",
+    "addVoice": "音声を追加",
+    "searchPlaceholder": "名前、アクセント、説明で音声を検索...",
+    "preview": "プレビュー",
+    "noVoices": "設定された音声がありません",
+    "totalVoices": "音声の合計",
+    "premade": "プリメイド",
+    "noVoicesFound": "音声が見つかりません",
+    "noVoicesMatch": "フィルターに一致する音声がありません。検索条件を調整してみてください。",
+    "noVoicesAvailable": "ライブラリに利用可能な音声がありません",
+    "age": "年齢",
+    "bestFor": "最適な用途",
+    "languages": "言語",
+    "genders": "性別",
+    "categories": "カテゴリー",
+    "ages": "年齢層",
+    "clearFilters": "フィルターをクリア",
+    "filterLanguage": "言語",
+    "filterGender": "性別",
+    "filterCategory": "カテゴリー",
+    "filterAccent": "アクセント",
+    "filterAge": "年齢",
+    "allLanguages": "すべての言語",
+    "allGenders": "すべての性別",
+    "allCategories": "すべてのカテゴリー",
+    "allAccents": "すべてのアクセント",
+    "allAges": "すべての年齢",
+    "showingResults": "{{total}}件中{{from}}-{{to}}件を表示",
+    "fields": {
+      "name": "音声名",
+      "provider": "プロバイダー",
+      "gender": "性別",
+      "language": "言語",
+      "accent": "アクセント"
+    }
+  },
+  "integrations": {
+    "title": "インテグレーション",
+    "description": "外部サービスの接続",
+    "connected": "接続済み",
+    "notConnected": "未接続",
+    "connect": "接続",
+    "disconnect": "切断",
+    "configure": "設定"
+  },
+  "campaignDetail": {
+    "sections": {
+      "campaignDetails": "キャンペーン詳細",
+      "recipients": "受信者"
+    },
+    "table": {
+      "name": "名前",
+      "phone": "電話",
+      "email": "メール",
+      "status": "ステータス"
+    }
+  }
+}

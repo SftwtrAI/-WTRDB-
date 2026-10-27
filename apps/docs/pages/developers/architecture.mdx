@@ -1,0 +1,23 @@
+# Architecture
+
+~~~mermaid
+flowchart TB
+  UI[React and Vite client] --> API[Express API]
+  API --> PG[(PostgreSQL / Drizzle)]
+  API --> F[(FalkorDB)]
+  API --> R[(Redis cache)]
+  API --> O[OpenAI]
+  API --> WS[WebSocket manager]
+  VK[video-kg] --> F
+  IK[image-kg] --> F
+~~~
+
+- The client provides the graph workspace, 3D views, compliance, and administration UI.
+- The API owns authentication, authorization, routes, WebSocket events, and domain services.
+- PostgreSQL stores relational data, users, settings, metadata, and audit records.
+- FalkorDB stores per-knowledge-base graphs queried with Cypher.
+- Redis backs concurrency counters and RBAC permission caching.
+- OpenAI supports extraction, vision, embeddings, and graph-query assistance.
+- The video-kg and image-kg services run their own vision pipelines and write the same FalkorDB graphs.
+
+See the repository architecture document for a module inventory.

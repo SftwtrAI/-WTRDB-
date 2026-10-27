@@ -1,0 +1,2461 @@
+{
+  "common": {
+    "loading": "Carregando...",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "create": "Criar",
+    "add": "Adicionar",
+    "remove": "Remover",
+    "close": "Fechar",
+    "confirm": "Confirmar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "submit": "Enviar",
+    "search": "Pesquisar",
+    "filter": "Filtrar",
+    "clear": "Limpar",
+    "refresh": "Atualizar",
+    "export": "Exportar",
+    "import": "Importar",
+    "download": "Baixar",
+    "upload": "Carregar",
+    "view": "Visualizar",
+    "viewAll": "Ver tudo",
+    "actions": "Ações",
+    "status": "Status",
+    "name": "Nome",
+    "email": "E-mail",
+    "password": "Senha",
+    "description": "Descrição",
+    "date": "Data",
+    "time": "Hora",
+    "type": "Tipo",
+    "total": "Total",
+    "active": "Ativo",
+    "inactive": "Inativo",
+    "enabled": "Habilitado",
+    "disabled": "Desabilitado",
+    "yes": "Sim",
+    "no": "Não",
+    "all": "Todos",
+    "none": "Nenhum",
+    "success": "Sucesso",
+    "error": "Erro",
+    "warning": "Aviso",
+    "info": "Informação",
+    "noData": "Nenhum dado disponível",
+    "noResults": "Nenhum resultado encontrado",
+    "required": "Obrigatório",
+    "optional": "Opcional",
+    "minutes": "minutos",
+    "seconds": "segundos",
+    "hours": "horas",
+    "days": "dias",
+    "thisWeek": "Esta semana",
+    "today": "Hoje",
+    "yesterday": "Ontem",
+    "ago": "atrás",
+    "settings": "Configurações",
+    "help": "Ajuda",
+    "language": "Idioma",
+    "selectLanguage": "Selecionar idioma"
+  },
+  "auth": {
+    "login": "Entrar",
+    "logout": "Sair",
+    "register": "Registrar",
+    "signIn": "Entrar",
+    "signUp": "Cadastrar",
+    "signOut": "Sair",
+    "getStarted": "Começar",
+    "getStartedFree": "Começar grátis",
+    "welcomeBack": "Bem-vindo de volta!",
+    "loggedInAs": "Conectado como {{name}}",
+    "loginFailed": "Falha no login",
+    "registrationFailed": "Falha no registro",
+    "accountCreated": "Conta criada!",
+    "welcome": "Bem-vindo, {{name}}",
+    "loggingIn": "Entrando...",
+    "fullName": "Nome completo",
+    "emailPlaceholder": "seu@email.com",
+    "namePlaceholder": "João Silva",
+    "platform": "Plataforma de chamadas Wtrops",
+    "accessCampaigns": "Entre para acessar suas campanhas de chamadas com IA",
+    "sendVerificationCode": "Continuar",
+    "sendingCode": "Enviando código de verificação...",
+    "checkEmail": "Verifique seu e-mail",
+    "verificationSent": "Enviamos um código de verificação para",
+    "verificationCode": "Código de verificação",
+    "codeExpires": "O código expira em",
+    "verifyAndCreate": "Verificar e criar conta",
+    "verifying": "Verificando...",
+    "resendCode": "Reenviar código",
+    "resendIn": "Reenviar em {{seconds}}s",
+    "codeSent": "Código de verificação enviado",
+    "checkEmailAt": "Verifique seu e-mail em {{email}}",
+    "codeResent": "Código reenviado",
+    "newCodeSent": "Um novo código de verificação foi enviado para seu e-mail",
+    "failedToSend": "Falha ao enviar código",
+    "failedToResend": "Falha ao reenviar código",
+    "verificationFailed": "Falha na verificação",
+    "invalidCode": "Código de verificação inválido"
+  },
+  "nav": {
+    "home": "Início",
+    "dashboard": "Painel",
+    "campaigns": "Campanhas",
+    "agents": "Agentes",
+    "knowledgeBase": "Base de conhecimento",
+    "voices": "Vozes",
+    "allContacts": "Todos os contatos",
+    "calls": "Chamadas",
+    "analytics": "Análises",
+    "phoneNumbers": "Números de telefone",
+    "incomingConnections": "Conexões de entrada",
+    "flowBuilder": "Construtor de fluxos",
+    "executionLogs": "Logs de execução",
+    "webhooks": "Webhooks",
+    "forms": "Formulários",
+    "appointments": "Agendamentos",
+    "templates": "Modelos",
+    "upgradePlan": "Atualizar plano",
+    "billingCredits": "Faturamento e créditos",
+    "administration": "Administração",
+    "adminDashboard": "Painel administrativo",
+    "accountSettings": "Configurações da conta"
+  },
+  "sidebar": {
+    "build": "Construir",
+    "evaluate": "Avaliar",
+    "telephony": "Telefonia",
+    "flowAutomation": "Automação de fluxos",
+    "billing": "Faturamento",
+    "credits": "Créditos",
+    "pro": "Pro",
+    "proMember": "Membro Pro",
+    "upgrade": "Atualizar",
+    "myWorkspace": "Meu espaço de trabalho"
+  },
+  "dashboard": {
+    "greeting": {
+      "morning": "Bom dia",
+      "afternoon": "Boa tarde",
+      "evening": "Boa noite",
+      "default": "Bem-vindo de volta"
+    },
+    "subtitle": "Veja o que está acontecendo com suas campanhas hoje",
+    "quickActions": "Ações rápidas",
+    "createCampaign": "Criar campanha",
+    "createAgent": "Criar agente",
+    "flowBuilder": "Construtor de fluxos",
+    "totalCalls": "Total de chamadas",
+    "incomingCalls": "Chamadas de entrada",
+    "outgoingCalls": "Chamadas de saída",
+    "contacts": "Contatos",
+    "campaignsCard": "Campanhas",
+    "success": "sucesso",
+    "avg": "Média",
+    "campaigns": "campanhas",
+    "callActivity": "Atividade de chamadas",
+    "allCalls": "Todas as chamadas",
+    "incoming": "Entrada",
+    "outgoing": "Saída",
+    "noCallData": "Sem dados de chamadas esta semana",
+    "leadDistribution": "Distribuição de leads",
+    "hot": "Quente",
+    "warm": "Morno",
+    "cold": "Frio",
+    "lost": "Perdido",
+    "noLeadData": "Nenhum dado de lead disponível",
+    "recentCalls": "Chamadas recentes",
+    "unknown": "Desconhecido",
+    "noRecentCalls": "Sem chamadas recentes",
+    "recentUsers": "Usuários recentes",
+    "leadSummary": "Resumo de leads",
+    "registeredAgo": "Registrado {{time}}",
+    "noLeads": "Ainda não há leads classificados",
+    "startCampaign": "Inicie uma campanha para ver a distribuição de leads"
+  },
+  "landing": {
+    "features": "Recursos",
+    "useCases": "Casos de uso",
+    "pricing": "Preços",
+    "customers": "Clientes",
+    "poweredBy": "Desenvolvido por ElevenLabs e Twilio AI",
+    "heroTitle1": "Potencialize suas",
+    "heroTitle2": "operações de chamadas",
+    "heroTitle3": "com agentes de voz IA",
+    "heroSubtitle": "Descubra a nova maneira de criar, implantar e monitorar agentes de voz IA prontos para produção em escala.",
+    "tryForFree": "Experimente grátis",
+    "watchDemo": "Assistir demo",
+    "noCreditCard": "Cartão de crédito não necessário",
+    "freePlanForever": "Plano gratuito para sempre",
+    "setupMinutes": "Configuração em 5 minutos",
+    "aiTechnology": "Tecnologia com IA",
+    "builtForFuture": "Construído para o futuro da comunicação",
+    "experienceTech": "Experimente tecnologia de IA de ponta que transforma como as empresas se comunicam",
+    "advancedAI": "Inteligência IA avançada",
+    "advancedAIDesc": "Compreensão de linguagem natural alimentada por modelos de linguagem de última geração",
+    "humanLikeVoices": "Vozes similares a humanos",
+    "humanLikeVoicesDesc": "Síntese de voz ultra-realista que soa natural e envolvente",
+    "realTimeProcessing": "Processamento em tempo real",
+    "realTimeProcessingDesc": "Tempos de resposta instantâneos com latência abaixo de um segundo para conversas fluidas",
+    "howItWorks": "Como funciona",
+    "getStartedSteps": "Comece em três passos simples",
+    "build": "Construir",
+    "buildDesc": "Use nosso construtor intuitivo de agentes para criar chamadores de voz IA personalizados com modelos profissionais.",
+    "deploy": "Implantar",
+    "deployDesc": "Implante facilmente seus agentes para chamadas telefônicas IA, campanhas e alcance automatizado com um clique.",
+    "monitor": "Monitorar",
+    "monitorDesc": "Acompanhe taxas de sucesso, métricas de chamadas e sentimento do usuário através de painéis analíticos em tempo real.",
+    "powerfulFeatures": "Recursos poderosos de agentes de voz IA",
+    "everythingYouNeed": "Tudo o que você precisa para criar, implantar e gerenciar agentes de voz IA",
+    "autoSyncKnowledge": "Sincronização automática da base de conhecimento",
+    "autoSyncKnowledgeDesc": "Seus agentes IA ficam atualizados sincronizando diretamente com a base de conhecimento da sua empresa.",
+    "callTransfer": "Recurso poderoso de transferência de chamada",
+    "callTransferDesc": "Configure facilmente transferências quentes com mensagens de passagem.",
+    "easyAppointment": "Agendamento fácil de compromissos",
+    "easyAppointmentDesc": "Deixe seus agentes telefônicos IA agendarem reuniões em segundos.",
+    "realTimeAnalytics": "Análises em tempo real",
+    "realTimeAnalyticsDesc": "Acompanhe métricas de chamadas, taxas de sucesso e sentimento do cliente.",
+    "naturalVoice": "Conversas de voz naturais",
+    "naturalVoiceDesc": "Vozes IA similares a humanos da ElevenLabs proporcionam conversas fluidas e naturais.",
+    "intelligentLead": "Pontuação inteligente de leads",
+    "intelligentLeadDesc": "Classifique automaticamente leads como quentes, mornos, frios ou perdidos.",
+    "transformInteraction": "Transforme cada interação com clientes",
+    "discoverUseCases": "Descubra como os agentes de voz IA elevam suas comunicações empresariais",
+    "receptionist": "Recepcionista",
+    "receptionistDesc": "Atenda chamadas de entrada, responda FAQs e direcione chamadas",
+    "appointmentSetter": "Agendador de compromissos",
+    "appointmentSetterDesc": "Agende automaticamente reuniões com prospectos qualificados",
+    "leadQualification": "Qualificação de leads",
+    "leadQualificationDesc": "Avalie e qualifique leads antes de passá-los para sua equipe de vendas",
+    "survey": "Pesquisa",
+    "surveyDesc": "Colete feedback e insights de clientes em escala",
+    "customerService": "Atendimento ao cliente",
+    "customerServiceDesc": "Forneça suporte 24/7 e resolva problemas comuns de clientes",
+    "navbar": {
+      "features": "Recursos",
+      "useCases": "Casos de uso",
+      "pricing": "Preços",
+      "integrations": "Integrações",
+      "blog": "Blog",
+      "contact": "Contato",
+      "login": "ENTRAR",
+      "language": "Idioma"
+    },
+    "hero": {
+      "badge": "Motor de voz IA sem código",
+      "headline": "AGENTES DE VOZ IA PARA",
+      "rotatingWords": {
+        "sales": "Vendas",
+        "support": "Suporte",
+        "outreach": "Alcance",
+        "appointments": "Agendamentos"
+      },
+      "subheadline": "Crie agentes de voz IA semelhantes a humanos para gerenciar chamadas de entrada e saída, agendar reuniões e realizar ações 24/7.",
+      "humanLike": "Semelhante a humanos",
+      "statsProductivity": "Produtividade",
+      "statsScalability": "Escalabilidade",
+      "getStarted": "COMEÇAR",
+      "freeTrial": "Teste gratuito de 14 dias",
+      "freeCredit": "Crédito de $10 grátis"
+    },
+    "footer": {
+      "product": "Produto",
+      "resources": "Recursos",
+      "contactTitle": "Contato",
+      "newsletter": "Assine nossa newsletter",
+      "emailPlaceholder": "Digite seu e-mail",
+      "thankYou": "Obrigado por se inscrever!",
+      "thankYouDesc": "Você receberá nossas últimas atualizações e dicas.",
+      "copyright": "Todos os direitos reservados.",
+      "privacy": "Privacidade",
+      "terms": "Termos",
+      "cookies": "Cookies",
+      "features": "Recursos",
+      "useCases": "Casos de uso",
+      "pricing": "Preços",
+      "integrations": "Integrações",
+      "blog": "Blog",
+      "contact": "Contato",
+      "privacyPolicy": "Política de privacidade",
+      "termsOfService": "Termos de serviço"
+    },
+    "featureSection": {
+      "title": "Crie assistentes de voz IA que trabalham para você 24/7",
+      "capabilities": {
+        "bookMeetings": "Agendar reuniões",
+        "conductInterviews": "Realizar entrevistas",
+        "coldCallProspects": "Ligações frias para prospectos",
+        "offerSupport": "Oferecer suporte"
+      },
+      "feature1": {
+        "title": "Agentes de voz semelhantes a humanos",
+        "description": "Crie facilmente seu agente IA dando a ele um nome, selecionando seu idioma, sotaque e configure-o para lidar com tarefas:",
+        "bullet1": "Treine agentes IA instantaneamente com seus dados",
+        "bullet2": "Implante rapidamente usando plataforma sem código",
+        "bullet3": "Automatize interações com clientes"
+      },
+      "feature2": {
+        "title": "Deixe a IA gerenciar suas chamadas",
+        "description": "Gerencie chamadas de saída, atenda chamadas de entrada e agende compromissos 24/7. Selecione sua lista ou carregue contatos, configure um horário e pronto!",
+        "bullet1": "Chamadas de saída",
+        "bullet2": "Chamadas de entrada"
+      },
+      "feature3": {
+        "title": "Engaje e converta",
+        "description": "Conecte-se com clientes da maneira mais natural possível, automatizando tarefas e melhorando seus esforços de alcance.",
+        "bullet1": "Automatize qualificação de leads e acompanhamentos",
+        "bullet2": "Aumente a participação em eventos com convites IA",
+        "bullet3": "Forneça soluções de suporte ao cliente 24/7 com IA",
+        "bullet4": "Use IA para automatizar entrevistas de candidatos"
+      },
+      "mockup": {
+        "language": "Português (Brasil)",
+        "voice": "Voz: Brian",
+        "stability": "Estabilidade",
+        "speed": "Velocidade",
+        "diarization": "Diarização",
+        "createAgent": "Criar agente",
+        "selectAgent": "Selecionar agente",
+        "outboundCall": "Chamada de saída",
+        "startDate": "Início: 1/05/24",
+        "endDate": "Fim: 20/05/24",
+        "selectList": "Selecionar lista",
+        "collectContactDetails": "Coletar dados de contato",
+        "bookAppointments": "Agendar compromissos",
+        "qualifyLeads": "Qualificar leads"
+      },
+      "getStarted": "COMEÇAR",
+      "freeTrial": "Teste gratuito de 14 dias",
+      "freeCredit": "Crédito de $10 grátis"
+    },
+    "actionCards": {
+      "title": "Automatize tarefas e ações",
+      "description": "Configure os agentes IA para automatizar uma variedade de tarefas e ações, como:",
+      "cards": {
+        "sms": "Envie mensagens SMS para clientes imediatamente durante as chamadas",
+        "transfer": "Redirecione ou transfira chamadas para um agente humano",
+        "webhooks": "Colete dados de clientes e automatize ações usando Zapier e Webhooks",
+        "email": "Envie e-mails facilmente durante ou após uma chamada",
+        "whatsapp": "Envie mensagens de WhatsApp para clientes durante as chamadas",
+        "appointments": "Agende compromissos e envie convites de calendário durante a chamada"
+      },
+      "getStarted": "COMEÇAR",
+      "freeTrial": "Teste gratuito de 14 dias",
+      "freeCredit": "Crédito de $10 grátis"
+    },
+    "technology": {
+      "badge": "Tecnologia excepcional",
+      "title": "Desempenho incomparável",
+      "benefits": {
+        "cutCosts": "Reduza custos e economize tempo contratando representantes de vendas",
+        "millionCalls": "Lance 1 milhão de chamadas por minuto",
+        "reduceAttrition": "Reduza a rotatividade e o tempo de espera das chamadas"
+      },
+      "features": {
+        "autopilot": {
+          "title": "Coloque suas chamadas no piloto automático",
+          "description": "Envie automaticamente SMS, e-mails, convites de calendário e mais"
+        },
+        "voiceCustomization": {
+          "title": "Personalização de voz",
+          "description": "Personalize facilmente a velocidade de fala, ritmo e nível de paciência"
+        },
+        "sentimentAnalysis": {
+          "title": "Análise de sentimento",
+          "description": "Melhore a experiência do cliente com análise de sentimento avançada e gestão de voz"
+        },
+        "diarization": {
+          "title": "Diarização",
+          "description": "Lide com interrupções e detecte finais de conversa"
+        },
+        "globalConversations": {
+          "title": "Conversas globais",
+          "description": "Interaja com seus clientes em mais de 30 idiomas"
+        },
+        "realTimeBookings": {
+          "title": "Agendamentos em tempo real",
+          "description": "Determine disponibilidade em tempo real e agende compromissos instantaneamente"
+        }
+      },
+      "getStarted": "COMEÇAR",
+      "freeTrial": "Teste gratuito de 14 dias",
+      "freeCredit": "Crédito de $10 grátis"
+    },
+    "featuresShowcase": {
+      "title": "Conectividade de voz poderosa para",
+      "titleHighlight": "conversas impulsionadas por IA",
+      "description": "Agentes IA que conectam com clientes globalmente através de interações de voz confiáveis e de alta qualidade, tudo impulsionado por infraestrutura de chamadas premium.",
+      "globalReach": "Alcance global",
+      "reliableCalls": "Chamadas confiáveis",
+      "aiAutomation": "IA e recursos de automação",
+      "features": {
+        "seamlessInbound": {
+          "title": "Chamadas de entrada sem interrupções em mais de 100 países",
+          "description": "Use números de telefone locais em mais de 100 países para facilitar que os clientes entrem em contato."
+        },
+        "directConnectivity": {
+          "title": "Conectividade direta sem complexidade",
+          "description": "Ligue para clientes em mais de 100 países, eliminando a necessidade de gerenciar múltiplas operadoras."
+        },
+        "verifiedNumbers": {
+          "title": "Ampla seleção de números empresariais verificados",
+          "description": "Escolha números locais, gratuitos ou móveis em mais de 100 países para gerar confiança e garantir chamadas sem problemas."
+        },
+        "highQuality": {
+          "title": "Chamadas de voz de alta qualidade com baixa latência",
+          "description": "Latência de chamada inferior a 500ms com pontos de presença regionais em cinco continentes."
+        },
+        "intelligentRouting": {
+          "title": "Roteamento inteligente de chamadas",
+          "description": "Motor de roteamento baseado em dados em tempo real que seleciona dinamicamente a melhor rota de chamada."
+        },
+        "directCarrier": {
+          "title": "Conectividade direta com operadora para configuração rápida de chamadas",
+          "description": "Suas chamadas de voz são entregues através de operadoras no país com um único salto, garantindo latência mínima."
+        },
+        "knowledgeBase": {
+          "title": "Base de conhecimento inteligente (RAG)",
+          "description": "Carregue documentos para dar aos seus agentes IA conhecimento contextual para conversas mais precisas e informadas."
+        },
+        "flowBuilder": {
+          "title": "Construtor de fluxos",
+          "description": "Construtor visual de arrastar e soltar para criar rotas de conversa com lógica condicional."
+        },
+        "multiLanguage": {
+          "title": "Suporte multilíngue",
+          "description": "Atenda clientes em 11 idiomas com detecção automática e troca fluida."
+        }
+      }
+    },
+    "useCasesSection": {
+      "title": "Casos de uso",
+      "description": "Descubra como equipes globais usam nossa plataforma para impulsionar crescimento e produtividade",
+      "useCaseLabel": "caso de uso",
+      "industryLabel": "Setor",
+      "languageLabel": "Idioma",
+      "functionLabel": "Função",
+      "cases": {
+        "saas": {
+          "title": "Empresa SaaS nos EUA",
+          "description": "Experimente uma mudança de jogo na indústria SaaS, já que Emma vendeu uma assinatura SaaS por $997/ano para um usuário nos EUA",
+          "industry": "SaaS",
+          "language": "Inglês (EUA)",
+          "function": "Vendas de saída"
+        },
+        "university": {
+          "title": "Universidade em Singapura",
+          "description": "Descubra como uma universidade em Singapura está usando IA para qualificar e convidar executivos para programas empresariais",
+          "industry": "Educação",
+          "language": "Inglês (Chinês)",
+          "function": "Agendamento de compromissos"
+        },
+        "automotive": {
+          "title": "Negócio automotivo no Brasil",
+          "description": "Explore como Hugo vendeu um dispositivo de rastreamento de carros para seu pai usando assistentes de vendas impulsionados por IA no mercado automotivo brasileiro",
+          "industry": "Automotivo",
+          "language": "Português (BR)",
+          "function": "Agendamento de compromissos"
+        },
+        "support": {
+          "title": "Suporte ao cliente na Índia",
+          "description": "Veja como uma empresa de tecnologia automatizou seu suporte ao cliente 24/7 com agentes de voz IA lidando com consultas em hindi e inglês",
+          "industry": "Tecnologia",
+          "language": "Hindi/Inglês",
+          "function": "Suporte ao cliente"
+        },
+        "ecommerce": {
+          "title": "E-commerce no Reino Unido",
+          "description": "Aprenda como um negócio de e-commerce aumentou as confirmações de pedidos em 40% usando chamadas de saída impulsionadas por IA",
+          "industry": "E-commerce",
+          "language": "Inglês (Reino Unido)",
+          "function": "Confirmação de pedidos"
+        },
+        "healthcare": {
+          "title": "Saúde na Alemanha",
+          "description": "Descubra como um provedor de saúde automatizou lembretes de consultas e reduziu faltas em 60%",
+          "industry": "Saúde",
+          "language": "Alemão",
+          "function": "Lembretes de consultas"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "O que nossos clientes dizem",
+      "subtitle": "Junte-se a milhares de empresas usando {{appName}} para transformar suas comunicações com clientes",
+      "at": "na",
+      "quotes": {
+        "jennifer": {
+          "quote": "{{appName}} revolucionou nosso fluxo de trabalho de atendimento ao cliente. Converter chamadas manuais para IA costumava levar horas.",
+          "highlight": "Agora leva apenas 30 segundos com resultados perfeitos.",
+          "author": "Jennifer Kim",
+          "role": "Gerente de Marketing",
+          "company": "TechStartup Inc"
+        },
+        "lisa": {
+          "quote": "Nosso call center precisava de automação para campanhas de saída. {{appName}} entende nossas necessidades perfeitamente.",
+          "highlight": "Resultados limpos e profissionais que funcionam perfeitamente toda vez.",
+          "author": "Lisa Rodriguez",
+          "role": "Gerente de Marca",
+          "company": "Fashion Forward"
+        },
+        "mike": {
+          "quote": "Como diretor de vendas, {{appName}} me poupa de treinar constantemente agentes em scripts.",
+          "highlight": "Qualidade de chamada perfeita toda vez, de leads a fechamentos!",
+          "author": "Mike Johnson",
+          "role": "Proprietário",
+          "company": "PrintPerfect Solutions"
+        },
+        "robert": {
+          "quote": "Nossa equipe de suporte precisava de assistência IA para lidar com alto volume. {{appName}} resolveu esse problema completamente.",
+          "highlight": "Respostas perfeitas para consultas de clientes.",
+          "author": "Robert Garcia",
+          "role": "Desenvolvedor Web",
+          "company": "PixelPerfect"
+        },
+        "tom": {
+          "quote": "Chamadas IA empresariais exigem agentes perfeitos, e {{appName}} entrega toda vez. Sem mais treinamento manual.",
+          "highlight": "Conversas nítidas e manuseio perfeito do cliente.",
+          "author": "Tom Williams",
+          "role": "Dono de loja de letreiros",
+          "company": "CustomSigns Pro"
+        },
+        "amanda": {
+          "quote": "Consultas de clientes vêm em várias formas, mas precisamos de respostas consistentes para confiabilidade. A IA do {{appName}} é simplesmente a melhor.",
+          "highlight": "Mantém a qualidade do serviço enquanto lida com respostas perfeitas.",
+          "author": "Amanda Thompson",
+          "role": "Sucesso do Cliente",
+          "company": "ServiceFirst Ltd"
+        },
+        "james": {
+          "quote": "{{appName}} fica perfeito em qualquer tamanho de tela. Essencial para o engajamento moderno do cliente.",
+          "highlight": "O ROI se pagou no primeiro mês.",
+          "author": "James Patterson",
+          "role": "Líder Criativo",
+          "company": "Ad Agency Plus"
+        },
+        "maria": {
+          "quote": "Nosso alcance precisava de chamadas automatizadas para geração de leads. {{appName}} resolveu isso completamente.",
+          "highlight": "Aumentou nossa taxa de conversão em 80%.",
+          "author": "Maria Gonzalez",
+          "role": "Proprietária",
+          "company": "Custom Apparel Co"
+        },
+        "rachel": {
+          "quote": "Criar demos de produtos requer vozes IA perfeitas. {{appName}} torna isso fácil para nossa equipe.",
+          "highlight": "De conceito a demo em segundos, não horas.",
+          "author": "Rachel Green",
+          "role": "Designer de Produto",
+          "company": "StartupFlow"
+        },
+        "carlos": {
+          "quote": "Consistência de marca em todos os canais requer agentes IA. {{appName}} torna isso fácil para nossa equipe.",
+          "highlight": "Chamadas de qualidade profissional para cada campanha.",
+          "author": "Carlos Rivera",
+          "role": "Diretor de Marketing",
+          "company": "BrandFirst Agency"
+        },
+        "sarah": {
+          "quote": "Como diretora criativa, estou sempre procurando formas de elevar nosso trabalho. {{appName}} entrega perfeitamente.",
+          "highlight": "Nossa produtividade aumentou dramaticamente.",
+          "author": "Sarah Martinez",
+          "role": "Diretora Criativa",
+          "company": "BrandCraft Studio"
+        },
+        "david": {
+          "quote": "{{appName}} economizou para nossa equipe mais de 10 horas por semana em chamadas de clientes. Essencial para qualquer negócio em crescimento.",
+          "highlight": "Acelerou todo nosso processo de vendas.",
+          "author": "David Chen",
+          "role": "Gerente de Operações",
+          "company": "ScaleUp Ventures"
+        }
+      }
+    },
+    "integrations": {
+      "title": "Integrações",
+      "description": "Conecte-se às suas ferramentas favoritas e melhore sua experiência com {{appName}}."
+    },
+    "pricing": {
+      "title": "Preços",
+      "titleHighlight": "transparentes",
+      "titleEnd": "e simples",
+      "description": "Comece grátis, atualize quando estiver pronto",
+      "monthly": "Mensal",
+      "yearly": "Anual",
+      "save20": "Economize 20%",
+      "popular": "Popular",
+      "free": "Grátis",
+      "perMonth": "/mês",
+      "perYear": "/ano",
+      "getStarted": "Começar",
+      "startFreeTrial": "Iniciar teste gratuito",
+      "guarantee": "Todos os planos incluem garantia de reembolso de 14 dias. Cartão de crédito não necessário para o plano gratuito.",
+      "features": {
+        "aiAgent": "{{count}} Agente IA",
+        "aiAgents": "{{count}} Agentes IA",
+        "unlimitedAgents": "Agentes IA ilimitados",
+        "campaign": "{{count}} Campanha",
+        "campaigns": "{{count}} Campanhas",
+        "unlimitedCampaigns": "Campanhas ilimitadas",
+        "maxContacts": "Máx. {{count}} contatos por campanha",
+        "contactsPerCampaign": "{{count}} contatos/campanha",
+        "unlimitedContacts": "Contatos ilimitados",
+        "flowAutomation": "{{count}} Automação de fluxo",
+        "flowAutomations": "{{count}} Automações de fluxo",
+        "unlimitedFlows": "Automações de fluxo ilimitadas",
+        "knowledgeBase": "{{count}} Base de conhecimento",
+        "knowledgeBases": "{{count}} Bases de conhecimento",
+        "unlimitedKnowledgeBases": "Bases de conhecimento ilimitadas",
+        "webhook": "{{count}} Webhook",
+        "webhooks": "{{count}} Webhooks",
+        "unlimitedWebhooks": "Webhooks ilimitados",
+        "phoneNumber": "{{count}} Número de telefone",
+        "phoneNumbers": "{{count}} Números de telefone",
+        "unlimitedPhoneNumbers": "Números de telefone ilimitados",
+        "purchaseNumbers": "Compre seus próprios números de telefone",
+        "systemPhone": "Número de telefone atribuído pelo sistema",
+        "freeCredits": "{{count}} créditos grátis",
+        "creditCalling": "Chamadas baseadas em créditos",
+        "prioritySupport": "Suporte prioritário",
+        "chooseLlm": "Escolha seu modelo LLM",
+        "advancedAnalytics": "Análises avançadas"
+      }
+    },
+    "contact": {
+      "badge": "Entre em contato",
+      "title": "Pronto para transformar suas chamadas?",
+      "description": "Tem perguntas sobre os agentes de voz IA do {{appName}}? Quer uma demo personalizada? Nossa equipe está aqui para ajudá-lo a automatizar suas operações de chamadas.",
+      "emailLabel": "Envie-nos um e-mail em",
+      "trustResponseTime": "Respondemos em 24 horas",
+      "trustCustomerCount": "Mais de 2.500 empresas confiam em nós",
+      "trustConsultation": "Consulta gratuita e demo personalizada",
+      "trustNoCommitment": "Sem compromisso necessário",
+      "form": {
+        "nameLabel": "Nome *",
+        "namePlaceholder": "Seu nome completo",
+        "emailLabel": "E-mail *",
+        "emailPlaceholder": "voce@empresa.com",
+        "companyLabel": "Empresa",
+        "companyPlaceholder": "Nome da sua empresa (opcional)",
+        "messageLabel": "Mensagem *",
+        "messagePlaceholder": "Conte-nos sobre suas necessidades...",
+        "submit": "Enviar mensagem",
+        "sending": "Enviando...",
+        "privacyNotice": "Seus dados estão seguros. Nunca compartilhamos suas informações."
+      },
+      "toast": {
+        "successTitle": "Mensagem enviada com sucesso!",
+        "successDescription": "Responderemos em 24 horas.",
+        "errorTitle": "Erro ao enviar a mensagem",
+        "errorDescription": "Por favor, tente novamente mais tarde."
+      },
+      "validation": {
+        "nameMin": "O nome deve ter pelo menos 2 caracteres",
+        "emailInvalid": "Por favor, insira um endereço de e-mail válido",
+        "messageMin": "A mensagem deve ter pelo menos 10 caracteres"
+      }
+    },
+    "cta": {
+      "title": "Pronto para transformar suas operações de chamadas?",
+      "description": "Junte-se a milhares de empresas usando agentes de voz IA para automatizar chamadas, qualificar leads e aumentar a satisfação do cliente",
+      "button": "Começar grátis",
+      "trustMessage": "Sem cartão de crédito • Configuração em 5 minutos • Plano gratuito para sempre"
+    },
+    "featuresPage": {
+      "seo": {
+        "title": "Recursos - Plataforma de agentes de voz IA",
+        "description": "Explore todos os recursos poderosos da nossa plataforma de agentes de voz IA. Construtor de fluxos, suporte multi-motor, gestão de campanhas e mais."
+      },
+      "hero": {
+        "badge": "Motor de voz IA sem código",
+        "title": "Agentes IA que simplesmente funcionam",
+        "subtitle": "Sem código. Sem suposições. Crie, implante e gerencie agentes de voz IA que lidam com chamadas de clientes de forma natural e inteligente.",
+        "startFreeTrial": "Iniciar teste gratuito",
+        "contactSales": "Contatar vendas"
+      },
+      "agentTypes": {
+        "title": "Escolha seu tipo de agente IA",
+        "subtitle": "Crie o agente de voz perfeito para seu caso de uso com nossos três tipos poderosos de agentes",
+        "natural": {
+          "title": "Agentes IA naturais",
+          "description": "Conversas abertas impulsionadas por LLM com prompts configuráveis, personalidade e respostas inteligentes que se adaptam a qualquer cenário.",
+          "features": {
+            "openEnded": "Conversas abertas",
+            "personality": "Personalidade personalizável",
+            "rag": "Integração de conhecimento RAG",
+            "multiLang": "Suporte multilíngue"
+          }
+        },
+        "flow": {
+          "title": "Agentes baseados em fluxos",
+          "description": "Fluxos de conversa visuais baseados em nós com ramificação condicional, perfeitos para interações estruturadas como pesquisas e agendamentos.",
+          "features": {
+            "dragDrop": "Construtor de arrastar e soltar",
+            "conditional": "Lógica condicional",
+            "api": "Integrações de API",
+            "templates": "Biblioteca de modelos"
+          }
+        },
+        "incoming": {
+          "title": "Agentes de chamadas de entrada",
+          "description": "Lide com chamadas de entrada através de números de telefone comprados, oferecendo suporte ao cliente automatizado 24/7 com respostas semelhantes a humanos.",
+          "features": {
+            "availability": "Disponibilidade 24/7",
+            "routing": "Roteamento inteligente de chamadas",
+            "queue": "Gestão de filas",
+            "transfer": "Opção de transferência humana"
+          }
+        }
+      },
+      "useCases": {
+        "title": "Agentes IA prontos para usar para cada necessidade",
+        "subtitle": "Implante agentes pré-construídos ou personalize-os para seus fluxos de trabalho específicos",
+        "leadQualification": {
+          "title": "Agente de qualificação de leads",
+          "description": "Capture leads de entrada, qualifique-os em tempo real usando lógica de ramificação inteligente e direcione prospectos de alta intenção para sua equipe de vendas."
+        },
+        "appointmentBooking": {
+          "title": "Agente de agendamento de compromissos",
+          "description": "Permita que os clientes agendem compromissos por telefone, com disponibilidade em tempo real sincronizada com seu sistema de calendário."
+        },
+        "customerSupport": {
+          "title": "Agente de suporte ao cliente",
+          "description": "Lide com status de pedidos, atualizações de envio e consultas de produtos 24/7 com respostas instantâneas e precisas."
+        },
+        "surveyFeedback": {
+          "title": "Agente de pesquisas e feedback",
+          "description": "Colete feedback de clientes através de conversas naturais, melhorando suas pontuações CSAT continuamente."
+        },
+        "paymentReminder": {
+          "title": "Agente de lembrete de pagamentos",
+          "description": "Automatize chamadas de cobrança de pagamentos com lembretes personalizados e opções de pagamento fáceis."
+        },
+        "techSupport": {
+          "title": "Agente de suporte técnico",
+          "description": "Resolva consultas comuns usando sua base de conhecimento, encaminhando casos complexos para humanos."
+        }
+      },
+      "howItWorks": {
+        "title": "Lance agentes IA em minutos",
+        "subtitle": "Nossa configuração guiada ajuda você a construir, testar e lançar agentes prontos para produção sem código",
+        "step1": {
+          "number": "01",
+          "title": "Crie seu agente",
+          "description": "Escolha entre agentes naturais ou baseados em fluxos. Configure voz, personalidade e objetivos de conversa usando nossa interface intuitiva."
+        },
+        "step2": {
+          "number": "02",
+          "title": "Adicione seu conhecimento",
+          "description": "Carregue documentos, URLs ou texto para treinar seu agente. Nosso sistema RAG garante respostas precisas e contextuais toda vez."
+        },
+        "step3": {
+          "number": "03",
+          "title": "Lance campanhas",
+          "description": "Importe contatos, agende campanhas e deixe seus agentes IA lidarem com milhares de chamadas simultaneamente com rastreamento em tempo real."
+        }
+      },
+      "capabilities": {
+        "title": "Construído para lidar com cada interação com o cliente",
+        "subtitle": "Capacidades de nível empresarial para automação de voz IA em escala",
+        "categories": {
+          "aiVoice": "IA e voz",
+          "telephony": "Telefonia",
+          "campaignManagement": "Gestão de campanhas",
+          "integrationSecurity": "Integração e segurança"
+        },
+        "items": {
+          "elevenLabs": {
+            "title": "Integração ElevenLabs",
+            "desc": "Vozes IA ultra-realistas com amplitude emocional"
+          },
+          "openai": {
+            "title": "API em tempo real da OpenAI",
+            "desc": "IA conversacional de baixa latência com GPT-4"
+          },
+          "languages": {
+            "title": "Mais de 30 idiomas",
+            "desc": "Alcance global com suporte de idioma nativo"
+          },
+          "personalities": {
+            "title": "Personalidades personalizadas",
+            "desc": "Configure tom, estilo e abordagem de conversa"
+          },
+          "twilio": {
+            "title": "Integração Twilio",
+            "desc": "Infraestrutura de telefonia de nível empresarial"
+          },
+          "countries": {
+            "title": "Mais de 100 países",
+            "desc": "Compre números locais em mais de 100 países incluindo Índia"
+          },
+          "callTransfer": {
+            "title": "Transferência de chamadas",
+            "desc": "Transferência sem problemas para agentes humanos quando necessário"
+          },
+          "recording": {
+            "title": "Gravação de chamadas",
+            "desc": "Transcrição completa e análise de conversas"
+          },
+          "bulkCampaigns": {
+            "title": "Campanhas em massa",
+            "desc": "Lide com milhares de chamadas concorrentes"
+          },
+          "scheduling": {
+            "title": "Agendamento inteligente",
+            "desc": "Agendamento de campanhas com reconhecimento de fuso horário"
+          },
+          "retryLogic": {
+            "title": "Lógica de nova tentativa",
+            "desc": "Nova tentativa automática para chamadas não atendidas"
+          },
+          "analytics": {
+            "title": "Análises em tempo real",
+            "desc": "Acompanhe desempenho e conversões ao vivo"
+          },
+          "webhooks": {
+            "title": "Webhooks",
+            "desc": "Notificações de eventos em tempo real para seus sistemas"
+          },
+          "security": {
+            "title": "Segurança empresarial",
+            "desc": "Conformidade SOC2 com dados criptografados"
+          },
+          "knowledgeBase": {
+            "title": "Base de conhecimento",
+            "desc": "Compreensão de documentos impulsionada por RAG"
+          },
+          "humanHandoff": {
+            "title": "Transferência para humanos",
+            "desc": "Roteamento inteligente para equipes de suporte"
+          }
+        }
+      },
+      "integrations": {
+        "title": "Conecte as ferramentas que sua empresa usa",
+        "subtitle": "Integração perfeita com seu CRM, calendário, helpdesk e mais através de webhooks e APIs",
+        "footerText": "Mais integrações personalizadas via REST API e Webhooks"
+      },
+      "knowledgeBase": {
+        "badge": "Base de conhecimento",
+        "title": "Conversas que permanecem precisas",
+        "description": "Os agentes IA se adaptam à voz da sua marca e extraem respostas da sua última base de conhecimento. Carregue PDFs, documentos ou URLs e veja seus agentes se tornarem especialistas instantaneamente.",
+        "features": {
+          "processing": "Processamento e fragmentação automática de documentos",
+          "rag": "Injeção de contexto impulsionada por RAG durante chamadas",
+          "realTime": "Atualizações em tempo real sem retreinamento"
+        }
+      },
+      "humanHandoff": {
+        "badge": "Humano no ciclo",
+        "title": "Transferência sem problemas quando necessário",
+        "description": "Direcione facilmente as conversas para a equipe de suporte certa quando ajuda humana é necessária. A detecção inteligente garante que consultas complexas recebam atenção pessoal.",
+        "features": {
+          "escalation": "Gatilhos de escalação inteligentes",
+          "context": "Transferência completa do contexto da conversa",
+          "routing": "Roteamento por equipe, habilidade ou regras personalizadas"
+        }
+      },
+      "cta": {
+        "title": "Comece a construir seu agente IA agora",
+        "subtitle": "Sem taxas de configuração, sem código necessário. Comece em minutos.",
+        "startFreeTrial": "Iniciar teste gratuito",
+        "contactSales": "Contatar vendas"
+      }
+    },
+    "useCasesPage": {
+      "seoTitle": "Casos de uso - Plataforma de agentes de voz IA",
+      "seoDescription": "Descubra como as empresas usam agentes de voz IA para vendas, suporte, agendamentos, pesquisas, cobranças, transmissões e mais.",
+      "hero": {
+        "badge": "11 casos de uso poderosos",
+        "title": "Transforme seu negócio com",
+        "titleHighlight": "agentes de voz IA",
+        "subtitle": "De campanhas de vendas de saída a notificações de emergência, descubra como nossos agentes de voz IA podem automatizar suas comunicações e escalar suas operações empresariais."
+      },
+      "platformFeatures": {
+        "countries": "Mais de 100 países",
+        "countriesDesc": "Números de telefone em todo o mundo",
+        "languages": "Mais de 30 idiomas",
+        "languagesDesc": "Vozes IA multilíngues",
+        "realTime": "Tempo real",
+        "realTimeDesc": "Processamento instantâneo de chamadas",
+        "enterprise": "Empresarial",
+        "enterpriseDesc": "Segurança e conformidade"
+      },
+      "industries": {
+        "saas": "SaaS e tecnologia",
+        "healthcare": "Saúde",
+        "education": "Educação",
+        "ecommerce": "E-commerce",
+        "automotive": "Automotivo",
+        "financial": "Serviços financeiros",
+        "realEstate": "Imóveis",
+        "hr": "RH e recrutamento"
+      },
+      "getStartedFree": "Começar grátis",
+      "useCases": {
+        "outboundSales": {
+          "badge": "Mais popular",
+          "subtitle": "CHAMADAS EM MASSA",
+          "title": "Campanhas de vendas de saída",
+          "description": "Lance campanhas de saída em larga escala com agentes IA naturais que qualificam leads, lidam com objeções e agendam reuniões automaticamente. Escale sua equipe de vendas infinitamente.",
+          "features": {
+            "bulk": "Chamadas em massa com gestão de chamadas concorrentes",
+            "natural": "Conversas IA naturais com personalização de personalidade",
+            "leadQual": "Qualificação e pontuação de leads em tempo real",
+            "meeting": "Agendamento automático de reuniões no seu calendário",
+            "crm": "Integração CRM via webhooks"
+          },
+          "stats": {
+            "callsDaily": "Mais chamadas diárias",
+            "conversion": "Maior conversão",
+            "costReduction": "Redução de custos",
+            "campaign": "Campanha ativa"
+          }
+        },
+        "appointment": {
+          "subtitle": "AGENTES DE FLUXO",
+          "title": "Agendamento e lembretes de compromissos",
+          "description": "Implante agentes IA baseados em fluxos que lidam com agendamentos de compromissos, enviam lembretes automatizados e reduzem drasticamente faltas com acompanhamentos inteligentes.",
+          "features": {
+            "visual": "Construtor visual de fluxos para conversas de agendamento",
+            "automated": "Chamadas automáticas de confirmação e lembrete",
+            "rescheduling": "Tratamento de reagendamento e cancelamento",
+            "timezone": "Suporte a múltiplos fusos horários",
+            "calendar": "Sincronização de calendário com Google, Outlook e mais"
+          },
+          "stats": {
+            "noShows": "Menos faltas",
+            "bookingRate": "Taxa de agendamento",
+            "automated": "Automatizado",
+            "setupTime": "Tempo de configuração"
+          }
+        },
+        "support": {
+          "subtitle": "AGENTES DE ENTRADA",
+          "title": "Linha de suporte ao cliente",
+          "description": "Lide com chamadas de entrada 24/7 com agentes IA impulsionados pela sua base de conhecimento. Resolva consultas instantaneamente, escale quando necessário e nunca perca uma chamada de cliente.",
+          "features": {
+            "incoming": "Atendimento de chamadas de entrada em números comprados",
+            "knowledge": "Integração de base de conhecimento para respostas precisas",
+            "escalation": "Escalação inteligente para agentes humanos",
+            "multiLang": "Suporte multilíngue (mais de 30 idiomas)",
+            "transcript": "Transcrição em tempo real e rastreamento de sentimento"
+          },
+          "stats": {
+            "resolution": "Taxa de resolução",
+            "waitTime": "Tempo de espera",
+            "languages": "Idiomas",
+            "uptime": "Tempo ativo"
+          }
+        },
+        "survey": {
+          "subtitle": "FLUXOS ESTRUTURADOS",
+          "title": "Coleta de pesquisas e feedback",
+          "description": "Colete feedback valioso de clientes através de conversas de voz envolventes. Obtenha taxas de resposta mais altas que pesquisas por e-mail com coleta de dados conversacional e natural.",
+          "features": {
+            "question": "Nós de perguntas com ramificação condicional",
+            "analytics": "Análises de respostas em tempo real",
+            "sentiment": "Análise de sentimento durante chamadas",
+            "export": "Exportação automática de dados e relatórios",
+            "types": "Tipos de pesquisa CSAT, NPS e personalizados"
+          },
+          "stats": {
+            "responseRate": "Taxa de resposta",
+            "completion": "Conclusão",
+            "analytics": "Análises",
+            "reporting": "Relatórios"
+          }
+        },
+        "payment": {
+          "subtitle": "MULTILÍNGUE",
+          "title": "Pagamentos e cobranças",
+          "description": "Automatize lembretes de pagamento e cobranças com chamadas IA profissionais e em conformidade. Ofereça planos de pagamento, rastreie compromissos e melhore taxas de recuperação.",
+          "features": {
+            "gentle": "Lembretes de pagamento gentis e profissionais",
+            "multiLang": "Suporte multilíngue para alcance global",
+            "negotiation": "Fluxos de negociação de planos de pagamento",
+            "tracking": "Rastreamento de promessas de pagamento",
+            "compliance": "Conformidade regulatória integrada"
+          },
+          "stats": {
+            "collections": "Mais cobranças",
+            "compliant": "Em conformidade",
+            "costSavings": "Economia de custos",
+            "languages": "Idiomas"
+          }
+        },
+        "leadQualification": {
+          "subtitle": "AUTOMAÇÃO DE CAMPANHAS",
+          "title": "Qualificação e nutrição de leads",
+          "description": "Qualifique leads em escala com conversas impulsionadas por IA. Nutra prospectos através de acompanhamentos automatizados e sincronize tudo com seu CRM via webhooks.",
+          "features": {
+            "scoring": "Pontuação inteligente de leads durante chamadas",
+            "followUp": "Campanhas de acompanhamento automatizadas",
+            "webhook": "Integração webhook com seu CRM",
+            "criteria": "Critérios de qualificação personalizados",
+            "alerts": "Alertas e notificações de leads quentes"
+          },
+          "stats": {
+            "qualifiedLeads": "Leads qualificados",
+            "timeSaved": "Tempo economizado",
+            "crmSync": "Sincronização CRM",
+            "followUps": "Acompanhamentos"
+          }
+        },
+        "broadcast": {
+          "badge": "Novo recurso",
+          "subtitle": "NÓ DE ÁUDIO",
+          "title": "Transmissões de voz interativas",
+          "description": "Transmita mensagens de áudio pré-gravadas para milhares de contatos, depois deixe a IA lidar com respostas personalizadas e conversas de acompanhamento.",
+          "features": {
+            "audio": "Nó de áudio para mensagens pré-gravadas",
+            "aiPowered": "Tratamento de respostas impulsionado por IA",
+            "mass": "Capacidades de transmissão em massa",
+            "personalized": "Conversas de acompanhamento personalizadas",
+            "tracking": "Rastreamento de entrega e análises"
+          },
+          "stats": {
+            "callsHour": "Chamadas/hora",
+            "deliveryRate": "Taxa de entrega",
+            "audioFiles": "Arquivos de áudio",
+            "followUps": "Acompanhamentos"
+          }
+        },
+        "training": {
+          "subtitle": "ÁUDIO + Q&A",
+          "title": "Chamadas de treinamento e integração",
+          "description": "Entregue conteúdo de treinamento consistente via reprodução de áudio, depois deixe a IA lidar com perguntas e verificar compreensão com sessões interativas de Q&A.",
+          "features": {
+            "playback": "Reprodução de áudio para conteúdo de treinamento",
+            "qa": "Q&A impulsionado por IA após o treinamento",
+            "verification": "Fluxos de verificação de compreensão",
+            "progress": "Rastreamento de progresso e relatórios",
+            "scalable": "Escalável para milhares de funcionários"
+          },
+          "stats": {
+            "completion": "Conclusão",
+            "consistent": "Consistente",
+            "timeSaved": "Tempo economizado",
+            "assessment": "Avaliação"
+          }
+        },
+        "announcements": {
+          "subtitle": "TRANSMISSÃO + IA",
+          "title": "Anúncios de produtos",
+          "description": "Anuncie novos produtos, recursos ou atualizações com transmissões de áudio profissionais. Os agentes IA lidam com perguntas e coletam feedback em tempo real.",
+          "features": {
+            "professional": "Anúncios de áudio profissionais",
+            "questions": "Tratamento de perguntas impulsionado por IA",
+            "feedback": "Coleta de feedback em tempo real",
+            "targeting": "Segmentação de público-alvo",
+            "analytics": "Painel de análises de engajamento"
+          },
+          "stats": {
+            "listenRate": "Taxa de escuta",
+            "engagement": "Engajamento",
+            "feedback": "Feedback",
+            "delivery": "Entrega"
+          }
+        },
+        "events": {
+          "subtitle": "ÁUDIO + FLUXO",
+          "title": "Lembretes de eventos e RSVP",
+          "description": "Envie convites de eventos personalizados com mensagens de áudio e lide com RSVPs através de agentes de fluxo estruturados. Perfeito para conferências, webinars e reuniões.",
+          "features": {
+            "invitations": "Convites de áudio com toque pessoal",
+            "rsvp": "Tratamento de RSVP baseado em fluxos",
+            "reminders": "Sequências de lembretes automatizados",
+            "attendee": "Gestão de lista de participantes",
+            "calendar": "Integração de calendário"
+          },
+          "stats": {
+            "rsvpRate": "Taxa de RSVP",
+            "attendance": "Maior participação",
+            "reminders": "Lembretes",
+            "calendars": "Calendários"
+          }
+        },
+        "emergency": {
+          "subtitle": "ALERTAS PRIORITÁRIOS",
+          "title": "Notificações de emergência",
+          "description": "Envie alertas de áudio críticos com entrega prioritária e rastreie confirmações em tempo real. Essencial para segurança e comunicações urgentes.",
+          "features": {
+            "priority": "Entrega de alertas de áudio prioritários",
+            "acknowledgment": "Rastreamento de confirmações",
+            "escalation": "Escalação para não respostas",
+            "multichannel": "Opções de backup multicanal",
+            "compliance": "Conformidade e registro de auditoria"
+          },
+          "stats": {
+            "deliveryRate": "Taxa de entrega",
+            "alertTime": "Tempo de alerta",
+            "tracked": "Rastreado",
+            "escalation": "Escalação"
+          }
+        }
+      },
+      "statsSection": {
+        "title": "Confiado por empresas em crescimento",
+        "subtitle": "Junte-se a milhares de empresas escalando suas operações com agentes de voz IA",
+        "callsMade": "Chamadas realizadas",
+        "businesses": "Empresas",
+        "uptime": "Tempo ativo",
+        "languages": "Idiomas"
+      },
+      "ctaSection": {
+        "badge": "Comece grátis hoje",
+        "title": "Pronto para escalar suas",
+        "titleHighlight": "operações de voz?",
+        "subtitle": "Junte-se a milhares de empresas usando agentes de voz IA para automatizar chamadas, melhorar a experiência do cliente e impulsionar o crescimento.",
+        "startFreeTrial": "Iniciar teste gratuito",
+        "viewPricing": "Ver preços",
+        "trustMessage": "Sem cartão de crédito necessário • Teste gratuito de 14 dias • Cancele a qualquer momento"
+      }
+    },
+    "pricingPage": {
+      "seo": {
+        "title": "Preços - Plataforma de agentes de voz IA",
+        "description": "Preços simples e transparentes para agentes de voz IA. Comece grátis, atualize quando precisar de mais."
+      },
+      "hero": {
+        "title": "Preços",
+        "titleHighlight": "transparentes",
+        "titleEnd": "e simples",
+        "subtitle": "Comece grátis, atualize quando estiver pronto"
+      },
+      "billing": {
+        "monthly": "Mensal",
+        "yearly": "Anual",
+        "save20": "Economize 20% com faturamento anual",
+        "billedAnnually": "Cobrado anualmente (20% de economia)",
+        "perMonth": "/mês",
+        "perYear": "/ano"
+      },
+      "plans": {
+        "mostPopular": "Mais popular",
+        "free": "Grátis",
+        "forGrowingBusinesses": "Para empresas em crescimento",
+        "perfectForTrying": "Perfeito para experimentar a plataforma",
+        "startFree": "Começar grátis",
+        "startProTrial": "Iniciar teste Pro"
+      },
+      "features": {
+        "minutesPerMonth": "{{count}} minutos/mês",
+        "unlimitedMinutes": "Minutos ilimitados",
+        "aiAgent": "{{count}} Agente IA",
+        "aiAgents": "{{count}} Agentes IA",
+        "unlimitedAgents": "Agentes IA ilimitados",
+        "basicVoiceSelection": "Seleção de voz básica",
+        "allPremiumVoices": "Todas as vozes premium",
+        "emailSupport": "Suporte por e-mail",
+        "prioritySupport": "Suporte prioritário",
+        "analyticsDashboard": "Painel de análises",
+        "advancedAnalytics": "Análises avançadas",
+        "flowBuilder": "Construtor de fluxos",
+        "apiAccess": "Acesso à API",
+        "webhookIntegrations": "Integrações de webhooks",
+        "customIntegrations": "Integrações personalizadas"
+      },
+      "comparison": {
+        "title": "Compare planos",
+        "subtitle": "Veja o que está incluído em cada plano",
+        "feature": "Recurso",
+        "free": "Grátis",
+        "pro": "Pro",
+        "callMinutes": "Minutos de chamada",
+        "aiAgents": "Agentes IA",
+        "phoneNumbers": "Números de telefone",
+        "flowBuilder": "Construtor de fluxos",
+        "knowledgeBase": "Base de conhecimento",
+        "webhookIntegrations": "Integrações de webhooks",
+        "apiAccess": "Acesso à API",
+        "prioritySupport": "Suporte prioritário",
+        "customVoices": "Vozes personalizadas",
+        "teamMembers": "Membros da equipe",
+        "limited": "Limitado",
+        "fullAccess": "Acesso completo",
+        "included": "Incluído",
+        "unlimited": "Ilimitado",
+        "document": "{{count}} documento",
+        "documents": "{{count}} documentos"
+      },
+      "faq": {
+        "title": "Perguntas frequentes",
+        "subtitle": "Tudo o que você precisa saber sobre nossos preços",
+        "questions": {
+          "trial": {
+            "question": "Como funciona o teste gratuito de 14 dias?",
+            "answer": "Você obtém acesso completo a todos os recursos Pro por 14 dias. Cartão de crédito não necessário. Após o teste, você pode continuar com Pro ou mudar para nosso plano Grátis."
+          },
+          "cancel": {
+            "question": "Posso cancelar minha assinatura a qualquer momento?",
+            "answer": "Sim, você pode cancelar sua assinatura a qualquer momento. Seu acesso continuará até o final do seu período de faturamento atual."
+          },
+          "payment": {
+            "question": "Quais métodos de pagamento vocês aceitam?",
+            "answer": "Aceitamos todos os cartões de crédito principais (Visa, Mastercard, Amex), PayPal, e em regiões selecionadas, métodos de pagamento locais como Razorpay (Índia), Paystack (África) e MercadoPago (América Latina)."
+          },
+          "discount": {
+            "question": "Vocês oferecem descontos para faturamento anual?",
+            "answer": "Sim! O faturamento anual vem com 20% de desconto em comparação ao faturamento mensal. Entre em contato com nossa equipe de vendas para preços empresariais."
+          },
+          "limits": {
+            "question": "O que acontece quando excedo os limites do plano gratuito?",
+            "answer": "Você receberá uma notificação quando estiver se aproximando dos seus limites. Você pode atualizar para Pro a qualquer momento para continuar usando a plataforma sem interrupções."
+          },
+          "switch": {
+            "question": "Posso mudar entre planos?",
+            "answer": "Sim, você pode atualizar ou fazer downgrade do seu plano a qualquer momento. Ao atualizar, você terá acesso imediato aos novos recursos. Ao fazer downgrade, as mudanças entram em vigor no próximo ciclo de faturamento."
+          }
+        }
+      },
+      "cta": {
+        "title": "Pronto para começar?",
+        "subtitle": "Comece a construir seus agentes de voz IA hoje",
+        "startFreeTrial": "Iniciar teste gratuito",
+        "contactSales": "Contatar vendas"
+      }
+    },
+    "integrationsPage": {
+      "seo": {
+        "title": "Integrações - Plataforma de agentes de voz IA",
+        "description": "Conecte seus agentes de voz IA com Twilio, Plivo, OpenAI, ElevenLabs, Zapier e mais."
+      },
+      "hero": {
+        "badge": "Integrações poderosas",
+        "title": "Conecte-se às suas",
+        "titleHighlight": "ferramentas favoritas",
+        "subtitle": "Integre perfeitamente agentes de voz IA com sua stack tecnológica existente. De provedores de telefonia a CRMs, temos você coberto."
+      },
+      "categories": {
+        "telephony": "Telefonia",
+        "aiLlm": "IA/LLM",
+        "voice": "Voz",
+        "automation": "Automação",
+        "developer": "Desenvolvedor",
+        "communication": "Comunicação",
+        "crm": "CRM"
+      },
+      "integrations": {
+        "twilio": {
+          "name": "Twilio",
+          "description": "Provedor global de telefonia para chamadas de voz, SMS e gestão de números de telefone."
+        },
+        "plivo": {
+          "name": "Plivo",
+          "description": "Provedor de telefonia alternativo com excelente cobertura na Índia e mercados internacionais."
+        },
+        "openai": {
+          "name": "OpenAI",
+          "description": "Modelos IA avançados para compreensão de linguagem natural e conversas de voz em tempo real."
+        },
+        "elevenlabs": {
+          "name": "ElevenLabs",
+          "description": "Síntese de voz premium com vozes ultra-realistas semelhantes a humanos em múltiplos idiomas."
+        },
+        "zapier": {
+          "name": "Zapier",
+          "description": "Conecte-se a mais de 5.000 aplicativos para automatizar fluxos de trabalho acionados por eventos de chamadas."
+        },
+        "webhooks": {
+          "name": "Webhooks",
+          "description": "Notificações de eventos em tempo real para status de chamadas, transcrições e ações personalizadas."
+        },
+        "slack": {
+          "name": "Slack",
+          "description": "Receba notificações em tempo real e resumos de chamadas diretamente nos seus canais do Slack."
+        },
+        "hubspot": {
+          "name": "HubSpot",
+          "description": "Sincronize dados de chamadas, atualize contatos e registre atividades no seu CRM HubSpot."
+        },
+        "salesforce": {
+          "name": "Salesforce",
+          "description": "Integração CRM empresarial para registro de chamadas, atualizações de leads e automação."
+        },
+        "restApi": {
+          "name": "REST API",
+          "description": "Acesso programático completo a todos os recursos da plataforma via nossa API REST abrangente."
+        }
+      },
+      "api": {
+        "badge": "API para desenvolvedores",
+        "title": "Acesso completo à API",
+        "description": "Construa integrações personalizadas e automatize seus fluxos de trabalho com nossa API REST abrangente. Documentação completa incluída.",
+        "features": {
+          "createAgents": "Crie e gerencie agentes IA programaticamente",
+          "launchCampaigns": "Lance e controle campanhas de chamadas",
+          "accessCallStatus": "Acesse status de chamadas e transcrições em tempo real",
+          "manageContacts": "Gerencie contatos e números de telefone",
+          "configureWebhooks": "Configure webhooks para notificações de eventos",
+          "generateAnalytics": "Gere análises e relatórios"
+        },
+        "viewDocs": "Ver documentação da API"
+      },
+      "webhooks": {
+        "badge": "Webhooks em tempo real",
+        "title": "Arquitetura baseada em eventos",
+        "description": "Receba notificações em tempo real para todos os eventos de chamadas. Construa fluxos de trabalho reativos que respondam instantaneamente às interações dos clientes.",
+        "availableEvents": "Eventos de webhook disponíveis",
+        "events": {
+          "callStarted": "call.started - Quando uma chamada começa",
+          "callCompleted": "call.completed - Quando uma chamada termina com transcrição completa",
+          "callFailed": "call.failed - Quando uma chamada falha ao conectar",
+          "campaignStarted": "campaign.started - Quando uma campanha começa",
+          "campaignCompleted": "campaign.completed - Quando todas as chamadas terminam",
+          "appointmentBooked": "appointment.booked - Quando um compromisso é agendado"
+        },
+        "features": {
+          "hmac": "Verificação de assinatura HMAC-SHA256",
+          "retry": "Nova tentativa automática com backoff exponencial",
+          "logs": "Logs de entrega e ferramentas de depuração"
+        }
+      },
+      "cta": {
+        "title": "Pronto para integrar?",
+        "subtitle": "Comece a construir com nossa API hoje. Documentação completa incluída.",
+        "startFreeTrial": "Iniciar teste gratuito",
+        "viewDocumentation": "Ver documentação"
+      }
+    },
+    "blogPage": {
+      "badge": "Recursos e insights",
+      "title": "Blog e recursos",
+      "subtitle": "Mantenha-se atualizado com as últimas estratégias de agentes de voz IA, estudos de caso e atualizações de produtos para transformar sua comunicação empresarial.",
+      "categories": {
+        "all": "Todos",
+        "aiTechnology": "Tecnologia IA",
+        "caseStudies": "Estudos de caso",
+        "productUpdates": "Atualizações de produto"
+      },
+      "searchPlaceholder": "Pesquisar artigos...",
+      "readArticle": "Ler artigo",
+      "noArticlesFound": "Nenhum artigo encontrado correspondendo aos seus critérios.",
+      "clearFilters": "Limpar filtros",
+      "newsletter": {
+        "title": "Mantenha-se atualizado",
+        "subtitle": "Receba os últimos insights sobre tecnologia de voz IA diretamente na sua caixa de entrada semanalmente.",
+        "emailPlaceholder": "Digite seu e-mail",
+        "subscribe": "Inscrever-se",
+        "disclaimer": "Sem spam. Cancele a qualquer momento."
+      }
+    },
+    "blogPost": {
+      "backToBlog": "Voltar ao blog",
+      "shareArticle": "Compartilhar artigo",
+      "bookmarkArticle": "Salvar artigo",
+      "readMore": "Leia mais",
+      "relatedArticles": {
+        "title": "Artigos relacionados",
+        "subtitle": "Continue explorando nossos últimos insights e atualizações"
+      },
+      "viewAllArticles": "Ver todos os artigos",
+      "notFound": {
+        "title": "Artigo não encontrado",
+        "description": "O artigo solicitado não pôde ser encontrado.",
+        "message": "O artigo que você está procurando não existe."
+      }
+    },
+    "contactPage": {
+      "badge": "Adoraríamos ouvir de você",
+      "title": "Entre em contato",
+      "subtitle": "Tem perguntas sobre nossos agentes de voz IA? Quer uma demo personalizada? Nossa equipe está aqui para ajudá-lo a transformar suas operações de chamadas.",
+      "form": {
+        "title": "Envie-nos uma mensagem",
+        "subtitle": "Preencha o formulário abaixo e entraremos em contato em breve.",
+        "labels": {
+          "name": "Nome *",
+          "email": "E-mail *",
+          "company": "Empresa",
+          "phone": "Telefone",
+          "message": "Mensagem *"
+        },
+        "placeholders": {
+          "name": "Seu nome completo",
+          "email": "voce@empresa.com",
+          "company": "Nome da sua empresa",
+          "phone": "+55 (11) 99999-9999",
+          "message": "Conte-nos sobre suas necessidades..."
+        },
+        "submit": "Enviar mensagem",
+        "submitting": "Enviando...",
+        "privacyNotice": "Seus dados estão seguros. Nunca compartilhamos suas informações.",
+        "successTitle": "Mensagem enviada com sucesso!",
+        "successDescription": "Responderemos em 24 horas."
+      },
+      "validation": {
+        "nameMinLength": "O nome deve ter pelo menos 2 caracteres",
+        "emailInvalid": "Por favor, insira um endereço de e-mail válido",
+        "messageMinLength": "A mensagem deve ter pelo menos 10 caracteres"
+      },
+      "contactInfo": {
+        "title": "Informações de contato",
+        "subtitle": "Entre em contato conosco diretamente através de qualquer um destes canais.",
+        "labels": {
+          "email": "E-mail",
+          "phone": "Telefone",
+          "address": "Endereço",
+          "officeHours": "Horário de funcionamento"
+        }
+      },
+      "mapPlaceholder": {
+        "title": "Wtrops HQ",
+        "location": "São Francisco, Califórnia"
+      },
+      "faq": {
+        "badge": "Perguntas frequentes",
+        "title": "Perguntas comuns",
+        "subtitle": "Encontre respostas rápidas para perguntas frequentes sobre nossos serviços.",
+        "questions": {
+          "responseTime": {
+            "question": "Qual é o tempo de resposta típico para consultas de suporte?",
+            "answer": "Nossa equipe de suporte tipicamente responde em 24 horas durante dias úteis. Para assuntos urgentes, oferecemos suporte prioritário para clientes Enterprise com tempos de resposta inferiores a 2 horas."
+          },
+          "scheduleDemo": {
+            "question": "Posso agendar uma demonstração dos agentes de voz IA?",
+            "answer": "Com certeza! Preencha o formulário de contato com seus requisitos e nossa equipe entrará em contato para agendar uma demonstração personalizada. Você também pode começar com nosso teste gratuito para experimentar a plataforma em primeira mão."
+          },
+          "customIntegrations": {
+            "question": "Vocês oferecem integrações personalizadas para clientes empresariais?",
+            "answer": "Sim, fornecemos soluções de integração personalizadas para clientes empresariais. Nossa equipe pode trabalhar com sua infraestrutura existente para garantir integração perfeita com seu CRM, sistemas de telefonia e outras ferramentas empresariais."
+          },
+          "paymentMethods": {
+            "question": "Quais métodos de pagamento vocês aceitam?",
+            "answer": "Aceitamos todos os cartões de crédito principais (Visa, MasterCard, American Express), bem como transferências ACH e transferências bancárias para acordos empresariais anuais. Todos os pagamentos são processados com segurança através do Stripe."
+          }
+        },
+        "moreQuestions": "Ainda tem perguntas? Estamos aqui para ajudar.",
+        "contactSupport": "Contatar suporte"
+      }
+    }
+  },
+  "campaigns": {
+    "title": "Campanhas",
+    "description": "Crie e gerencie suas campanhas de chamadas com IA",
+    "createNew": "Criar nova campanha",
+    "activeCampaigns": "Campanhas ativas",
+    "deletedCampaigns": "Campanhas excluídas",
+    "noCampaigns": "Nenhuma campanha encontrada",
+    "noActiveCampaigns": "Ainda não há campanhas ativas",
+    "getStartedCreate": "Comece criando sua primeira campanha.",
+    "noDeletedCampaigns": "Nenhuma campanha excluída",
+    "permanentlyRemoved": "Campanhas excluídas aparecerão aqui antes de serem removidas permanentemente.",
+    "status": {
+      "pending": "Pendente",
+      "active": "Ativa",
+      "completed": "Concluída",
+      "paused": "Pausada",
+      "cancelled": "Cancelada",
+      "deleted": "Excluída"
+    },
+    "details": {
+      "totalContacts": "Total de contatos",
+      "successRate": "Taxa de sucesso",
+      "avgDuration": "Duração média",
+      "agent": "Agente",
+      "phoneNumber": "Número de telefone",
+      "scheduled": "Agendada",
+      "createdAt": "Criada em"
+    },
+    "actions": {
+      "start": "Iniciar",
+      "pause": "Pausar",
+      "resume": "Retomar",
+      "stop": "Parar",
+      "delete": "Excluir",
+      "restore": "Restaurar",
+      "viewDetails": "Ver detalhes",
+      "duplicate": "Duplicar"
+    },
+    "create": {
+      "title": "Criar campanha",
+      "name": "Nome da campanha",
+      "namePlaceholder": "Digite o nome da campanha",
+      "selectAgent": "Selecionar agente",
+      "concurrency": "Chamadas simultâneas",
+      "concurrencyTooltip": "Número máximo de chamadas que serão executadas simultaneamente. Valores mais altos processam contatos mais rapidamente, mas usam mais recursos.",
+      "concurrencyHelper": "Número de chamadas simultâneas (1-50)",
+      "selectPhone": "Selecionar número de telefone",
+      "uploadContacts": "Carregar contatos",
+      "scheduleCall": "Agendar chamada",
+      "timezone": "Fuso horário"
+    }
+  },
+  "agents": {
+    "title": "Agentes IA",
+    "description": "Crie e gerencie seus agentes de voz IA",
+    "createNew": "Criar agente",
+    "noAgents": "Ainda não há agentes",
+    "getStarted": "Comece criando seu primeiro agente IA.",
+    "syncStatus": "Status de sincronização",
+    "synced": "Sincronizado",
+    "notSynced": "Não sincronizado",
+    "syncNow": "Sincronizar agora",
+    "syncing": "Sincronizando...",
+    "lastSynced": "Última sincronização",
+    "type": {
+      "natural": "Agente natural",
+      "flow": "Agente de fluxo",
+      "incoming": "Agente de entrada"
+    },
+    "settings": {
+      "voice": "Voz",
+      "language": "Idioma",
+      "model": "Modelo",
+      "temperature": "Temperatura",
+      "maxDuration": "Duração máxima",
+      "systemPrompt": "Prompt do sistema",
+      "firstMessage": "Primeira mensagem"
+    }
+  },
+  "calls": {
+    "title": "Chamadas",
+    "description": "Visualize e gerencie todas as chamadas",
+    "allCalls": "Todas as chamadas",
+    "transcribed": "Transcritas",
+    "recordings": "Gravações",
+    "noCalls": "Nenhuma chamada encontrada",
+    "noTranscribed": "Ainda não há chamadas transcritas",
+    "noRecordings": "Nenhuma gravação disponível",
+    "filters": {
+      "all": "Todas",
+      "incoming": "Entrada",
+      "outgoing": "Saída",
+      "batch": "Lote",
+      "completed": "Concluídas",
+      "failed": "Falhas"
+    },
+    "details": {
+      "duration": "Duração",
+      "status": "Status",
+      "direction": "Direção",
+      "phoneNumber": "Número de telefone",
+      "transcript": "Transcrição",
+      "summary": "Resumo",
+      "classification": "Classificação",
+      "sentiment": "Sentimento",
+      "recording": "Gravação",
+      "playRecording": "Reproduzir gravação",
+      "loadingRecording": "Carregando gravação...",
+      "noRecording": "Nenhuma gravação disponível"
+    },
+    "classification": {
+      "hot": "Lead quente",
+      "warm": "Lead morno",
+      "cold": "Lead frio",
+      "lost": "Perdido"
+    }
+  },
+  "voicePicker": {
+    "selectVoice": "Selecionar uma voz...",
+    "searchPlaceholder": "Pesquisar uma voz...",
+    "voicesAvailable": "vozes disponíveis",
+    "accountVoices": "Suas vozes",
+    "searchResults": "Resultados da pesquisa",
+    "voiceLibrary": "Biblioteca de vozes",
+    "noResults": "Nenhuma voz encontrada",
+    "noVoices": "Nenhuma voz disponível",
+    "preview": "Visualizar",
+    "select": "Selecionar"
+  },
+  "contacts": {
+    "title": "Todos os contatos",
+    "description": "Gerencie seu banco de dados de contatos",
+    "addContact": "Adicionar contato",
+    "importContacts": "Importar contatos",
+    "exportContacts": "Exportar contatos",
+    "noContacts": "Nenhum contato encontrado",
+    "totalContacts": "{{count}} contatos no total",
+    "source": {
+      "campaign": "Campanha",
+      "call": "Chamada",
+      "manual": "Manual"
+    },
+    "fields": {
+      "name": "Nome",
+      "phone": "Telefone",
+      "email": "E-mail",
+      "company": "Empresa",
+      "source": "Origem",
+      "callCount": "Chamadas",
+      "lastContact": "Último contato",
+      "createdAt": "Criado em"
+    }
+  },
+  "knowledgeBase": {
+    "title": "Base de conhecimento",
+    "description": "Gerencie o conhecimento dos seus agentes IA",
+    "addEntry": "Adicionar entrada",
+    "uploadFile": "Carregar arquivo",
+    "addUrl": "Adicionar URL",
+    "noEntries": "Nenhuma entrada de conhecimento",
+    "getStarted": "Adicione conteúdo para ajudar seus agentes IA a responder perguntas com precisão.",
+    "processing": "Processando",
+    "processed": "Processado",
+    "failed": "Falhou",
+    "type": {
+      "file": "Arquivo",
+      "url": "URL",
+      "text": "Texto"
+    },
+    "fields": {
+      "title": "Título",
+      "content": "Conteúdo",
+      "type": "Tipo",
+      "status": "Status",
+      "chunks": "Fragmentos",
+      "createdAt": "Adicionado em"
+    }
+  },
+  "phoneNumbers": {
+    "title": "Números de telefone",
+    "description": "Gerencie seus números de telefone",
+    "addNumber": "Adicionar número",
+    "rentNumber": "Alugar número",
+    "noNumbers": "Nenhum número de telefone",
+    "getStarted": "Adicione um número de telefone para começar a fazer chamadas.",
+    "monthly": "/mês",
+    "fields": {
+      "number": "Número",
+      "type": "Tipo",
+      "region": "Região",
+      "status": "Status",
+      "assignedAgent": "Agente atribuído",
+      "monthlyRent": "Aluguel mensal"
+    },
+    "status": {
+      "active": "Ativo",
+      "inactive": "Inativo",
+      "pending": "Pendente"
+    }
+  },
+  "flows": {
+    "title": "Construtor de fluxos",
+    "description": "Crie fluxos de conversação visuais",
+    "createFlow": "Criar fluxo",
+    "noFlows": "Ainda não há fluxos",
+    "getStarted": "Crie seu primeiro fluxo de conversação.",
+    "nodes": {
+      "message": "Mensagem",
+      "question": "Pergunta",
+      "condition": "Condição",
+      "transfer": "Transferência",
+      "delay": "Atraso",
+      "end": "Fim",
+      "appointment": "Agendamento",
+      "form": "Formulário",
+      "webhook": "Webhook"
+    },
+    "fields": {
+      "name": "Nome do fluxo",
+      "description": "Descrição",
+      "status": "Status",
+      "lastEdited": "Última edição"
+    }
+  },
+  "webhooks": {
+    "title": "Webhooks",
+    "description": "Configure assinaturas de webhooks",
+    "addWebhook": "Adicionar webhook",
+    "noWebhooks": "Nenhum webhook configurado",
+    "getStarted": "Adicione webhooks para receber notificações de eventos.",
+    "events": {
+      "callStarted": "Chamada iniciada",
+      "callCompleted": "Chamada concluída",
+      "callFailed": "Chamada falhou",
+      "callTransferred": "Chamada transferida",
+      "campaignStarted": "Campanha iniciada",
+      "campaignCompleted": "Campanha concluída",
+      "campaignPaused": "Campanha pausada",
+      "appointmentBooked": "Agendamento reservado",
+      "formSubmitted": "Formulário enviado"
+    },
+    "fields": {
+      "url": "URL do webhook",
+      "events": "Eventos",
+      "secret": "Segredo",
+      "active": "Ativo"
+    }
+  },
+  "billing": {
+    "title": "Faturamento e créditos",
+    "description": "Gerencie sua assinatura e créditos",
+    "currentPlan": "Plano atual",
+    "freePlan": "Gratuito",
+    "proPlan": "Pro",
+    "credits": "Créditos",
+    "remainingCredits": "Créditos restantes",
+    "buyCredits": "Comprar créditos",
+    "viewHistory": "Ver histórico",
+    "upgrade": "Atualizar",
+    "upgradeToPro": "Atualizar para Pro",
+    "manageSubscription": "Gerenciar assinatura",
+    "billingHistory": "Histórico de faturamento",
+    "perMonth": "/mês",
+    "perYear": "/ano",
+    "purchase": "Comprar",
+    "creditPackages": "Pacotes de Créditos",
+    "transactionHistory": "Histórico de Transações",
+    "features": {
+      "unlimited": "Ilimitado",
+      "included": "Incluído",
+      "notIncluded": "Não incluído"
+    },
+    "tableHeaders": {
+      "type": "Tipo",
+      "description": "Descrição",
+      "amount": "Valor",
+      "date": "Data"
+    },
+    "subscriptionCancelled": "Assinatura cancelada",
+    "subscriptionCancelledMessage": "Sua assinatura foi cancelada com sucesso.",
+    "cancelFailed": "Falha ao cancelar assinatura",
+    "subscriptionPeriod": "Período da assinatura",
+    "startDate": "Data de início",
+    "renewalDate": "Data de renovação",
+    "transactionSubtitle": "Veja seu histórico de transações"
+  },
+  "payment": {
+    "subscriptionSuccess": "Assinatura ativada!",
+    "creditsSuccess": "Créditos comprados!",
+    "failed": "Pagamento falhou",
+    "cancelled": "Pagamento cancelado",
+    "processing": "Processando pagamento...",
+    "welcomeToPlan": "Bem-vindo ao",
+    "subscriptionActive": "Sua assinatura está ativa agora.",
+    "subscriptionActiveGeneric": "Sua assinatura foi ativada com sucesso.",
+    "creditsAdded": "créditos foram adicionados à sua conta.",
+    "creditsAddedGeneric": "Seus créditos foram adicionados à sua conta.",
+    "failedDescription": "Não conseguimos processar seu pagamento. Por favor, tente novamente ou use um método de pagamento diferente.",
+    "cancelledDescription": "Você cancelou o pagamento. Nenhuma cobrança foi feita em sua conta.",
+    "verifyingDescription": "Verificando seu pagamento com o provedor de pagamentos...",
+    "processingDescription": "Por favor aguarde enquanto confirmamos seu pagamento...",
+    "paymentMethod": "Método de pagamento",
+    "type": "Tipo",
+    "subscription": "Assinatura",
+    "creditPurchase": "Compra de créditos",
+    "amount": "Valor",
+    "credits": "Créditos",
+    "plan": "Plano",
+    "transactionId": "ID da transação",
+    "returnToBilling": "Voltar para Faturamento",
+    "tryAgain": "Tentar novamente"
+  },
+  "settings": {
+    "title": "Configurações",
+    "description": "Gerencie as configurações da sua conta",
+    "profile": "Perfil",
+    "security": "Segurança",
+    "notifications": "Notificações",
+    "preferences": "Preferências",
+    "changePassword": "Alterar senha",
+    "updateProfile": "Atualizar perfil",
+    "currentPassword": "Senha atual",
+    "newPassword": "Nova senha",
+    "confirmPassword": "Confirmar senha",
+    "profileUpdated": "Perfil atualizado com sucesso",
+    "passwordChanged": "Senha alterada com sucesso"
+  },
+  "admin": {
+    "settings": {
+      "title": "Configurações",
+      "description": "Configure as configurações da plataforma, SEO e integrações",
+      "tabs": {
+        "master": "Configurações Principais",
+        "elevenlabs": "ElevenLabs",
+        "seo": "Módulo SEO",
+        "analytics": "Análises",
+        "system": "Sistema"
+      }
+    },
+    "analytics": {
+      "title": "Análises da plataforma",
+      "description": "Monitore o desempenho da plataforma e métricas de crescimento",
+      "scriptsTitle": "Scripts de análise e rastreamento",
+      "scriptsDescription": "Gerencie scripts de análise e rastreamento de terceiros que são injetados em todas as páginas do seu site.",
+      "addScript": "Adicionar script",
+      "editScript": "Editar script",
+      "addScriptDesc": "Adicione um novo script de análise ou rastreamento ao seu site. Esses scripts ajudam a rastrear o comportamento dos visitantes e conversões.",
+      "editScriptDesc": "Modifique a configuração do script de análise.",
+      "scriptName": "Nome do script",
+      "scriptNamePlaceholder": "ex., Google Analytics",
+      "scriptType": "Tipo de script",
+      "scriptCode": "Código do script",
+      "scriptCodePlaceholder": "Cole seu código de rastreamento aqui...",
+      "scriptCodeHint": "Cole o código de rastreamento completo fornecido pelo seu serviço de análise. Inclua todas as tags de script.",
+      "placement": "Posicionamento",
+      "placementHead": "Seção Head",
+      "placementBody": "Seção Body",
+      "headDesc": "Carrega antes do conteúdo da página - ideal para scripts de rastreamento que precisam ser executados cedo",
+      "bodyDesc": "Carrega após o conteúdo da página - melhor para scripts que não precisam ser executados imediatamente",
+      "placementRequired": "Por favor, selecione pelo menos um local",
+      "loadPriority": "Prioridade de carregamento",
+      "priorityHint": "Scripts de maior prioridade carregam primeiro (0-100). Use valores mais altos para rastreamento crítico.",
+      "scriptOptions": "Opções do script",
+      "asyncOption": "Async",
+      "deferOption": "Defer",
+      "enabled": "Habilitado",
+      "priority": "Prioridade",
+      "name": "Nome",
+      "type": "Tipo",
+      "description": "Descrição",
+      "descriptionPlaceholder": "Notas opcionais sobre este script para sua referência...",
+      "noScripts": "Nenhum script de análise configurado ainda.",
+      "noScriptsHint": "Adicione scripts de rastreamento como Google Analytics, Facebook Pixel ou outras ferramentas de análise para rastrear os visitantes do seu site.",
+      "scriptCreated": "Script criado",
+      "scriptCreatedDesc": "Seu script de análise foi adicionado e começará a rastrear imediatamente.",
+      "scriptUpdated": "Script atualizado",
+      "scriptUpdatedDesc": "As alterações do seu script de análise foram salvas.",
+      "scriptDeleted": "Script excluído",
+      "scriptDeletedDesc": "O script de análise foi removido do seu site.",
+      "deleteTitle": "Excluir script?",
+      "deleteDesc": "Isso removerá permanentemente o script de rastreamento do seu site. O rastreamento de visitantes para este script será interrompido imediatamente.",
+      "scriptLabel": "Script",
+      "nameRequired": "Por favor, insira um nome para este script.",
+      "codeRequired": "Por favor, cole o código de rastreamento para este script.",
+      "tooltips": {
+        "name": "Dê ao seu script um nome amigável para identificá-lo facilmente depois. Por exemplo: 'Google Analytics' ou 'Rastreamento de anúncios do Facebook'.",
+        "type": "Selecione o tipo de serviço de rastreamento. Isso ajuda a preencher o modelo de código correto. Escolha 'Script personalizado' se seu serviço não estiver listado.",
+        "code": "Este é o código de rastreamento fornecido pelo seu serviço de análise. Você geralmente pode encontrá-lo no painel de análise em 'Configuração' ou 'Instalação'.",
+        "placement": "Escolha onde o script deve ser adicionado nas suas páginas. A maioria dos scripts de rastreamento funciona melhor na seção Head. Alguns scripts como Google Tag Manager precisam tanto do Head quanto do Body.",
+        "priority": "Controla quais scripts carregam primeiro. Números maiores carregam primeiro. Use 100 para scripts críticos e 0 para os menos importantes.",
+        "options": "Configurações avançadas para como o script carrega. A maioria dos usuários não precisa alterar isso.",
+        "async": "Carrega o script em segundo plano sem desacelerar sua página. Recomendado para a maioria dos scripts de rastreamento.",
+        "defer": "Aguarda até que a página esteja totalmente carregada antes de executar o script. Bom para rastreamento não crítico.",
+        "enabled": "Ative ou desative o rastreamento. Quando desabilitado, o script não será executado no seu site.",
+        "description": "Adicione notas para si mesmo sobre este script, como o que ele rastreia ou quando foi adicionado."
+      }
+    },
+    "title": "Painel administrativo",
+    "description": "Administração da plataforma",
+    "users": "Usuários",
+    "totalUsers": "Total de usuários",
+    "newThisWeek": "Novos esta semana",
+    "revenue": "Receita",
+    "systemHealth": "Saúde do sistema",
+    "tabs": {
+      "users": "Gerenciamento de usuários",
+      "analytics": "Análises",
+      "settings": "Configurações globais",
+      "elevenLabs": "Pool ElevenLabs",
+      "phoneNumbers": "Números de telefone",
+      "credits": "Pacotes de créditos",
+      "llmModels": "Modelos LLM",
+      "plans": "Planos",
+      "contacts": "Todos os contatos",
+      "batchJobs": "Trabalhos em lote",
+      "notifications": "Notificações"
+    },
+    "actions": {
+      "addUser": "Adicionar usuário",
+      "editUser": "Editar usuário",
+      "deleteUser": "Excluir usuário",
+      "suspendUser": "Suspender usuário",
+      "activateUser": "Ativar usuário",
+      "resetPassword": "Redefinir senha"
+    },
+    "userForm": {
+      "title": "Adicionar Usuário",
+      "editTitle": "Editar Usuário",
+      "email": "E-mail",
+      "name": "Nome",
+      "password": "Senha",
+      "confirmPassword": "Confirmar Senha",
+      "role": "Função",
+      "credits": "Créditos Iniciais",
+      "user": "Usuário"
+    },
+    "notifications": {
+      "title": "Notificações",
+      "subtitle": "Enviar notificações para todos os usuários da plataforma",
+      "broadcastInfo": "As notificações de broadcast são enviadas para todos os usuários e aparecem no menu suspenso de notificações. Use este recurso para anúncios importantes em toda a plataforma.",
+      "createBroadcast": {
+        "title": "Criar Notificação de Broadcast",
+        "description": "Componha uma mensagem para enviar a todos os usuários da plataforma",
+        "titleLabel": "Título",
+        "titlePlaceholder": "ex., Anúncio de novo recurso",
+        "iconLabel": "Ícone",
+        "messageLabel": "Mensagem",
+        "messagePlaceholder": "Escreva sua mensagem aqui...",
+        "linkLabel": "URL/Link",
+        "displayTypeLabel": "Tipo de Exibição",
+        "priorityLabel": "Prioridade (1-10)",
+        "priorityHint": "Banners de maior prioridade aparecem primeiro",
+        "expiresAtLabel": "Expira em",
+        "selectDate": "Selecionar data de expiração",
+        "dismissibleLabel": "Dispensável",
+        "sendToAllUsers": "Esta notificação será enviada a todos os usuários registrados",
+        "sending": "Enviando...",
+        "sendButton": "Enviar para Todos os Usuários"
+      },
+      "automaticNotifications": {
+        "title": "Notificações Automáticas",
+        "description": "O sistema envia automaticamente notificações para os seguintes eventos",
+        "emailEnabled": "Email habilitado",
+        "editTemplate": "Editar Modelo",
+        "types": {
+          "welcome": {
+            "title": "Mensagem de Boas-vindas",
+            "description": "Enviado quando novos usuários se registram"
+          },
+          "membershipUpgrade": {
+            "title": "Upgrade de Assinatura",
+            "description": "Enviado quando usuários atualizam para Pro"
+          },
+          "membershipCancel": {
+            "title": "Cancelamento de Assinatura",
+            "description": "Enviado quando a assinatura é cancelada"
+          },
+          "phoneBilling": {
+            "title": "Cobrança de Número de Telefone",
+            "description": "Enviado quando a cobrança mensal do número de telefone é bem-sucedida ou falha"
+          },
+          "lowCredits": {
+            "title": "Aviso de Créditos Baixos",
+            "description": "Enviado quando os créditos caem abaixo de 100 após transações"
+          },
+          "campaignComplete": {
+            "title": "Campanha Concluída",
+            "description": "Enviado quando uma campanha termina todas as chamadas"
+          }
+        }
+      },
+      "emailTemplates": {
+        "title": "Modelos de Email",
+        "description": "Gerenciar modelos de email para notificações do sistema",
+        "addTemplate": "Adicionar Modelo",
+        "addFirstTemplate": "Adicionar Primeiro Modelo",
+        "noTemplates": "Nenhum modelo de email configurado ainda",
+        "createTitle": "Criar Modelo de Email",
+        "editTitle": "Editar Modelo de Email",
+        "createDescription": "Criar um novo modelo de email para notificações automatizadas",
+        "editDescription": "Atualizar o conteúdo e as configurações do modelo de email",
+        "columns": {
+          "name": "Nome",
+          "type": "Tipo de Modelo",
+          "status": "Status",
+          "lastUpdated": "Última Atualização"
+        },
+        "fields": {
+          "templateType": "Tipo de Modelo",
+          "templateTypePlaceholder": "ex., welcome, password_reset",
+          "templateTypeHint": "Identificador único usado internamente (ex., welcome, low_credits)",
+          "name": "Nome de Exibição",
+          "namePlaceholder": "ex., Email de Boas-vindas",
+          "subject": "Assunto do Email",
+          "subjectPlaceholder": "ex., Bem-vindo à {{companyName}}!",
+          "body": "Corpo do Email",
+          "htmlBodyPlaceholder": "Digite o conteúdo HTML do email...",
+          "textBodyPlaceholder": "Digite o conteúdo alternativo em texto simples...",
+          "textBodyHint": "Versão em texto simples exibida quando o HTML não pode ser exibido",
+          "isActive": "Ativo",
+          "isActiveHint": "Modelos inativos não serão enviados"
+        },
+        "tabs": {
+          "html": "Corpo HTML",
+          "text": "Texto Simples"
+        },
+        "insertVariable": "Inserir Variável",
+        "availableVariables": "Variáveis Disponíveis",
+        "variablesHint": "Clique em uma variável acima para inseri-la na posição do cursor no corpo ou assunto",
+        "showPreview": "Mostrar Prévia",
+        "hidePreview": "Ocultar Prévia",
+        "previewLabel": "Prévia HTML",
+        "errors": {
+          "templateTypeRequired": "O tipo de modelo é obrigatório",
+          "nameRequired": "O nome de exibição é obrigatório",
+          "subjectRequired": "O assunto do email é obrigatório",
+          "htmlBodyRequired": "O conteúdo HTML é obrigatório"
+        },
+        "toast": {
+          "createSuccess": "Modelo Criado",
+          "createSuccessDesc": "O modelo de email foi criado com sucesso",
+          "updateSuccess": "Modelo Atualizado",
+          "updateSuccessDesc": "O modelo de email foi atualizado com sucesso",
+          "createFailed": "Falha ao Criar Modelo",
+          "updateFailed": "Falha ao Atualizar Modelo",
+          "validationError": "Erro de Validação",
+          "fixErrors": "Por favor, corrija os erros antes de salvar"
+        }
+      },
+      "toast": {
+        "sentSuccess": "Notificação enviada com sucesso",
+        "sentToUsers": "Enviado para {{count}} usuários",
+        "sendFailed": "Falha ao enviar notificação",
+        "validationError": "Erro de validação",
+        "provideTitleMessage": "Por favor, forneça título e mensagem"
+      }
+    },
+    "branding": {
+      "title": "Marca da Plataforma",
+      "description": "Personalize a aparência da plataforma com seu logo e marca",
+      "configured": "Configurado",
+      "notConfigured": "Não Configurado",
+      "refresh": "Atualizar",
+      "editSettings": "Editar Configurações",
+      "liveData": "Dados ao Vivo",
+      "applicationTitle": "Título da Aplicação",
+      "tagline": "Slogan",
+      "logo": "Logo",
+      "logoLight": "Logo (Modo Claro)",
+      "logoDark": "Logo (Modo Escuro)",
+      "logoLightDescription": "Usado quando o app está em modo claro",
+      "logoDarkDescription": "Usado quando o app está em modo escuro",
+      "forLightMode": "Para modo claro",
+      "forDarkMode": "Para modo escuro",
+      "favicon": "Favicon",
+      "noLogo": "Nenhum logo carregado",
+      "noFavicon": "Nenhum favicon carregado",
+      "logoUploaded": "Logo carregado",
+      "logoReady": "Pronto para exibição",
+      "faviconUploaded": "Favicon carregado",
+      "faviconReady": "Pronto para exibição",
+      "configurationComplete": "Configuração de marca completa",
+      "lastUpdated": "Última atualização",
+      "editTitle": "Editar Configurações de Marca",
+      "editDescription": "Atualize a marca da sua plataforma incluindo logos para modo claro/escuro, favicon e nome da aplicação",
+      "applicationName": "Nome da Aplicação",
+      "logoCurrent": "Logo Atual",
+      "faviconCurrent": "Favicon Atual",
+      "chooseFile": "Escolher Arquivo",
+      "updateSettings": "Atualizar Configurações",
+      "updateSuccess": "Marca atualizada com sucesso",
+      "updateFailed": "Falha ao atualizar a marca",
+      "logoDeleted": "Logo excluído",
+      "faviconDeleted": "Favicon excluído",
+      "uploadFailed": "Falha no upload",
+      "invalidFileType": "Por favor, envie um arquivo de imagem",
+      "fileTooLarge": "O arquivo deve ser menor que 5MB"
+    },
+    "smtp": {
+      "title": "Configurações de E-mail SMTP",
+      "description": "Configure as configurações SMTP para envio de e-mails",
+      "host": "Host SMTP",
+      "port": "Porta SMTP",
+      "username": "Nome de Usuário",
+      "password": "Senha",
+      "fromEmail": "E-mail do Remetente",
+      "fromName": "Nome do Remetente",
+      "usernamePlaceholder": "Nome de usuário da conta de e-mail",
+      "passwordPlaceholder": "Senha da conta de e-mail",
+      "save": "Salvar Configurações",
+      "testConnection": "Testar Conexão",
+      "configured": "SMTP está configurado e pronto para enviar e-mails",
+      "updateSuccess": "Configurações SMTP atualizadas com sucesso",
+      "updateFailed": "Falha ao atualizar configurações SMTP",
+      "testSuccess": "Teste de conexão bem-sucedido! O envio de e-mails está funcionando.",
+      "testFailed": "Teste de conexão falhou"
+    },
+    "settings": {
+      "title": "Configurações Globais",
+      "description": "Configurar definições da plataforma, SEO e integrações",
+      "tabs": {
+        "master": "Configurações Mestras",
+        "elevenlabs": "ElevenLabs",
+        "seo": "Módulo SEO",
+        "analytics": "Análises",
+        "system": "Sistema"
+      },
+      "autoRestart": {
+        "title": "Sistema de Reinício Automático",
+        "description": "Configure o reinício automático quando os limites de recursos forem excedidos",
+        "enabled": "Habilitado",
+        "disabled": "Desabilitado",
+        "enableToggle": "Habilitar Reinício Automático",
+        "enableToggleDesc": "Reiniciar automaticamente quando os limites de recursos forem excedidos",
+        "loadingStatus": "Carregando status dos recursos...",
+        "statusError": "Falha ao carregar o status dos recursos.",
+        "currentRam": "Uso Atual de RAM",
+        "currentCpu": "Uso Atual de CPU",
+        "processMemory": "Processo",
+        "ramLimit": "Limite de RAM (%)",
+        "ramLimitTooltip": "Reiniciar quando o uso de RAM do sistema exceder esta porcentagem (50-95%)",
+        "ramLimitHint": "Recomendado: 75-85%",
+        "cpuLimit": "Limite de CPU (%)",
+        "cpuLimitTooltip": "Reiniciar quando o uso de CPU exceder esta porcentagem (20-95%)",
+        "cpuLimitHint": "Recomendado: 80-90%",
+        "activeMessage": "O reinício automático está ativo. O sistema será reiniciado de forma ordenada quando os limites de RAM ou CPU forem excedidos por 3 verificações consecutivas (90 segundos).",
+        "refreshStatus": "Atualizar Status",
+        "refreshing": "Atualizando...",
+        "configuredLimits": "Limites Configurados",
+        "ramLimitValue": "RAM: {{value}}%",
+        "cpuLimitValue": "CPU: {{value}}%",
+        "watchdogStatus": "Status do Watchdog",
+        "watchdogActive": "Ativo",
+        "watchdogInactive": "Inativo",
+        "cores": "núcleos",
+        "loadAvg": "Carga Média",
+        "envProduction": "Produção",
+        "envDevelopment": "Desenvolvimento",
+        "envDocsTitle": "Ambiente e Limitações",
+        "ramMonitoringTitle": "Monitoramento de RAM",
+        "ramMonitoringDesc": "Usa leituras reais de memória do sistema via APIs Node.js. Mede com precisão a memória total e livre do servidor. Funciona de forma confiável em todos os ambientes.",
+        "cpuMonitoringTitle": "Monitoramento de CPU",
+        "cpuMonitoringDesc": "Combina o tempo de CPU do processo com a média de carga do sistema para leituras mais precisas. Mostra núcleos de CPU e média de carga de 1 minuto. Em ambientes de desenvolvimento/sandbox, as leituras podem variar.",
+        "restartBehaviorTitle": "Comportamento de Auto-Reinício",
+        "restartBehaviorDesc": "Aciona desligamento gracioso após 3 violações consecutivas do limite (90 segundos). Requer um gerenciador de processos (PM2, systemd) para reiniciar o aplicativo. Em ambientes de desenvolvimento, o app pode simplesmente encerrar sem reiniciar.",
+        "productionNote": "Para melhores resultados, implante com PM2 ou gerenciador de processos similar que reinicie automaticamente o aplicativo após o desligamento."
+      },
+      "connectionStatus": {
+        "refreshAll": "Atualizar Tudo",
+        "connected": "Conectado",
+        "disconnected": "Desconectado",
+        "checking": "Verificando...",
+        "verifying": "Verificando conexão API...",
+        "telephony": "Telefonia de voz e SMS",
+        "aiVoice": "Síntese de voz IA",
+        "twilioReady": "Twilio está configurado e pronto para chamadas",
+        "twilioSetup": "Configure as credenciais do Twilio abaixo para habilitar chamadas",
+        "elevenLabsReady": "ElevenLabs está configurado para agentes de voz IA",
+        "elevenLabsSetup": "Adicione chaves de API através do pool de chaves para habilitar vozes IA",
+        "embeddings": "Embeddings e RAG",
+        "openaiReady": "OpenAI está configurado para embeddings RAG",
+        "openaiSetup": "Configure a chave API do OpenAI para embeddings",
+        "edit": "Editar",
+        "manageKeys": "Gerenciar Chaves"
+      },
+      "apiKeys": "Chaves API",
+      "stripeKey": "Chave Stripe",
+      "twilioKey": "Chave Twilio",
+      "elevenLabsKey": "Chave ElevenLabs",
+      "openaiKey": "Chave OpenAI",
+      "systemSettings": "Configurações do Sistema",
+      "maxPhoneNumbers": "Máx. Números de Telefone",
+      "maxAgents": "Máx. Agentes"
+    },
+    "seo": {
+      "title": "Configurações de SEO",
+      "settingsSaved": "Configurações de SEO salvas",
+      "settingsSavedDesc": "Suas configurações de SEO foram atualizadas com sucesso.",
+      "urlAdded": "URL adicionada",
+      "urlAddedDesc": "A URL foi adicionada ao sitemap.",
+      "urlRemoved": "URL removida",
+      "urlRemovedDesc": "A URL foi removida do sitemap.",
+      "save": "Salvar Configurações de SEO",
+      "saving": "Salvando...",
+      "tabs": {
+        "meta": "Tags Meta",
+        "sitemap": "Sitemap",
+        "robots": "Robots",
+        "social": "Redes Sociais",
+        "structured": "Dados Estruturados"
+      },
+      "metaTags": {
+        "title": "Tags Meta Padrão",
+        "description": "Configure as tags meta padrão para as páginas do seu site. Podem ser substituídas em páginas individuais.",
+        "defaultTitle": "Título Padrão",
+        "defaultTitleTooltip": "A tag de título padrão usada para páginas sem título próprio. Aparece nas abas do navegador e nos resultados de busca.",
+        "defaultTitlePlaceholder": "Wtrops - Plataforma de Chamadas de Voz IA",
+        "defaultTitleHint": "Recomendado: 50-60 caracteres",
+        "defaultDescription": "Descrição Padrão",
+        "defaultDescriptionTooltip": "A meta descrição mostrada nos resultados dos mecanismos de busca. Escreva um resumo convincente para incentivar cliques.",
+        "defaultDescriptionPlaceholder": "Automatize suas chamadas de saída com agentes de voz IA. Qualificação de leads, agendamento de compromissos e pesquisas com clientes facilitados.",
+        "defaultDescriptionHint": "Recomendado: 150-160 caracteres",
+        "keywords": "Palavras-chave",
+        "keywordsTooltip": "Meta palavras-chave são menos importantes para SEO moderno, mas ainda podem ser úteis. Separe com vírgulas.",
+        "keywordsPlaceholder": "chamadas IA, agentes de voz, qualificação de leads, chamadas de saída",
+        "canonicalUrl": "URL Canônica Base",
+        "canonicalUrlTooltip": "A URL do domínio principal do seu site. Usada para gerar URLs canônicas e links do sitemap.",
+        "canonicalUrlPlaceholder": "https://seudominio.com.br",
+        "googleVerification": "Verificação Google",
+        "googleVerificationTooltip": "Valor do conteúdo da tag meta de verificação do Google Search Console.",
+        "googleVerificationPlaceholder": "google-site-verification=...",
+        "bingVerification": "Verificação Bing",
+        "bingVerificationTooltip": "Valor do conteúdo da tag meta de verificação do Bing Webmaster Tools.",
+        "bingVerificationPlaceholder": "MSVALIDATE..."
+      },
+      "sitemap": {
+        "title": "Gerenciamento de Sitemap",
+        "description": "Adicione URLs personalizadas ao seu sitemap. Páginas padrão são incluídas automaticamente.",
+        "viewSitemap": "Ver Sitemap",
+        "urlPath": "Caminho da URL",
+        "urlPathPlaceholder": "/blog/artigo-slug",
+        "changeFreq": "Frequência de Alteração",
+        "priority": "Prioridade",
+        "lastModified": "Última Modificação",
+        "addUrl": "Adicionar URL",
+        "defaultPages": "Páginas padrão incluídas automaticamente:",
+        "noCustomUrls": "Nenhuma URL personalizada adicionada ainda",
+        "changeFreqOptions": {
+          "always": "Sempre",
+          "hourly": "A cada hora",
+          "daily": "Diariamente",
+          "weekly": "Semanalmente",
+          "monthly": "Mensalmente",
+          "yearly": "Anualmente",
+          "never": "Nunca"
+        },
+        "generateDefault": "Gerar padrão",
+        "rebuild": "Reconstruir",
+        "generated": "Sitemap gerado",
+        "generatedDesc": "Sitemap criado com URLs padrão",
+        "rebuilt": "Sitemap reconstruído",
+        "rebuiltDesc": "Todas as URLs atualizadas"
+      },
+      "robots": {
+        "title": "Configuração do robots.txt",
+        "description": "Controle como os rastreadores de mecanismos de busca acessam seu site.",
+        "viewRobots": "Ver robots.txt",
+        "crawlDelay": "Atraso de Rastreamento (segundos)",
+        "crawlDelayTooltip": "Quantos segundos os rastreadores devem esperar entre solicitações. Defina como 0 para sem atraso. Use com cuidado, pois valores altos podem desacelerar a indexação.",
+        "defaultRules": "Regras Padrão (somente leitura):",
+        "defaultRulesNote": "Essas regras protegem as rotas da aplicação enquanto permitem a indexação de páginas públicas."
+      },
+      "social": {
+        "title": "Redes Sociais e Open Graph",
+        "description": "Configure como seu conteúdo aparece quando compartilhado em plataformas de redes sociais.",
+        "ogImage": "URL da Imagem Open Graph",
+        "ogImageTooltip": "A imagem padrão mostrada quando suas páginas são compartilhadas no Facebook, LinkedIn e outras plataformas. Recomendado: 1200x630 pixels.",
+        "ogImagePlaceholder": "https://seudominio.com.br/og-image.jpg",
+        "ogImageHint": "Tamanho recomendado: 1200 x 630 pixels (proporção 1.91:1)",
+        "twitterHandle": "Usuário do Twitter",
+        "twitterHandleTooltip": "Seu nome de usuário do Twitter/X sem o símbolo @. Usado para atribuição de Twitter Cards.",
+        "twitterHandlePlaceholder": "seuusuario",
+        "facebookAppId": "ID do App do Facebook",
+        "facebookAppIdTooltip": "Seu ID de App do Facebook para insights e análises de compartilhamento social aprimorados.",
+        "facebookAppIdPlaceholder": "123456789012345",
+        "uploadImage": "Carregar imagem",
+        "chooseFile": "Escolher arquivo",
+        "orEnterUrl": "Ou insira URL diretamente",
+        "noImage": "Nenhuma imagem carregada",
+        "imageUploaded": "Imagem carregada",
+        "imageUploadedDesc": "Imagem carregada com sucesso"
+      },
+      "structured": {
+        "title": "Dados Estruturados (Schema.org)",
+        "description": "Configure dados estruturados para ajudar os mecanismos de busca a entender melhor seu conteúdo.",
+        "organization": "Schema de Organização",
+        "organizationDescription": "Defina os detalhes da sua organização para resultados de busca enriquecidos.",
+        "organizationName": "Nome da Organização",
+        "organizationNamePlaceholder": "Nome da Sua Empresa",
+        "organizationUrl": "URL do Site",
+        "organizationUrlPlaceholder": "https://seudominio.com.br",
+        "organizationLogo": "URL do Logo",
+        "organizationLogoPlaceholder": "https://seudominio.com.br/logo.png",
+        "organizationEmail": "Email de Contato",
+        "organizationEmailPlaceholder": "contato@seudominio.com.br",
+        "organizationPhone": "Número de Telefone",
+        "organizationPhonePlaceholder": "+55-11-5555-5555",
+        "faq": "Schema de FAQ",
+        "faqDescription": "Adicione perguntas frequentes para aparecer como rich snippets nos resultados de busca.",
+        "faqQuestion": "Pergunta",
+        "faqAnswer": "Resposta",
+        "addFaq": "Adicionar FAQ",
+        "noFaqs": "Nenhuma FAQ adicionada ainda",
+        "product": "Schema de Produto",
+        "productDescription": "Defina detalhes do produto para resultados de busca enriquecidos (se aplicável).",
+        "productName": "Nome do Produto",
+        "productNamePlaceholder": "Nome do Seu Produto",
+        "productDescriptionField": "Descrição do Produto",
+        "productDescriptionPlaceholder": "Uma breve descrição do seu produto",
+        "productPrice": "Preço",
+        "productPricePlaceholder": "99,00",
+        "productCurrency": "Moeda",
+        "productCurrencyPlaceholder": "BRL"
+      }
+    },
+    "elevenLabsPool": {
+      "syncVoiceLibrary": "Sincronizar Biblioteca de Vozes",
+      "voiceLibrarySyncStarted": "Sincronização da Biblioteca de Vozes Iniciada",
+      "voiceLibrarySyncStartedDesc": "Sincronizando todas as vozes do ElevenLabs. Isso pode levar alguns minutos.",
+      "voiceLibrarySyncFailed": "Falha ao sincronizar a biblioteca de vozes"
+    },
+    "plans": {
+      "title": "Gerenciamento de Planos",
+      "description": "Configurar planos de assinatura e seus limites",
+      "addNewPlan": "Adicionar Novo Plano",
+      "createNewPlan": "Criar Novo Plano",
+      "createDescription": "Adicionar um novo plano de assinatura para usuários",
+      "planName": "Nome do Plano (interno)",
+      "planNamePlaceholder": "ex., premium",
+      "displayName": "Nome de Exibição",
+      "displayNamePlaceholder": "ex., Plano Premium",
+      "descriptionLabel": "Descrição",
+      "descriptionPlaceholder": "Descrição do plano",
+      "monthlyPrice": "Preço Mensal",
+      "yearlyPrice": "Preço Anual",
+      "maxAgents": "Máx. Agentes",
+      "maxCampaigns": "Máx. Campanhas",
+      "maxContacts": "Máx. Contatos",
+      "maxContactsPerCampaign": "Máx. Contatos por Campanha",
+      "includedCredits": "Créditos Incluídos",
+      "canChooseLlm": "Pode Escolher Modelo LLM",
+      "canPurchaseNumbers": "Pode Comprar Números de Telefone",
+      "useSystemPool": "Usar Pool de Telefones do Sistema",
+      "activeLabel": "Ativo",
+      "createPlan": "Criar Plano",
+      "creating": "Criando...",
+      "editPlan": "Editar Plano",
+      "deletePlan": "Excluir Plano",
+      "deletePlanConfirm": "Tem certeza de que deseja excluir o plano \"{{name}}\"? Esta ação não pode ser desfeita. O sistema verificará se há usuários atualmente inscritos neste plano.",
+      "pricing": "Preços:",
+      "perMonth": "/mês",
+      "perYear": "/ano",
+      "or": "ou",
+      "unlimited": "Ilimitado",
+      "planCreated": "Plano criado com sucesso",
+      "planUpdated": "Plano atualizado com sucesso",
+      "planDeleted": "Plano excluído com sucesso",
+      "createFailed": "Falha ao criar o plano",
+      "updateFailed": "Falha ao atualizar o plano",
+      "deleteFailed": "Falha ao excluir o plano",
+      "migrationRequired": "Migração de Usuários Necessária",
+      "migrationRequiredDesc": "{{count}} usuário(s) estão atualmente inscritos em \"{{plan}}\". Você deve migrá-los para outro plano antes de excluir.",
+      "selectTargetPlan": "Selecionar Plano de Destino",
+      "selectPlan": "Selecionar um plano...",
+      "noOtherPlansAvailable": "Nenhum outro plano disponível. Por favor, crie outro plano primeiro antes de poder migrar usuários.",
+      "migrateAndDelete": "Migrar e Excluir",
+      "migratingUsers": "Migrando...",
+      "usersMigrated": "Usuários Migrados",
+      "usersMigratedDesc": "{{count}} usuário(s) migrados para {{plan}}",
+      "migrationFailed": "Falha na migração"
+    },
+    "payments": {
+      "title": "Configurações de Pagamento",
+      "description": "Configurar integração do Stripe para assinaturas e créditos",
+      "configured": "Conectado",
+      "secretKey": "Chave Secreta",
+      "secretKeyHint": "Sua chave secreta do Stripe (começa com sk_test_ ou sk_live_)",
+      "publishableKey": "Chave Publicável",
+      "publishableKeyHint": "Sua chave publicável do Stripe (começa com pk_test_ ou pk_live_)",
+      "defaultCurrency": "Moeda Padrão",
+      "selectCurrency": "Selecionar moeda...",
+      "currencyHint": "Moeda usada para novos planos e pacotes de créditos. Preços existentes não são afetados.",
+      "stripeMode": "Modo do Stripe",
+      "selectMode": "Selecionar modo...",
+      "testMode": "Para testes (sem cobranças reais)",
+      "liveMode": "Para produção (pagamentos reais)",
+      "testConnection": "Testar Conexão",
+      "connectionSuccess": "Conectado com sucesso ao Stripe!",
+      "mode": "Modo",
+      "source": "Fonte",
+      "updateSuccess": "Configurações de pagamento atualizadas com sucesso",
+      "updateFailed": "Falha ao atualizar configurações de pagamento",
+      "testFailed": "Falha ao testar conexão do Stripe",
+      "currencyInfo": "Informações de Moeda",
+      "currencyInfoDesc": "Informações importantes sobre configurações de moeda",
+      "currencyWarning": "Alterar a moeda padrão afeta apenas novos planos e pacotes de créditos. Planos existentes manterão sua moeda original para garantir consistência para assinantes atuais."
+    }
+  },
+  "errors": {
+    "generic": "Ocorreu um erro",
+    "networkError": "Erro de rede. Por favor, tente novamente.",
+    "unauthorized": "Você não está autorizado a realizar esta ação",
+    "notFound": "Recurso não encontrado",
+    "serverError": "Erro do servidor. Por favor, tente novamente mais tarde.",
+    "validationError": "Por favor, verifique sua entrada",
+    "sessionExpired": "Sua sessão expirou. Por favor, faça login novamente.",
+    "failedToLoad": "Falha ao carregar dados",
+    "failedToSave": "Falha ao salvar alterações",
+    "failedToDelete": "Falha ao excluir",
+    "required": "Este campo é obrigatório",
+    "invalidEmail": "Por favor, insira um endereço de e-mail válido",
+    "invalidPhone": "Por favor, insira um número de telefone válido",
+    "passwordMismatch": "As senhas não coincidem",
+    "passwordTooShort": "A senha deve ter pelo menos 6 caracteres"
+  },
+  "notifications": {
+    "title": "Notificações",
+    "markAllRead": "Marcar tudo como lido",
+    "noNotifications": "Nenhuma notificação",
+    "viewAll": "Ver todas as notificações",
+    "banner": {
+      "dismiss": "Dispensar",
+      "dismissing": "Dispensando..."
+    }
+  },
+  "pagination": {
+    "itemsPerPage": "Itens por página",
+    "page": "Página",
+    "of": "de",
+    "showing": "Mostrando",
+    "to": "a",
+    "entries": "entradas",
+    "first": "Primeira",
+    "last": "Última",
+    "previous": "Anterior",
+    "next": "Próxima"
+  },
+  "analytics": {
+    "title": "Análises",
+    "description": "Acompanhe suas métricas de desempenho",
+    "overview": "Visão geral",
+    "callVolume": "Volume de chamadas",
+    "successRate": "Taxa de sucesso",
+    "avgDuration": "Duração média",
+    "leadConversion": "Conversão de leads",
+    "timeRange": {
+      "today": "Hoje",
+      "week": "Esta semana",
+      "month": "Este mês",
+      "year": "Este ano",
+      "custom": "Personalizado"
+    }
+  },
+  "voices": {
+    "title": "Biblioteca de Vozes",
+    "subtitle": "Navegue e visualize vozes para seus agentes",
+    "subtitleLoading": "Carregando vozes...",
+    "subtitleWithCount": "Navegue e visualize {{count}} vozes para seus agentes",
+    "description": "Gerencie perfis de voz IA",
+    "addVoice": "Adicionar voz",
+    "searchPlaceholder": "Pesquisar vozes por nome, sotaque ou descrição...",
+    "preview": "Visualizar",
+    "noVoices": "Nenhuma voz configurada",
+    "totalVoices": "Total de Vozes",
+    "premade": "Pré-fabricadas",
+    "noVoicesFound": "Nenhuma voz encontrada",
+    "noVoicesMatch": "Nenhuma voz corresponde aos seus filtros. Tente ajustar seus critérios de pesquisa.",
+    "noVoicesAvailable": "Nenhuma voz disponível na biblioteca",
+    "age": "Idade",
+    "bestFor": "Melhor para",
+    "languages": "Idiomas",
+    "genders": "Gêneros",
+    "categories": "Categorias",
+    "ages": "Grupos Etários",
+    "clearFilters": "Limpar Filtros",
+    "filterLanguage": "Idioma",
+    "filterGender": "Gênero",
+    "filterCategory": "Categoria",
+    "filterAccent": "Sotaque",
+    "filterAge": "Idade",
+    "allLanguages": "Todos os Idiomas",
+    "allGenders": "Todos os Gêneros",
+    "allCategories": "Todas as Categorias",
+    "allAccents": "Todos os Sotaques",
+    "allAges": "Todas as Idades",
+    "showingResults": "Mostrando {{from}}-{{to}} de {{total}} vozes",
+    "fields": {
+      "name": "Nome da voz",
+      "provider": "Provedor",
+      "gender": "Gênero",
+      "language": "Idioma",
+      "accent": "Sotaque"
+    }
+  },
+  "integrations": {
+    "title": "Integrações",
+    "description": "Conectar serviços externos",
+    "connected": "Conectado",
+    "notConnected": "Não conectado",
+    "connect": "Conectar",
+    "disconnect": "Desconectar",
+    "configure": "Configurar"
+  },
+  "campaignDetail": {
+    "sections": {
+      "campaignDetails": "Detalhes da campanha",
+      "recipients": "Destinatários"
+    },
+    "table": {
+      "name": "Nome",
+      "phone": "Telefone",
+      "email": "E-mail",
+      "status": "Status"
+    }
+  }
+}

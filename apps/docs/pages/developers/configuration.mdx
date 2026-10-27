@@ -1,0 +1,32 @@
+# Configuration
+
+Use environment variables to supply infrastructure addresses and secrets. Keep them in a deployment secret store or untracked .env file.
+
+## Required for core graph operation
+
+~~~dotenv
+NODE_ENV=production
+PORT=5001
+APP_URL=https://YOUR_HOST
+DATABASE_URL=postgresql://USER:PASSWORD@HOST:5432/DATABASE
+FALKORDB_URL=redis://HOST:6380
+FALKORDB_HOST=HOST
+FALKORDB_PORT=6380
+REDIS_URL=redis://HOST:6379
+OPENAI_API_KEY=...
+JWT_SECRET=...
+JWT_REFRESH_SECRET=...
+SESSION_SECRET=...
+~~~
+
+FalkorDB is the graph store and Redis is a separate cache used for concurrency counters
+and RBAC permissions. They run as two instances on their own ports: point `FALKORDB_URL`
+at FalkorDB and `REDIS_URL` at Redis.
+
+## Optional integrations
+
+| Area | Variables |
+| --- | --- |
+| Email | SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_FROM |
+| Media graph sidecars | VIDEO_KG_URL, IMAGE_KG_URL |
+

@@ -1,0 +1,17 @@
+# Deployment
+
+This guide outlines operator responsibilities; infrastructure choices remain yours.
+
+## Production checklist
+
+1. Build the application with npm run build.
+2. Run the Node API behind a TLS-terminating reverse proxy.
+3. Bind the API, PostgreSQL, FalkorDB, and Redis according to your network boundary; expose only intended HTTPS endpoints.
+4. Set production environment variables through a secret manager.
+5. Run schema setup and seeds before first use.
+6. Start the service with a process manager and configure restart behavior.
+7. Monitor /health and /health/detailed, application logs, queue health, PostgreSQL, FalkorDB, and Redis.
+8. Back up PostgreSQL and take FalkorDB snapshots on a tested schedule.
+9. Test recovery and Brain Endpoint key rotation before relying on the deployment.
+
+Never publish database, Redis, FalkorDB, internal-tool, or development ports directly to the internet. Keep external REST/MCP access behind TLS and a deliberate access policy.

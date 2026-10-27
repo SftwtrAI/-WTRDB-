@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "types": ["vite/client"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@wtrops/shared": ["../../libs/shared/src/index.ts"],
+      "@wtrops/core": ["../../libs/core/src/index.ts"]
+    }
+  },
+  "include": ["src/**/*", "index.html"]
+}
